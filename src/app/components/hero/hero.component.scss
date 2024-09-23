@@ -31,8 +31,8 @@
         place-content: center;
 
         .typewriter {
-            width: 28ch;
-            animation: typing 4s steps(28), blink .5s step-end infinite alternate;
+            width: 100%;
+            animation: typing 4s steps(29), blink .5s step-end infinite alternate;
             white-space: nowrap;
             overflow: hidden;
             border-right: 3px solid $nmc-primary;
