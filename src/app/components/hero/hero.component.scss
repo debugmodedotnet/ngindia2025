@@ -49,6 +49,12 @@
 
     .nmc-btn-primary {
         font-size: 26px;
+
+        &:hover {
+            background-color: $nmc-white !important;
+            color: $nmc-dark-grey !important;
+            transition: all ease 0.3s;
+        }
     }
 }
 
