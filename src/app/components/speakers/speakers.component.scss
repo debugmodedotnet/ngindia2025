@@ -1,0 +1,71 @@
+@use "../../styles/variables" as *;
+
+section {
+    border-top: 1px solid #ccc;
+
+    .heading-section {
+        .subheading {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+
+            span {
+                font-weight: 400;
+            }
+        }
+
+        &.heading-section-white {
+            .subheading {
+                color: rgba(255, 255, 255, .9);
+            }
+
+            h2 {
+                font-size: 40px;
+                color: $nmc-white;
+            }
+
+            p {
+                color: rgba(255, 255, 255, .9);
+            }
+        }
+    }
+
+    .speaker {
+
+        figure {
+            height: 358px;
+        }
+
+        .text {
+            position: relative;
+
+            &::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                content: '';
+                width: 100%;
+                height: 1px;
+                margin: 0 auto;
+                background: $nmc-primary;
+            }
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        .social a:hover,
+        .social a:focus {
+            color: $nmc-primary !important;
+        }
+    }
+}

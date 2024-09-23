@@ -1,0 +1,65 @@
+@use "../../styles/variables" as *;
+
+.hero-section {
+    padding: 8rem 0;
+
+    .video-background {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+    }
+
+    .video-overlay {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -99;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-text {
+        display: grid;
+        place-content: center;
+
+        .typewriter {
+            width: 28ch;
+            animation: typing 4s steps(28), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid $nmc-primary;
+            line-height: 1.4;
+            font-size: 52px;
+        }
+    }
+
+    .hero-circle {
+        border: 3px solid $nmc-primary;
+        height: 180px;
+        width: 180px;
+    }
+
+    .nmc-btn-primary {
+        font-size: 26px;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}

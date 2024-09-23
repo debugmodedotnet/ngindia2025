@@ -1,0 +1,119 @@
+<header class="sticky-header nmc-bg-white fixed-top">
+  <div
+    class="d-flex align-items-center justify-content-between container-boxed py-2"
+  >
+    <!-- Logo -->
+    <a href="/home" class="d-flex align-items-center">      
+      <figure class="logo m-0 overflow-hidden me-2">
+        <img
+          src="../../../assets/images/logo/logo-min.png"
+          loading="lazy"
+          alt="ng-India Logo"
+          class="w-100 h-100 object-fit-contain"
+        />
+      </figure>
+
+      <h3 class="font-family-poppins m-0 nmc-dark-grey">ng-India</h3>
+    </a>
+
+    <div class="d-flex align-items-center justify-content-end">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-xl">
+        <button class="navbar-toggler border-0" type="button">
+          <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-center"
+          id="navbar"
+        >
+          <ul class="navbar-nav mb-lg-0 gap-3 align-items-center">
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/home"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/speakers"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Speakers</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/agenda"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Agenda</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/tickets"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Tickets</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/workshops"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Workshops</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/venue"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Venue</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/sponsors"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Sponsors</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/contact"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
