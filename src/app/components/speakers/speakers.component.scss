@@ -1,50 +1,26 @@
 @use "../../styles/variables" as *;
 
 .speakers-section {
-    border-top: 1px solid #ccc;
+    //border-top: 1px solid #ccc;
 
-    .heading-section {
-        .subheading {
-            font-size: 18px;
-            display: block;
-            margin-bottom: 5px;
-        }
-
+    .heading {
         h2 {
             font-size: 40px;
             font-weight: 700;
-
-            span {
-                font-weight: 400;
-            }
-        }
-
-        &.heading-section-white {
-            .subheading {
-                color: rgba(255, 255, 255, .9);
-            }
-
-            h2 {
-                font-size: 40px;
-                color: $nmc-white;
-            }
-
-            p {
-                color: rgba(255, 255, 255, .9);
-            }
         }
     }
 
     .speaker {
         figure {
             height: 358px;
+            border: 2px solid $nmc-primary;
         }
 
         .flip-card {
             background-color: transparent;
             width: 100%;
             height: 358px;
-            perspective: 1000px; 
+            perspective: 1000px;
 
             .flip-card-inner {
                 position: relative;
@@ -80,19 +56,11 @@
             .flip-card-back {
                 background-color: $nmc-dark-grey;
                 color: $nmc-white;
+                border: 2px solid $nmc-primary;
                 transform: rotateY(180deg);
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
                 padding: 20px;
 
             }
-        }
-
-        h3 {
-            font-size: 24px;
-            font-weight: 500;
-            margin-bottom: 0;
         }
 
         .social a:hover,
