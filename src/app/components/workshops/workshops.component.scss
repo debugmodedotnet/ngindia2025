@@ -1,0 +1,71 @@
+@use "../../styles/variables" as *;
+
+.workshops-section {
+    .heading {
+        h2 {
+            font-size: 80px;
+            letter-spacing: -.06em;
+            line-height: 1em;
+        }
+    }
+
+    .text-bottom-line::after {
+        inset: 100px 100% 0 0;
+    }
+
+    .workshops-summary {
+        h5 {
+            border-bottom: 3px solid $nmc-primary;
+            letter-spacing: -1px;
+        }
+
+        h3 {
+            font-size: 60px;
+            letter-spacing: -3px;
+        }
+    }
+
+    .workshops-card {
+        border: 2px solid $nmc-primary;
+
+        figure {
+            height: 400px;
+        }
+
+        figcaption {
+            h3 {
+                letter-spacing: -1px;
+            }
+
+            .nmc-btn-primary {
+                border: 2px solid $nmc-primary;
+                background: transparent;
+                box-shadow: none;
+                font-weight: 800;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .workshops-wrapper {
+        figure {
+            height: 450px;
+        }
+
+        .inner {
+            padding: 0 80px;
+
+            h3 {
+                letter-spacing: -1px;
+            }
+
+            .nmc-btn-primary {
+                border: 2px solid $nmc-primary;
+                background: transparent;
+                box-shadow: none;
+                font-weight: 800;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
