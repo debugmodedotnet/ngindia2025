@@ -1,6 +1,6 @@
 @use "../../styles/variables" as *;
 
-section {
+.venue-section {
     //border-top: 1px solid #ccc;
 
     .heading {
@@ -26,6 +26,4 @@ section {
             background: color-mix(in srgb, $nmc-dark-grey, transparent 30%);
         }
     }
-
-
 }
