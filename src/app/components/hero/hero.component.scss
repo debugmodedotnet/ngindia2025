@@ -60,9 +60,9 @@
 }
 
 .event-summary .event-card {
-    // border: 3px solid $nmc-primary;
+    border: 5px double $nmc-primary;
     height: 230px;
-    // width: 180px;
+    background-color: $nmc-white !important;
 }
 
 @keyframes typing {
