@@ -2,7 +2,7 @@
 
 .hero-section {
     //padding: 8rem 0;
-    min-height: 100vh;
+    //  min-height: 100vh;
 
     .video-background {
         position: absolute;
@@ -28,17 +28,34 @@
     }
 
     .hero-text {
-        display: grid;
-        place-content: center;
+        // display: grid;
+        // place-content: center;
+
+        h1 {
+            //line-height: ;
+            font-size: 65px;
+        }
 
         .typewriter {
-            width: 100%;
-            animation: typing 4s steps(29), blink .5s step-end infinite alternate;
+            width: 0;
+            display: inline-block;
+            animation: typing 4s steps(17) 1s forwards, blink 0.75s step-end infinite;
             white-space: nowrap;
             overflow: hidden;
             border-right: 3px solid $nmc-primary;
             line-height: 1.4;
-            font-size: 68px;
+        }
+    }
+
+    .hero-image {
+        perspective: 1000px;
+        overflow: hidden;
+
+        .word-cloud-image {
+            width: 100%;
+            height: auto;
+          //  animation: zoom-rotate 5s ease-in-out infinite;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
     }
 
@@ -60,19 +77,37 @@
 }
 
 .event-summary .event-card {
-    border: 5px double $nmc-primary;
+    border: 3px solid $nmc-primary;
     height: 230px;
     background-color: $nmc-white !important;
 }
 
 @keyframes typing {
     from {
-        width: 0
+        width: 0;
+    }
+
+    to {
+        width: 16ch;
     }
 }
 
 @keyframes blink {
     50% {
-        border-color: transparent
+        border-color: transparent;
+    }
+}
+
+@keyframes zoom-rotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.05) rotate(3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
     }
 }

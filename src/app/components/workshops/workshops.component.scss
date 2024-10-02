@@ -29,10 +29,15 @@
         border: 2px solid $nmc-primary;
 
         figure {
-            height: 400px;
+            height: auto;
+            max-height: 245px;
         }
 
         figcaption {
+            .pricing {
+                border-bottom: 1px solid #ccc;
+            }
+
             h3 {
                 letter-spacing: -1px;
             }
