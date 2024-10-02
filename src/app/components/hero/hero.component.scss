@@ -1,32 +1,6 @@
 @use "../../styles/variables" as *;
 
 .hero-section {
-    //padding: 8rem 0;
-    //  min-height: 100vh;
-
-    .video-background {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-    }
-
-    .video-overlay {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -99;
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
     .hero-text {
         // display: grid;
         // place-content: center;
@@ -48,38 +22,20 @@
     }
 
     .hero-image {
-        perspective: 1000px;
-        overflow: hidden;
-
         .word-cloud-image {
             width: 100%;
             height: auto;
-          //  animation: zoom-rotate 5s ease-in-out infinite;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-        }
-    }
-
-    .hero-circle {
-        border: 3px solid $nmc-primary;
-        height: 180px;
-        width: 180px;
-    }
-
-    .nmc-btn-primary {
-        font-size: 26px;
-
-        &:hover {
-            background-color: $nmc-white !important;
-            color: $nmc-dark-grey !important;
-            transition: all ease 0.3s;
+            animation: zoom 5s ease-in-out infinite;
         }
     }
 }
 
-.event-summary .event-card {
-    border: 3px solid $nmc-primary;
-    height: 230px;
-    background-color: $nmc-white !important;
+.event-summary .col-3 .event-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    h5 {
+        border-top: 1px solid $nmc-dark-grey;
+    }
 }
 
 @keyframes typing {
@@ -88,7 +44,7 @@
     }
 
     to {
-        width: 16ch;
+        width: 16.5ch;
     }
 }
 
@@ -98,16 +54,16 @@
     }
 }
 
-@keyframes zoom-rotate {
+@keyframes zoom {
     0% {
-        transform: scale(1) rotate(0deg);
+        transform: scale(1);
     }
 
     50% {
-        transform: scale(1.05) rotate(3deg);
+        transform: scale(1.05);
     }
 
     100% {
-        transform: scale(1) rotate(0deg);
+        transform: scale(1);
     }
 }
