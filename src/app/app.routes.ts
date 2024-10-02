@@ -10,6 +10,7 @@ export const routes: Routes = [
     { path: 'workshops', loadComponent: () => import('./components/workshops/workshops.component').then(m => m.WorkshopsComponent) },
     { path: 'sponsors', loadComponent: () => import('./components/sponsors/sponsors.component').then(m => m.SponsorsComponent) },
     { path: 'contact', loadComponent: () => import('./components/contact/contact.component').then(m => m.ContactComponent) },
+    { path: 'coc', loadComponent: () => import('./components/coc/coc.component').then(m => m.CocComponent) },
 
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
