@@ -13,9 +13,9 @@
     .pricing-table {
         padding: 30px;
         background: $nmc-white;
-        -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
-        box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+        -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+        box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
         transition: ease all .3s;
         position: relative;
 
@@ -35,9 +35,9 @@
 
         &:hover,
         &:focus {
-            -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
-            -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
-            box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.11);
+            -webkit-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.2);
         }
 
     }
