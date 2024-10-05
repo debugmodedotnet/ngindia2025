@@ -1,5 +1,9 @@
 @use "../../styles/variables" as *;
 
+.border-right {
+    border-right: 1px solid $nmc-primary;
+}
+
 .workshops-section {
 
     .heading {
