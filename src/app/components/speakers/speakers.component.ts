@@ -1,3 +1,5 @@
+import { ISpeakers } from '../../models/speakers';
+import { speakers } from './../../dto/speakers.json';
 import { Component } from '@angular/core';
 
 @Component({
@@ -9,4 +11,5 @@ import { Component } from '@angular/core';
 })
 export class SpeakersComponent {
 
+  speakers: ISpeakers[] = speakers;
 }

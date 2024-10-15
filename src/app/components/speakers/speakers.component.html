@@ -5,533 +5,79 @@
     </div>
 
     <div class="speakers row g-5">
+      @for(speaker of speakers; track speaker;){
       <div class="col-md-4 speaker">
         <div class="flip-card" tabindex="0">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <figure class="m-0 overflow-hidden">
                 <img
-                  src="assets/images/speakers/speaker-4.jpeg"
+                  [src]="speaker.image"
                   class="w-100 h-100 object-fit-cover"
-                  alt="Stanimira Vlaeva"
+                  [alt]="speaker.name"
                 />
               </figure>
             </div>
 
             <div class="flip-card-back">
               <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
+                {{ speaker.bio }}
               </p>
             </div>
           </div>
         </div>
 
         <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Stanimira Vlaeva</h3>
+          <h3 class="font-24 fw-bold nmc-primary m-0">{{ speaker.name }}</h3>
 
           <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            Developer Advocate &#64;<span class="fw-semibold">MongoDB</span>
+            {{ speaker.position }}
           </span>
 
           <ul
             class="social d-flex align-items-center justify-content-center gap-2 mt-2"
           >
+            @if(speaker.twitter){
             <li>
               <a
-                href="https://x.com/StanimiraVlaeva"
+                [href]="speaker.twitter"
                 target="_blank"
                 class="nmc-dark-grey font-18"
                 ><i class="bi bi-twitter"></i
               ></a>
             </li>
+            } @if(speaker.linkedin){
             <li>
               <a
-                href="https://www.linkedin.com/in/sis0k0/"
+                [href]="speaker.linkedin"
                 target="_blank"
                 class="nmc-dark-grey font-18"
                 ><i class="bi bi-linkedin"></i
               ></a>
             </li>
+            }@if(speaker.github){
             <li>
               <a
-                href="https://github.com/sis0k0"
+                [href]="speaker.github"
                 target="_blank"
                 class="nmc-dark-grey font-18"
                 ><i class="bi bi-github"></i
               ></a>
             </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-8.jpeg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Enea Jahollari"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Enea Jahollari</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            Software Engineer &#64;<span class="fw-semibold">Pushbased</span>
-          </span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
+            }@if(speaker.youtube){
             <li>
               <a
-                href="https://x.com/Enea_Jahollari"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/eneajahollari/"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/eneajaho"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-6.jpeg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Markus Ingvarsson"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Markus Ingvarsson</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            Full-stack Developer &#64;<span class="fw-semibold"
-              >Consat Telematics</span
-            >
-          </span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
-            <li>
-              <a
-                href="https://x.com/markusingvarssn"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-
-            <li>
-              <a
-                href="https://www.linkedin.com/in/markusingvarsson/"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-
-            <li>
-              <a
-                href="https://github.com/markusingvarsson"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-2.jpeg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Michael Hladky"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Michael Hladky</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            CEO &#64;<span class="fw-semibold">push-based.io</span>
-          </span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
-            <li>
-              <a
-                href="https://x.com/Michael_Hladky"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/michael-hladky-519340148/"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/BioPhoton"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-5.jpeg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Pankaj Parkar"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Pankaj Parkar</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            Principal Application Developer &#64;<span class="fw-semibold"
-              >AON</span
-            >
-          </span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
-            <li>
-              <a
-                href="https://x.com/pankajparkar"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/pankajparkar"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/pankajparkar"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-3.jpg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Rainer Hahnekamp"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Rainer Hahnekamp</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            Trainer and Consultant &#64;<span class="fw-semibold"
-              >AngularArchitects.io</span
-            >
-          </span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
-            <li>
-              <a
-                href="https://x.com/rainerhahnekamp"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/rainerhahnekamp/"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/rainerhahnekamp"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/@RainerHahnekamp"
+                [href]="speaker.youtube"
                 target="_blank"
                 class="nmc-dark-grey font-20"
                 ><i class="bi bi-youtube"></i
               ></a>
             </li>
+            }
           </ul>
         </div>
       </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-7.jpeg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Tomas Trajan"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Tomas Trajan</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            GDE | Founder of <span class="fw-semibold">angularexperts.io</span>
-          </span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
-            <li>
-              <a
-                href="https://x.com/tomastrajan"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/tomastrajan/"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/tomastrajan"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/@RainerHahnekamp"
-                target="_blank"
-                class="nmc-dark-grey font-20"
-                ><i class="bi bi-youtube"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 speaker">
-        <div class="flip-card" tabindex="0">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <figure class="m-0 overflow-hidden">
-                <img
-                  src="assets/images/speakers/speaker-1.jpeg"
-                  class="w-100 h-100 object-fit-cover"
-                  alt="Dhananjay Kumar"
-                />
-              </figure>
-            </div>
-
-            <div class="flip-card-back">
-              <p class="nmc-white font-16 mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat aliquid, necessitatibus placeat soluta facere,
-                similique quibusdam optio eius tempore voluptas quasi ipsa in
-                amet, aspernatur vel beatae expedita quos culpa.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center pt-3">
-          <h3 class="font-24 fw-bold nmc-primary m-0">Dhananjay Kumar</h3>
-
-          <span class="font-16 mt-2 mb-0 nmc-medium-grey">
-            Organizer and Founder &#64;<span class="fw-semibold">ng-India</span
-          ></span>
-
-          <ul
-            class="social d-flex align-items-center justify-content-center gap-2 mt-2"
-          >
-            <li>
-              <a
-                href="https://x.com/debug_mode"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/dhananjaykumar07/"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-linkedin"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/debugmodedotnet"
-                target="_blank"
-                class="nmc-dark-grey font-18"
-                ><i class="bi bi-github"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/@NomadCoderai"
-                target="_blank"
-                class="nmc-dark-grey font-20"
-                ><i class="bi bi-youtube"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      }
     </div>
   </div>
 </section>
