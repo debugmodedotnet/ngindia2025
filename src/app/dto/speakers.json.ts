@@ -126,7 +126,7 @@ export const speakers: ISpeakers[] = [
         "id": 12,
         "name": "Dhananjay Kumar",
         "position": "Organizer and Founder @ng-India",
-        "bio": "Dhananjay Kumar is a Software Engineer/Educator and organizer of one of the world's largest Angular conferences, ng-India. He is a published Book Author, International Speaker, and Founder of </geek97>, which provides full enterprise-level training and consulting to various clients worldwide. Currently, he is focusing on Angular with other Frontend technologies and GraphQL. He lives in Gurgaon, India, and is writing his second Angular book and training for his first half marathon.",
+        "bio": "Dhananjay Kumar is a Software Engineer/Educator and organizer of one of the world's largest Angular conferences, ng-India. He is a published Book Author, International Speaker, and Founder of </geek97>, which provides full enterprise-level training and consulting to various clients worldwide. Currently, he is focusing on Angular with other Frontend technologies and GraphQL.",
         "image": "assets/images/speakers/dhananjay-kumar.jpeg",
         "twitter": "https://x.com/debug_mode",
         "linkedin": "https://www.linkedin.com/in/dhananjaykumar07/",
