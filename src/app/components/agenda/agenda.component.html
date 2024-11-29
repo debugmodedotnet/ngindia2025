@@ -16,7 +16,9 @@
           />
         </figure>
         }@else {
-        <figure class="speaker-img icon m-0 rounded-circle overflow-hidden d-flex">
+        <figure
+          class="speaker-img icon m-0 rounded-circle overflow-hidden d-flex"
+        >
           <img
             [src]="agenda.speakerImage"
             class="w-100 h-100 object-fit-contin m-auto"
@@ -25,7 +27,9 @@
         </figure>
         }
 
-        <div class="text ps-0 ps-sm-4 ps-md-5 mt-4 mt-sm-0 text-center text-sm-start">
+        <div
+          class="text ps-0 ps-sm-4 ps-md-5 mt-4 mt-sm-0 text-center text-sm-start"
+        >
           <span class="time fw-semibold"
             >{{ agenda.startTime }} - {{ agenda.endTime }}</span
           >
@@ -35,13 +39,13 @@
             {{ agenda.description }}
           </p>
 
-          <h3 class="speaker-name font-24 m-0">
+          <h3 class="speaker-name font-24 m-0 nmc-primary font-family-poppins">
             @if(agenda.speakerName){—
-            <a href="#" class="nmc-primary mx-2 font-family-poppins">{{
-              agenda.speakerName
-            }}</a
-            >} @if(agenda.speakerPosition){
-            <span class="position font-16">{{ agenda.speakerPosition }}</span
+            {{ agenda.speakerName }}
+            } @if(agenda.speakerPosition){
+            <span class="ms-2 position font-16">{{
+              agenda.speakerPosition
+            }}</span
             >}
           </h3>
         </div>

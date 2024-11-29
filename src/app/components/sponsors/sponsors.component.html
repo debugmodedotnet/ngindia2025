@@ -5,131 +5,21 @@
     </div>
 
     <div class="row g-0 clients-wrap">
+      @for(sponsor of sponsors; track sponsor;){
       <div
         class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
       >
-        <a href="" target="_blank">
+        <a [href]="sponsor.sponsorLink" target="_blank">
           <figure class="overflow-hidden p-5 m-0">
             <img
-              src="assets/images/sponsors/7n.png"
+              [src]="sponsor.sponsorImage"
               class="w-100 h-100 object-fit-contain"
               alt=""
             />
           </figure>
         </a>
       </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/hrone.svg"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/ivy.png"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/matchbook-ai.jpeg"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/questpond.png"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/rezoomex.png"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/sgm.jpg"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/syncfusion.png"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
-
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
-      >
-        <a href="" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              src="assets/images/sponsors/taazaa.png"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-      </div>
+      }
     </div>
   </div>
 </section>
