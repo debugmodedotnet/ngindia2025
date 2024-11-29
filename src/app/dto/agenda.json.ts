@@ -11,7 +11,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 1",
         "speakerName": "Stanimira Vlaeva",
         "speakerPosition": "Developer Advocate @MongoDB",
         "speakerImage": "assets/images/speakers/stanimira-vlaeva.jpeg",
@@ -20,7 +20,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 2",
         "speakerName": "Tomas Trajan",
         "speakerPosition": "GDE | Founder of angularexperts.io",
         "speakerImage": "assets/images/speakers/tomas-trajan.jpeg",
@@ -47,7 +47,8 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Introduction to Signals", "speakerName": "Enea Jahollari",
+        "title": "Session 3", 
+        "speakerName": "Enea Jahollari",
         "speakerPosition": "GDE, Trainer, Senior Software Engineer",
         "speakerImage": "assets/images/speakers/enea-jahollari.webp",
         "startTime": "11:00 AM",
@@ -55,7 +56,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 4",
         "speakerName": "Rainer Hahnekamp",
         "speakerPosition": "Trainer and Consultant @AngularArchitects.io",
         "speakerImage": "assets/images/speakers/rainer-hahnekamp.jpg",
@@ -64,7 +65,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 4",
         "speakerName": "Marko Stanimirović",
         "speakerPosition": "Principal Frontend Engineer",
         "speakerImage": "assets/images/speakers/marko-stanimirovic.jpg",
@@ -73,7 +74,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 5",
         "speakerName": "Dhananjay Kumar",
         "speakerPosition": "Organizer and Founder @ng-India",
         "speakerImage": "assets/images/speakers/dhananjay-kumar.jpeg",
@@ -91,7 +92,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 6",
         "speakerName": "Julian Jandl",
         "speakerPosition": "Lead Performance Engineer",
         "speakerImage": "assets/images/speakers/julian-jandl.webp",
@@ -100,7 +101,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 7",
         "speakerName": "Christopher Holder",
         "speakerPosition": "Full Stack Engineer @ push-based.io",
         "speakerImage": "assets/images/speakers/chris-holder.png",
@@ -109,7 +110,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 8",
         "speakerName": "Vojtech Mašek",
         "speakerPosition": "Head of Engineering @ flowup",
         "speakerImage": "assets/images/speakers/vojtech-masek.png",
@@ -118,7 +119,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 9",
         "speakerName": "Michael Hladky",
         "speakerPosition": "CEO @push-based.io",
         "speakerImage": "assets/images/speakers/michael-hladky.jpeg",
@@ -136,7 +137,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 10",
         "speakerName": "Tomasz Ducin",
         "speakerPosition": "Consultant, Architect, Developer & Trainer",
         "speakerImage": "assets/images/speakers/tomasz-ducin.webp",
@@ -145,7 +146,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 11",
         "speakerName": "Markus Ingvarsson",
         "speakerPosition": "Full-stack Developer @Consat Telematics",
         "speakerImage": "assets/images/speakers/markus-ingvarsson.jpeg",
@@ -154,7 +155,7 @@ export const agenda: IAgenda[] = [
         "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },
     {
-        "title": "Introduction to Signals",
+        "title": "Session 12",
         "speakerName": "Pankaj Parkar",
         "speakerPosition": "Principal Application Developer @AON",
         "speakerImage": "assets/images/speakers/pankaj-parkar.jpeg",
