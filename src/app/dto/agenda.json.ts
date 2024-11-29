@@ -17,7 +17,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/stanimira-vlaeva.jpeg",
         "startTime": "9:00 AM",
         "endTime": "9:30 AM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 2",
@@ -26,7 +26,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/tomas-trajan.jpeg",
         "startTime": "9:30 AM",
         "endTime": "10:00 AM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Speaker Felicitation",
@@ -53,7 +53,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/enea-jahollari.webp",
         "startTime": "11:00 AM",
         "endTime": "11:30 AM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 4",
@@ -62,7 +62,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/rainer-hahnekamp.jpg",
         "startTime": "11:30 AM",
         "endTime": "12:00 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 4",
@@ -71,7 +71,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/marko-stanimirovic.jpg",
         "startTime": "12:00 PM",
         "endTime": "12:30 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 5",
@@ -80,7 +80,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/dhananjay-kumar.jpeg",
         "startTime": "12:30 PM",
         "endTime": "1:00 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Lunch Break",
@@ -98,7 +98,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/julian-jandl.webp",
         "startTime": "2:00 PM",
         "endTime": "2:30 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 7",
@@ -107,7 +107,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/chris-holder.png",
         "startTime": "2:30 PM",
         "endTime": "3:00 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 8",
@@ -116,7 +116,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/vojtech-masek.png",
         "startTime": "3:00 PM",
         "endTime": "3:30 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 9",
@@ -125,7 +125,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/michael-hladky.jpeg",
         "startTime": "3:30 PM",
         "endTime": "4:00 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Tea Break",
@@ -143,7 +143,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/tomasz-ducin.webp",
         "startTime": "4:30 PM",
         "endTime": "5:00 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 11",
@@ -152,7 +152,7 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/markus-ingvarsson.jpeg",
         "startTime": "5:00 PM",
         "endTime": "5:30 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     },
     {
         "title": "Session 12",
@@ -161,6 +161,6 @@ export const agenda: IAgenda[] = [
         "speakerImage": "assets/images/speakers/pankaj-parkar.jpeg",
         "startTime": "5:30 PM",
         "endTime": "6:00 PM",
-        "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        "description": ""
     }
 ];
