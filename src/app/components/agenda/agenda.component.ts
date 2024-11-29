@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IAgenda } from '../../models/agenda';
+import { agenda } from '../../dto/agenda.json';
 
 @Component({
   selector: 'app-agenda',
@@ -8,5 +10,8 @@ import { Component } from '@angular/core';
   styleUrl: './agenda.component.scss'
 })
 export class AgendaComponent {
+
+  agendas: IAgenda[] = agenda;
+
 
 }
