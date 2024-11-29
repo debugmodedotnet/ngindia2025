@@ -1,5 +1,4 @@
 export interface IAgenda {
-    //id: number;
     title: string;
     speakerName: string;
     speakerPosition: string;
