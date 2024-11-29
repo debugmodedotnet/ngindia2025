@@ -22,6 +22,12 @@
         .speaker-img {
             width: 120px;
             height: 120px;
+            border: 2px solid $nmc-primary;
+
+            &.icon img {
+                height: auto !important;
+                width: 70px !important;
+            }
         }
 
         .text {
@@ -42,10 +48,28 @@
             }
 
             .position {
-                font-size: 18px;
                 color: rgba(0, 0, 0, .4);
             }
         }
 
+    }
+}
+
+@media (max-width: 899px) {
+    .position {
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .agenda-section .agenda {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .agenda-section .agenda .text {
+        width: 100%;
     }
 }

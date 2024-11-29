@@ -5,92 +5,48 @@
     </div>
 
     <div class="agendas">
-      <div class="agenda d-flex">
+      @for(agenda of agendas; track agenda;){
+      <div class="agenda d-flex align-items-center flex-column flex-sm-row">
+        @if(agenda.speakerImage && agenda.speakerName){
         <figure class="speaker-img m-0 rounded-circle overflow-hidden">
           <img
-            src="assets/images/speakers/michael-hladky.jpeg"
+            [src]="agenda.speakerImage"
             class="w-100 h-100 object-fit-cover"
             alt=""
           />
         </figure>
-
-        <div class="text ps-5">
-          <span class="time fw-semibold">08:30 - 10:00</span>
-          <h2 class="my-3">Introduction to Signals</h2>
-
-          <p class="nmc-medium-grey font-family-inter">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia. It is a paradisematic country, in which
-            roasted parts of sentences fly into your mouth.
-          </p>
-
-          <h3 class="speaker-name font-24 m-0">
-            —
-            <a href="#" class="nmc-primary mx-2 font-family-poppins"
-              >Brett Morgan</a
-            >
-            <span class="position font-15">Founder of Abc</span>
-          </h3>
-        </div>
-      </div>
-
-      <div class="agenda d-flex">
-        <figure class="speaker-img m-0 rounded-circle overflow-hidden">
+        }@else {
+        <figure class="speaker-img icon m-0 rounded-circle overflow-hidden d-flex">
           <img
-            src="/assets/images/speakers/rainer-hahnekamp.jpg"
-            class="w-100 h-100 object-fit-cover"
+            [src]="agenda.speakerImage"
+            class="w-100 h-100 object-fit-contin m-auto"
             alt=""
           />
         </figure>
+        }
 
-        <div class="text ps-5">
-          <span class="time fw-semibold">08:30 - 10:00</span>
-          <h2 class="my-3">Introduction to Signals</h2>
+        <div class="text ps-0 ps-sm-4 ps-md-5 mt-4 mt-sm-0 text-center text-sm-start">
+          <span class="time fw-semibold"
+            >{{ agenda.startTime }} - {{ agenda.endTime }}</span
+          >
+          <h2 class="my-3">{{ agenda.title }}</h2>
 
           <p class="nmc-medium-grey font-family-inter">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia. It is a paradisematic country, in which
-            roasted parts of sentences fly into your mouth.
+            {{ agenda.description }}
           </p>
 
           <h3 class="speaker-name font-24 m-0">
-            —
-            <a href="#" class="nmc-primary mx-2 font-family-poppins"
-              >Brett Morgan</a
-            >
-            <span class="position font-15">Founder of Abc</span>
+            @if(agenda.speakerName){—
+            <a href="#" class="nmc-primary mx-2 font-family-poppins">{{
+              agenda.speakerName
+            }}</a
+            >} @if(agenda.speakerPosition){
+            <span class="position font-16">{{ agenda.speakerPosition }}</span
+            >}
           </h3>
         </div>
       </div>
-
-      <div class="agenda d-flex">
-        <figure class="speaker-img m-0 rounded-circle overflow-hidden">
-          <img
-            src="/assets/images/speakers/enea-jahollari.webp"
-            class="w-100 h-100 object-fit-cover"
-            alt=""
-          />
-        </figure>
-
-        <div class="text ps-5">
-          <span class="time fw-semibold">08:30 - 10:00</span>
-          <h2 class="my-3">Introduction to Signals</h2>
-
-          <p class="nmc-medium-grey font-family-inter">
-            A small river named Duden flows by their place and supplies it with
-            the necessary regelialia. It is a paradisematic country, in which
-            roasted parts of sentences fly into your mouth.
-          </p>
-
-          <h3 class="speaker-name font-24 m-0">
-            —
-            <a href="#" class="nmc-primary mx-2 font-family-poppins"
-              >Brett Morgan</a
-            >
-            <span class="position font-15">Founder of Abc</span>
-          </h3>
-        </div>
-      </div>
+      }
     </div>
   </div>
 </section>

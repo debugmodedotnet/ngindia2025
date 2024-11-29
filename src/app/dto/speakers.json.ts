@@ -46,7 +46,18 @@ export const speakers: ISpeakers[] = [
         "youtube": ""
     },
     {
-        "id": 5,
+        "id": 6,
+        "name": "Marko Stanimirović",
+        "position": "Principal Frontend Engineer",
+        "bio": "Marko is a Principal Frontend Engineer at Swiss Marketplace Group. He is a core member of the NgRx and AnalogJS teams, a Google Developer Expert in Angular, and an organizer of the NG Belgrade conference. Marko actively contributes to open-source software, shares knowledge through technical articles and talks, and enjoys playing the guitar. He holds a Master of Science in Software Engineering from the University of Belgrade.",
+        "image": "assets/images/speakers/marko-stanimirovic.jpg",
+        "twitter": "https://twitter.com/MarkoStDev",
+        "linkedin": "https://www.linkedin.com/in/markostanimirovic/",
+        "github": "https://github.com/markostanimirovic/",
+        "youtube": ""
+    },
+    {
+        "id": 6,
         "name": "Markus Ingvarsson",
         "position": "Full-stack Developer @Consat Telematics",
         "bio": "Markus is a full-stack developer, holding an Msc in Computer Science from Chalmers University of Technology. From leveling up in World of Warcraft to navigating the world of sales, he's always been up for a challenge. Now, software development is his main quest. Outside of coding, Markus also contributes to the tech scene as a co-organizer of the Angular Community Meetup.",
@@ -57,7 +68,7 @@ export const speakers: ISpeakers[] = [
         "youtube": ""
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Michael Hladky",
         "position": "CEO @push-based.io",
         "bio": "He is a Google Developer Expert, MVP, NX Champion and an active part of the community. As co-founder of the Angular-Austria association, organizer of Angular-Vienna and NestJS-Vienna Meetup he grows the Austrian community. He is a developer, trainer and consultant with the focus on Angular as well as ionic and surrounding technologies, and gives workshops on Angular, RxJs and Typescript.",
@@ -68,7 +79,7 @@ export const speakers: ISpeakers[] = [
         "youtube": ""
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Pankaj Parkar",
         "position": "Principal Application Developer @AON",
         "bio": "Pankaj Parkar is currently working as Principal Application Developer at Aon Centre for Innovation and Analytics (ACIA). He has total 10 years of experience in web development. He had worked on multiple JS frameworks like Angular, React, Ionic, VueJS, EmberJS, etc.",
@@ -79,7 +90,7 @@ export const speakers: ISpeakers[] = [
         "youtube": ""
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Rainer Hahnekamp",
         "position": "Trainer and Consultant @AngularArchitects.io",
         "bio": "Rainer Hahnekamp is a Google Developer Expert and a trusted collaborator on the NgRx team. He works as a trainer and consultant within the Angular Architects expert network, specializing in Angular and Spring. Rainer regularly provides in-depth training sessions and offers a weekly overview of key events in the Angular ecosystem on YouTube through ng-news.",
@@ -90,7 +101,7 @@ export const speakers: ISpeakers[] = [
         "youtube": "https://www.youtube.com/@RainerHahnekamp"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Tomas Trajan",
         "position": "GDE | Founder of angularexperts.io",
         "bio": "Tomas is a Google Developer Expert for Angular & Web Technologies working as a consultant (Angular Experts) and Angular trainer currently empowering developer teams in Swiss enterprise organizations implementing core functionality and architecture, introducing best practices, sharing know-how, optimizing workflows and focusing on getting things done!",
@@ -101,9 +112,9 @@ export const speakers: ISpeakers[] = [
         "youtube": "https://www.youtube.com/@RainerHahnekamp"
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "Tomasz Ducin",
-        "position": "Consultant, Architect, Developer & Trainer,",
+        "position": "Consultant, Architect, Developer & Trainer",
         "bio": "Experienced in both frontend and backend. JavaScript expert, passionate about programming, involved in the industry since 2007.Ex-theater actor, probably addicted to coffee and certainly addicted to listening to music.",
         "image": "assets/images/speakers/tomasz-ducin.webp",
         "twitter": "https://twitter.com/tomasz_ducin",
@@ -112,7 +123,7 @@ export const speakers: ISpeakers[] = [
         "youtube": ""
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Vojtech Mašek",
         "position": "Head of Engineering @ flowup",
         "bio": "He is a software engineer with expertise in Angular and TypeScript. He has co-founded FlowUp, a software development agency. He has built a team of great developers along with his fantastic colleagues. His job is to ensure that projects are delivered with cutting-edge tech and ready to go live and large.",
@@ -123,7 +134,7 @@ export const speakers: ISpeakers[] = [
         "youtube": ""
     },
     {
-        "id": 12,
+        "id": 13,
         "name": "Dhananjay Kumar",
         "position": "Organizer and Founder @ng-India",
         "bio": "Dhananjay Kumar is a Software Engineer/Educator and organizer of one of the world's largest Angular conferences, ng-India. He is a published Book Author, International Speaker, and Founder of </geek97>, which provides full enterprise-level training and consulting to various clients worldwide. Currently, he is focusing on Angular with other Frontend technologies and GraphQL.",

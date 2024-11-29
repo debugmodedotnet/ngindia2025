@@ -12,7 +12,7 @@
 
     .venue-map,
     .venue-info {
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .venue-map iframe {
@@ -24,6 +24,29 @@
     .venue-info {
         .overlay {
             background: color-mix(in srgb, $nmc-dark-grey, transparent 30%);
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    .venue-section {
+        h3 {
+            font-size: 28px !important;
+        }
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .venue-section {
+        h3 {
+            font-size: 21px !important;
+        }
+
+        p {
+            font-size: 15px !important;
         }
     }
 }
