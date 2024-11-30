@@ -1,10 +1,10 @@
 import { Component, computed, effect, Signal, signal, WritableSignal } from '@angular/core';
-import { TagSliderComponent } from '../tag-slider/tag-slider.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [TagSliderComponent],
+  imports: [RouterModule],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.scss'
 })

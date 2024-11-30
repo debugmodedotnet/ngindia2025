@@ -65,7 +65,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 4",
+        "title": "Session 5",
         "speakerName": "Marko Stanimirović",
         "speakerPosition": "Principal Frontend Engineer",
         "speakerImage": "assets/images/speakers/marko-stanimirovic.jpg",
@@ -74,7 +74,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 5",
+        "title": "Session 6",
         "speakerName": "Dhananjay Kumar",
         "speakerPosition": "Organizer and Founder @ng-India",
         "speakerImage": "assets/images/speakers/dhananjay-kumar.jpeg",
@@ -92,7 +92,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 6",
+        "title": "Session 7",
         "speakerName": "Julian Jandl",
         "speakerPosition": "Lead Performance Engineer",
         "speakerImage": "assets/images/speakers/julian-jandl.webp",
@@ -101,7 +101,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 7",
+        "title": "Session 8",
         "speakerName": "Christopher Holder",
         "speakerPosition": "Full Stack Engineer @ push-based.io",
         "speakerImage": "assets/images/speakers/chris-holder.png",
@@ -110,7 +110,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 8",
+        "title": "Session 9",
         "speakerName": "Vojtech Mašek",
         "speakerPosition": "Head of Engineering @ flowup",
         "speakerImage": "assets/images/speakers/vojtech-masek.png",
@@ -119,7 +119,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 9",
+        "title": "Session 10",
         "speakerName": "Michael Hladky",
         "speakerPosition": "CEO @push-based.io",
         "speakerImage": "assets/images/speakers/michael-hladky.jpeg",
@@ -137,7 +137,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 10",
+        "title": "Session 11",
         "speakerName": "Tomasz Ducin",
         "speakerPosition": "Consultant, Architect, Developer & Trainer",
         "speakerImage": "assets/images/speakers/tomasz-ducin.webp",
@@ -146,7 +146,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 11",
+        "title": "Session 12",
         "speakerName": "Markus Ingvarsson",
         "speakerPosition": "Full-stack Developer @Consat Telematics",
         "speakerImage": "assets/images/speakers/markus-ingvarsson.jpeg",
@@ -155,7 +155,7 @@ export const agenda: IAgenda[] = [
         "description": ""
     },
     {
-        "title": "Session 12",
+        "title": "Session 13",
         "speakerName": "Pankaj Parkar",
         "speakerPosition": "Principal Application Developer @AON",
         "speakerImage": "assets/images/speakers/pankaj-parkar.jpeg",
