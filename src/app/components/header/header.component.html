@@ -18,7 +18,13 @@
     </li>
 
     <li class="w-100 py-3">
-      <button class="nmc-btn-primary m-auto" type="button">Buy Tickets</button>
+      <button
+        class="nmc-btn-primary m-auto"
+        type="button"
+        (click)="navigateAndCloseMenu('pricing')"
+      >
+        Buy Tickets
+      </button>
     </li>
   </ul>
 
@@ -93,6 +99,10 @@
               <button
                 class="nmc-btn-primary px-5 h-auto py-3 mx-auto font-20"
                 type="button"
+                [routerLink]="['/home']"
+                fragment="pricing"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
               >
                 Buy Tickets
               </button>
