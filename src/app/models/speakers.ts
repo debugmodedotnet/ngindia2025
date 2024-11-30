@@ -4,6 +4,7 @@ export interface ISpeakers {
     position: string;
     bio: string;
     image: string;
+    flag: string;
     twitter?: string;
     linkedin?: string;
     github?: string;
