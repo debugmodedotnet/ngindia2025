@@ -2,9 +2,10 @@
 
 .hero-section {
     .hero-text {
-
         h1 {
-            font-size: 65px;
+            font-size: 90px;
+
+
         }
 
         sup {
@@ -22,20 +23,29 @@
         }
     }
 
-    .hero-image {
-        .word-cloud-image {
-            width: 100%;
-            height: auto;
-            //animation: zoom 5s ease-in-out infinite;
-        }
-
-        // .monitor {
-        //     width: 543px;
-        //     height: auto;
-        //     right: 84px;
-        //     top: 17px;
-        // }
+    .overlay {
+        background: color-mix(in srgb, $nmc-dark-grey, transparent 30%);
     }
+
+    .hero-image {
+        min-height: 400px;
+    }
+
+
+    // .hero-image {
+    //     .word-cloud-image {
+    //         width: 100%;
+    //         height: auto;
+    //         //animation: zoom 5s ease-in-out infinite;
+    //     }
+
+    //     // .monitor {
+    //     //     width: 543px;
+    //     //     height: auto;
+    //     //     right: 84px;
+    //     //     top: 17px;
+    //     // }
+    // }
 
 }
 
@@ -89,7 +99,6 @@
     }
 }
 
-
 @media (max-width: 1099px) {
 
     .hero-section {
@@ -113,7 +122,6 @@
         }
     }
 }
-
 
 @media (max-width: 992px) {
     .hero-text {
