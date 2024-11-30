@@ -2,11 +2,8 @@
 
 .hero-section {
     .hero-text {
-        // display: grid;
-        // place-content: center;
 
         h1 {
-            //line-height: ;
             font-size: 65px;
         }
 
@@ -77,5 +74,131 @@
 
     100% {
         transform: scale(1);
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .hero-section {
+        .hero-text {
+            h1 {
+
+                font-size: 60px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1099px) {
+
+    .hero-section {
+        .hero-text {
+            h1 {
+
+                font-size: 56px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .hero-section {
+        .hero-text {
+            h1 {
+
+                font-size: 53px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .hero-section {
+        .hero-text {
+
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hero-section {
+        .hero-text {
+
+            h1 {
+                font-size: 48px;
+            }
+
+            sup {
+                font-size: 15px !important;
+            }
+        }
+
+        .hero-image {
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-section {
+        .hero-text {
+
+            h1 {
+                font-size: 44px;
+            }
+
+            h2 {
+                font-size: 28px !important;
+            }
+
+            p {
+                font-size: 22px;
+            }
+        }
+
+        .hero-image {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-section {
+        .hero-text {
+
+            h1 {
+                font-size: 38px;
+            }
+
+            sup {
+                font-size: 13px !important;
+            }
+
+            h2 {
+                font-size: 26px !important;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
     }
 }
