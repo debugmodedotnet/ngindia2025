@@ -1,11 +1,6 @@
 @use "../../styles/variables" as *;
 
 .about-section {
-    .text-bottom-line::after {
-
-        inset: 55px 100% 0 0;
-    }
-
     .heading {
         h2 {
             font-size: 40px;

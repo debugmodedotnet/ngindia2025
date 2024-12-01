@@ -1,15 +1,18 @@
 @use "../../styles/variables" as *;
 
 .hero-section {
+    .text-bottom-line::after {
+        inset: 60px 0 0 -20px;
+    }
+
     .hero-text {
         h1 {
             font-size: 90px;
-
-
         }
 
         sup {
-            top: -20px;
+            top: -50px;
+            right: 10px;
         }
 
         .typewriter {
@@ -24,7 +27,7 @@
     }
 
     .overlay {
-        background: color-mix(in srgb, $nmc-dark-grey, transparent 30%);
+        background: color-mix(in srgb, $nmc-medium-grey, transparent 50%);
     }
 
     .hero-image {
