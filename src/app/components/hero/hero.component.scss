@@ -10,9 +10,8 @@
     // padding: 200px 0 300px;
 
     .hero-image {
-        bottom: 70px;
+        bottom: 0;
         right: 0;
-
     }
 
     .text-bottom-line::after {
@@ -59,6 +58,15 @@
     .event-summary {
         h5 {
             font-size: 21px !important;
+        }
+    }
+
+    .hero-section {
+
+        padding-bottom: 20px;
+
+        .hero-image {
+            bottom: -20px;
         }
     }
 }
