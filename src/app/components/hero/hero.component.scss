@@ -14,50 +14,18 @@
             top: -50px;
             right: 10px;
         }
-
-        .typewriter {
-            width: 0;
-            display: inline-block;
-            animation: typing 4s steps(17) 1s forwards, blink 0.75s step-end infinite;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid $nmc-primary;
-            line-height: 1.4;
-        }
     }
 
-    .overlay {
-        background: color-mix(in srgb, $nmc-medium-grey, transparent 50%);
-    }
-
-    .hero-image {
-        min-height: 400px;
-    }
+    // .overlay {
+    //     background: color-mix(in srgb, $nmc-medium-grey, transparent 50%);
+    // }    
 
     .nmc-btn-primary:hover {
         background-color: $nmc-primary !important;
     }
-
-
-
-    // .hero-image {
-    //     .word-cloud-image {
-    //         width: 100%;
-    //         height: auto;
-    //         //animation: zoom 5s ease-in-out infinite;
-    //     }
-
-    //     // .monitor {
-    //     //     width: 543px;
-    //     //     height: auto;
-    //     //     right: 84px;
-    //     //     top: 17px;
-    //     // }
-    // }
-
 }
 
-.event-summary .col-3 .event-card {
+.event-summary .event-card {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
     h5 {
@@ -65,156 +33,96 @@
     }
 }
 
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 16.5ch;
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
-
-@keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.05);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
 @media (max-width: 1199px) {
-
-    .hero-section {
-        .hero-text {
-            h1 {
-
-                font-size: 60px;
-            }
+    .event-summary {
+        h5 {
+            font-size: 23px !important;
         }
     }
 }
 
 @media (max-width: 1099px) {
-
-    .hero-section {
-        .hero-text {
-            h1 {
-
-                font-size: 56px;
-            }
+    .event-summary {
+        h5 {
+            font-size: 21px !important;
         }
-    }
-}
-
-@media (max-width: 1024px) {
-
-    .hero-section {
-        .hero-text {
-            h1 {
-
-                font-size: 53px;
-            }
-        }
-    }
-}
-
-@media (max-width: 992px) {
-    .hero-text {
-        width: 100%;
-    }
-
-    .hero-image {
-        width: 70%;
     }
 }
 
 @media (max-width: 767px) {
-
     .hero-section {
-        .hero-text {
+        .text-bottom-line::after {
+            inset: 45px 0 0 -30px;
+        }
 
-            h1 {
-                font-size: 50px;
+        .hero-text {
+            h2 {
+                font-size: 29px !important;
             }
         }
     }
 }
 
-@media (max-width: 576px) {
-
+@media (max-width: 575px) {
     .hero-section {
-        .hero-text {
+        .text-bottom-line::after {
+            display: none;
+        }
 
+        .hero-text {
             h1 {
-                font-size: 48px;
+                font-size: 63px;
             }
 
             sup {
-                font-size: 15px !important;
+                font-size: 16px;
             }
-        }
 
-        .hero-image {
-            width: 85%;
+            h2 {
+                font-size: 34px !important;
+            }
+
         }
     }
 }
 
 @media (max-width: 425px) {
     .hero-section {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+
         .hero-text {
-
             h1 {
-                font-size: 44px;
-            }
-
-            h2 {
-                font-size: 28px !important;
-            }
-
-            p {
-                font-size: 22px;
-            }
-        }
-
-        .hero-image {
-            width: 100%;
-        }
-    }
-}
-
-@media (max-width: 375px) {
-    .hero-section {
-        .hero-text {
-
-            h1 {
-                font-size: 38px;
+                font-size: 54px;
+                margin-bottom: 1rem !important;
             }
 
             sup {
-                font-size: 13px !important;
+                display: none;
             }
 
-            h2 {
-                font-size: 26px !important;
-            }
+            .edition {
+                display: inline-block !important;
 
-            p {
-                font-size: 20px;
             }
         }
     }
 }
+
+// @media (max-width: 375px) {
+//     .hero-section {
+//         .hero-text {
+//             h1 {
+//                 font-size: 43px;
+//             }
+
+//             sup {
+//                 font-size: 13px !important;
+//             }
+
+//             p {
+//                 font-size: 20px;
+//             }
+//         }
+//     }
+// }
