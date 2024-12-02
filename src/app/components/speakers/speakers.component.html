@@ -86,7 +86,7 @@
       }
     </div> -->
 
-    <div class="speakers-list px-0 px-md-5 mt-5">
+    <div class="speakers-list  mt-5">
       @for (speaker of speakers; track speaker;) {
       <div
         class="speaker rounded-3 d-flex align-items-center justify-content-between flex-column flex-md-row gap-5 mt-5"
@@ -100,16 +100,22 @@
             />
           </figure>
 
-          <img
+          <!-- <img
             [src]="speaker.flag"
             [alt]="speaker.name"
             class="flag object-fit-cover mx-auto mt-3"
-          />
+          /> -->
         </div>
 
         <div class="speaker-info text-center text-md-start w-75 w-767-100">
-          <h3 class="nmc-primary font-family-poppins pe-2">
+          <h3 class="nmc-primary font-family-poppins pe-2 position-relative">
             {{ speaker.name }}
+
+            <img
+              [src]="speaker.flag"
+              [alt]="speaker.name"
+              class="flag position-absolute object-fit-cover"
+            />
 
             <span class="nmc-medium-grey font-18">{{ speaker.position }}</span>
           </h3>
@@ -118,7 +124,7 @@
             {{ speaker.bio }}
           </p>
 
-          @if (speaker.previousTalks.length > 0) {
+          @if (speaker.previousTalks && speaker.previousTalks.length > 0 ){
           <h5 class="nmc-primary font-family-poppins">Previous Talks:</h5>
           <ul class="mb-4">
             @for( talk of speaker.previousTalks | slice: 0:5; track talk;){

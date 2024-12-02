@@ -84,7 +84,7 @@ export const speakers: ISpeakers[] = [
         "linkedin": "https://www.linkedin.com/in/julian-jandl-43a2b9125/",
         "github": "https://github.com/hoebbelsB",
         "youtube": "",
-        "previousTalks": [{}]
+        "previousTalks": []
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@ export const speakers: ISpeakers[] = [
         "linkedin": "https://www.linkedin.com/in/markostanimirovic/",
         "github": "https://github.com/markostanimirovic/",
         "youtube": "",
-        "previousTalks": [{}]
+        "previousTalks": []
     },
     {
         "id": 9,
@@ -240,7 +240,7 @@ export const speakers: ISpeakers[] = [
         "linkedin": "https://www.linkedin.com/in/tomasz-ducin-82234a4b/",
         "github": "",
         "youtube": "",
-        "previousTalks": [{}]
+        "previousTalks": []
     },
     {
         "id": 4,
@@ -275,7 +275,7 @@ export const speakers: ISpeakers[] = [
         "id": 13,
         "name": "Dhananjay Kumar",
         "position": "Organizer and Founder @ng-India",
-        "bio": "Dhananjay Kumar is a Software Engineer/Educator and organizer of one of the world's largest Angular conferences, ng-India. He is a published Book Author, International Speaker, and Founder of </geek97>, which provides full enterprise-level training and consulting to various clients worldwide. Currently, he is focusing on Angular with other Frontend technologies and GraphQL.",
+        "bio": "Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.",
         "image": "assets/images/speakers/dhananjay-kumar.jpeg",
         "flag": "assets/images/speakers/flags/india.png",
         "twitter": "https://x.com/debug_mode",
