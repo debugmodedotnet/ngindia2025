@@ -9,4 +9,5 @@ export interface ISpeakers {
     linkedin?: string;
     github?: string;
     youtube?: string;
+    previousTalks: { title?: string; event?: string; link?: string; }[];
 }
