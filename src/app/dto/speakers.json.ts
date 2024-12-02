@@ -158,7 +158,7 @@ export const speakers: ISpeakers[] = [
         "position": "Principal Application Developer @AON",
         "bio": "Pankaj Parkar is currently working as Principal Application Developer at Aon Centre for Innovation and Analytics (ACIA). He has total 10 years of experience in web development. He had worked on multiple JS frameworks like Angular, React, Ionic, VueJS, EmberJS, etc.",
         "image": "assets/images/speakers/pankaj-parkar.jpeg",
-        "flag": "assets/images/speakers/flags/singapore.png",
+        "flag": "assets/images/speakers/flags/india.png",
         "twitter": "https://x.com/pankajparkar",
         "linkedin": "https://www.linkedin.com/in/pankajparkar",
         "github": "https://github.com/pankajparkar",
