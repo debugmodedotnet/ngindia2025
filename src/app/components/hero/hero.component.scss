@@ -1,6 +1,18 @@
 @use "../../styles/variables" as *;
 
 .hero-section {
+
+    // object-fit: contain;
+    //height: 400px;
+    // width: 100%;
+    background-image: url("../../../../public/assets/images/hero/hero-bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #999;
+    padding: 200px 0;
+
     .text-bottom-line::after {
         inset: 60px 0 0 -20px;
     }
