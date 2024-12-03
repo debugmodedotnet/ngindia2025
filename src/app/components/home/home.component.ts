@@ -7,7 +7,7 @@ import { PricingComponent } from "../pricing/pricing.component";
 import { AboutComponent } from "../about/about.component";
 import { ViewportScroller } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-import { StatsComponent } from '../../stats/stats.component';
+import { StatsComponent } from '../stats/stats.component';
 
 @Component({
   selector: 'app-home',
@@ -37,7 +37,7 @@ export class HomeComponent implements AfterViewInit {
     this.route.fragment.subscribe((fragment: string | null) => {
       if (fragment) {
         setTimeout(() => {
-          const yOffset = 88; 
+          const yOffset = 88;
           const anchorPos = this.viewportScroller.getScrollPosition();
           const element = document.getElementById(fragment);
           if (element) {
@@ -50,6 +50,6 @@ export class HomeComponent implements AfterViewInit {
       }
     });
   }
-  
+
 
 }

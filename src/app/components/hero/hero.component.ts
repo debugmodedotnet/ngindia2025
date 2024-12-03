@@ -1,12 +1,10 @@
 import { Component, computed, effect, Signal, signal, WritableSignal } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { StatsComponent } from '../../stats/stats.component';
-import { AboutComponent } from '../about/about.component';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [RouterModule, StatsComponent, AboutComponent],
+  imports: [RouterModule],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.scss'
 })
