@@ -1,0 +1,14 @@
+@use "../../styles/variables" as *;
+
+.goodies-section {
+    .heading {
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+
+    figure {
+        width: 550px;
+    }
+}
