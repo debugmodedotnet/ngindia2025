@@ -10,7 +10,8 @@
     // padding: 200px 0 300px;
 
     .hero-image {
-        max-height: 200px;
+        //max-height: 300px;
+        width: 100%;
     }
 
     .text-bottom-line::after {
@@ -87,6 +88,10 @@
     .hero-section {
         // padding-top: 1.5rem !important;
         // padding-bottom: 1.5rem !important;
+
+        .nmc-btn-primary {
+            font-size: 18px;
+        }
 
         .hero-text {
             h1 {
