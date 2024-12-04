@@ -8,11 +8,12 @@ import { AboutComponent } from "../about/about.component";
 import { ViewportScroller } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { StatsComponent } from '../stats/stats.component';
+import { GoodiesComponent } from "../goodies/goodies.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeroComponent, SpeakersComponent, StatsComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent],
+  imports: [HeroComponent, SpeakersComponent, StatsComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
