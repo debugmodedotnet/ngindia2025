@@ -1,0 +1,43 @@
+@use "../../styles/variables" as *;
+
+.sponsorship-section {
+    .heading {
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+
+    .text-purple {
+        color: #a02c93;
+    }
+
+    .text-orange {
+        color: #e66826;
+    }
+
+    .package-grid {
+        place-content: center;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    .text-bottom-line::after {
+        inset: 44px 0 0 0;
+    }
+
+    .sponsorship-section {
+        .heading {
+            h2 {
+                font-size: 30px;
+            }
+        }
+
+        .contact-links a {
+            font-size: 16px !important;
+        }
+    }
+}
