@@ -14,6 +14,12 @@
     </li>
 
     <li class="w-100 py-3">
+      <a class="font-18 font-family-poppins nmc-dark-grey" href="/sponsorship"
+        >Sponsorship</a
+      >
+    </li>
+
+    <li class="w-100 py-3">
       <a class="font-18 font-family-poppins nmc-dark-grey" href="/coc">CoC</a>
     </li>
 
@@ -88,6 +94,16 @@
             <li class="nav-item">
               <a
                 class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                routerLink="/sponsorship"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >Sponsorship</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
                 routerLink="/coc"
                 routerLinkActive="active"
                 [routerLinkActiveOptions]="{ exact: true }"
@@ -97,7 +113,7 @@
 
             <li class="nav-item d-none d-md-block">
               <button
-                class="nmc-btn-primary px-5 h-auto py-3 mx-auto font-20"
+                class="nmc-btn-primary px-5 h-auto py-3 mx-auto font-2 ms-3"
                 type="button"
                 [routerLink]="['/home']"
                 fragment="pricing"
