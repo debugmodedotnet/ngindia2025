@@ -5,14 +5,23 @@
     </div>
 
     <article class="nmc-bg-white p-3 p-sm-4 p-md-5">
-      <h3 class="mb-0 nmc-dark-grey fw-normal lh-base">
-        The <b class="nmc-primary">ng-India</b> is one of the world's biggest
-        Angular and Frontend Engineering conferences. Every year, it brings
-        together over 500 web developers, including experts like GDEs, authors,
-        MVPs, and open-source contributors from 15+ countries. Join us to learn
-        new things, meet amazing people, hire talent, and get inspired! Learn
-        more about the previous ng-India events.
-      </h3>
+      <div>
+        <h3 class="mb-0 nmc-dark-grey fw-normal lh-base">
+          The <b class="nmc-primary">ng-India</b> is one of the world's biggest
+          Angular and Frontend Engineering conferences. Every year, it brings
+          together over 500 web developers, including experts like GDEs,
+          authors, MVPs, and open-source contributors from 15+ countries. Join
+          us to learn new things, meet amazing people, hire talent, and get
+          inspired!
+        </h3>
+
+        <button
+          class="nmc-btn-primary px-3 py-2 h-auto mt-3 mn-1 d-inline-block"
+          (click)="downloadFile()"
+        >
+          Download Brochure
+        </button>
+      </div>
 
       <div class="mt-4">
         <figure class="m-0 overflow-hidden">
@@ -24,26 +33,17 @@
         </figure>
       </div>
 
-      <div class="mt-4">
-        <h3 class="mb-0 text-purple border-bottom pb-4 fw-normal lh-base">
+      <div class="mt-4 purple-bg-gradient text-center p-5">
+        <h3 class="mb-0 nmc-white lh-base">
           Our mission is to empower aspiring developers by preparing them to be
           job-ready while ensuring ng-India remains financially accessible to
-          all. To achieve this, we keep our ticket prices affordable, ranging
+          all. To achieve this, we keep our ticket prices affordable, rang2ng
           from just <b>$40</b> to <b>$50</b>.
         </h3>
-
-        <p class="font-20 nmc-dark-grey mt-3">
-          The 2025 edition is the 7th edition. Know more about it here -
-          <a
-            href="https://www.ng-ind.com/home"
-            class="nmc-primary text-decoration-underline"
-            >https://www.ng-ind.com/home</a
-          >
-        </p>
       </div>
 
       <div class="mt-4 border-bottom">
-        <h3 class="mb-0 font-family-poppins nmc-primary">Key Highlights</h3>
+        <h3 class="mb-0 font-family-poppins nmc-primary">Highlights</h3>
         <hr class="hr-red-gradient mt-2" />
 
         <ul class="ms-3 pb-4">
@@ -87,10 +87,8 @@
         </ul>
       </div>
 
-      <div class="mt-4 border-bottom">
-        <h3
-          class="font-32 mb-0 text-orange pb-4 fw-normal lh-base text-center w-75 m-auto"
-        >
+      <div class="mt-4 red-bg-gradient text-center p-5">
+        <h3 class="mb-0 nmc-white lh-base">
           Make your Brand, Product, or Company visible to the best Angular and
           JavaScript developers in India
         </h3>
@@ -153,7 +151,7 @@
         <h3 class="mb-0 font-family-poppins nmc-primary">
           Sponsorship Packages
         </h3>
-        <hr class="hr-red-gradient mt-2" />
+        <!-- <hr class="hr-red-gradient mt-2" />
 
         <div>
           <p class="font-22 fw-semibold">Gold: 8000 USD</p>
@@ -225,13 +223,13 @@
               <b class="nmc-primary me-1">↪</b> Two conference tickets
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
 
-      <div class="mt-4 border-bottom pb-4">
+      <div class="mt-4 pb-4">
         <p>Note – the sponsor will pay any tax.</p>
 
-        <div class="table-responsive">
+        <!-- <div class="table-responsive">
           <table class="table table-bordered text-center tab">
             <thead>
               <tr>
@@ -296,6 +294,69 @@
               </tr>
             </tbody>
           </table>
+        </div> -->
+
+        <div class="row g-4 align-items-stretch justify-content-center">
+          <div class="col-md-4 d-grid align-items-stretch">
+            <div class="pricing-table">
+              <div class="text-center">
+                <h3 class="mb-0 font-family-poppins nmc-primary">GOLD</h3>
+
+                <span class="price d-block mb-3">
+                  <sup>₹</sup> <span class="number">3500</span>
+                </span>
+
+                <ul class="pricing-text border-top pt-4">
+                  <li class="mb-4">• 15 Min Speaking Slot</li>
+                  <li>
+                    <h6 class="nmc-primary fw-semibold font-20">+SILVER</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-grid align-items-stretch">
+            <div class="pricing-table">
+              <div class="text-center">
+                <h3 class="mb-0 font-family-poppins nmc-primary">SILVER</h3>
+
+                <span class="price d-block mb-2">
+                  <sup>₹</sup> <span class="number">4000</span>
+                </span>
+
+                <ul class="pricing-text border-top pt-4">
+                  <li class="mb-4">• Booth</li>
+                  <li class="mb-4">• 1 Pre-Conference Email</li>
+                  <li class="mb-4">• 1 Post Conference Email</li>
+                  <li>
+                    <h6 class="nmc-primary fw-semibold font-20">+BRONZE</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-grid align-items-stretch">
+            <div class="pricing-table">
+              <div class="text-center">
+                <h3 class="mb-0 font-family-poppins nmc-primary">BRONZE</h3>
+
+                <span class="price d-block mb-2">
+                  <sup>₹</sup> <span class="number">5000</span>
+                </span>
+
+                <ul class="pricing-text border-top pt-4">
+                  <li class="mb-4">• Logo on the website</li>
+                  <li class="mb-4">• Logo on the main stage</li>
+                  <li class="mb-4">• Logo on the recorded conference talk</li>
+                  <li class="mb-4">• Pre-Conference Social Media Promotion</li>
+                  <li class="mb-4">• Post-Conference Social Media Promotion</li>
+                  <li>• Two conference tickets</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -303,11 +364,11 @@
         <h3 class="mb-0 font-family-poppins nmc-primary">
           To sponsor us, reach out to us here:
         </h3>
-        <hr class="hr-red-gradient mt-2" />
+        <hr class="hr-red-gradient mt-3" />
 
         <div class="contact-links">
           <a
-            class="font-26 d-block nmc-dark-grey fw-semibold"
+            class="font-26 d-block nmc-dark-grey fw-semibold mt-3"
             href="mailto:hello@nomadcoder.ai"
           >
             <i class="bi bi-telephone nmc-primary me-1"></i>
@@ -329,6 +390,7 @@
 
         <button
           class="nmc-btn-primary px-5 h-auto py-3 font-20 nmc-bg-dark-grey"
+          (click)="downloadFile()"
         >
           Download
         </button>
