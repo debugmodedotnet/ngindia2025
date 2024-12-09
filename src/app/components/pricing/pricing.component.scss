@@ -54,3 +54,10 @@ a.disabled {
         font-size: 50px;
     }
 }
+
+
+@media (max-width: 375px) {
+    .note h3 {
+        font-size: 20px;
+    }
+}
