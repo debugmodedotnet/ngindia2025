@@ -65,7 +65,7 @@
             h3 {
                 font-size: 24px !important;
 
-                span{
+                span {
                     font-size: 16px !important;
                 }
             }
@@ -81,13 +81,8 @@
     .speaker {
         gap: 1.5rem !important;
 
-        .flag {
-            position: relative !important;
-            margin: 15px auto;
-        }
-
         .speaker-img {
-            width: 350px;
+            width: 250px;
             height: auto;
 
             figure {
@@ -97,17 +92,33 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 575px) {
     .speaker {
-        margin-top: 30px !important;
-
         .speaker-img {
-            width: 280px;
+            width: 150px;
         }
     }
+}
 
-    .speakers-list {
-        margin-top: 0 !important;
+@media (max-width: 375px) {
+    .speaker-name {
+        flex-direction: column-reverse;
     }
 
+    .timing p,
+    .timing i {
+        font-size: 15px;
+    }
+
+    .pricing h4 {
+        font-size: 20px !important;
+    }
+
+    .pricing h4+h4 {
+        margin-top: 10px !important;
+    }
+
+    .flag {
+        margin-bottom: 15px;
+    }
 }
