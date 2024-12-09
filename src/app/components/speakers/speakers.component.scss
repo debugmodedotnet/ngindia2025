@@ -14,7 +14,7 @@
             box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
             border: 1px solid $nmc-primary;
 
-            img{
+            img {
                 object-position: top;
             }
         }
@@ -88,8 +88,16 @@
         margin-top: 0 !important;
     }
 
+    .error-label {
+        font-size: 16px !important;
+    }
 }
 
+@media (max-width: 365px) {
+    .error-label {
+        font-size: 13px !important;
+    }
+}
 
 // .speaker {
 //     figure {
