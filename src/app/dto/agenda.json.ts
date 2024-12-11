@@ -12,9 +12,9 @@ export const agenda: IAgenda[] = [
     },
     {
         "title": "Session 1",
-        "speakerName": "Stanimira Vlaeva",
-        "speakerPosition": "Developer Advocate @MongoDB",
-        "speakerImage": "assets/images/speakers/stanimira-vlaeva.jpeg",
+        "speakerName": "Yet to be decided",
+        "speakerPosition": "",
+        "speakerImage": "assets/images/agenda/default.jpg",
         "startTime": "9:00 AM",
         "endTime": "9:30 AM",
         "description": ""

@@ -1,40 +1,40 @@
 import { ISpeakers } from "../models/speakers";
 
 export const speakers: ISpeakers[] = [
-    {
-        "id": 3,
-        "name": "Stanimira Vlaeva",
-        "position": "Developer Advocate @MongoDB",
-        "bio": "Stanimira is a Developer Advocate at MongoDB and a Google Developer Expert for Angular. She loves open source and she is part of the Technical Steering Committee for NativeScript. She lives in Bulgaria , and for any help related to open source , MongoDB, and Angular her twitter DMs are always open!",
-        "image": "assets/images/speakers/stanimira-vlaeva.jpeg",
-        "flag": "assets/images/speakers/flags/bulgaria.png",
-        "twitter": "https://x.com/StanimiraVlaeva",
-        "linkedin": "https://www.linkedin.com/in/sis0k0/",
-        "github": "https://github.com/sis0k0",
-        "youtube": "",
-        "previousTalks": [
-            {
-                title: "Building a Chatbot with Angular and MongoDB Atlas",
-                event: "ng-India 2024",
-                link: "https://www.youtube.com/watch?v=KLH-iAPhwKU"
-            },
-            {
-                title: "Building a Real-Time Bidding App with Angular,MongoDB,and GraphQL",
-                event: "ng-India 2023",
-                link: "https://www.youtube.com/watch?v=Yaimk5Z22sA"
-            },
-            {
-                title: "GraphQL in Angular",
-                event: "ng-India 2022",
-                link: "https://www.youtube.com/watch?v=X9XFphBs7oM"
-            },
-            {
-                title: "Super Chargin your Angular Library with 'ng-add'",
-                event: "ng-India 2019",
-                link: "https://www.youtube.com/watch?v=9TSZ97-IH28"
-            }
-        ]
-    },
+    // {
+    //     "id": 3,
+    //     "name": "Stanimira Vlaeva",
+    //     "position": "Developer Advocate @MongoDB",
+    //     "bio": "Stanimira is a Developer Advocate at MongoDB and a Google Developer Expert for Angular. She loves open source and she is part of the Technical Steering Committee for NativeScript. She lives in Bulgaria , and for any help related to open source , MongoDB, and Angular her twitter DMs are always open!",
+    //     "image": "assets/images/speakers/stanimira-vlaeva.jpeg",
+    //     "flag": "assets/images/speakers/flags/bulgaria.png",
+    //     "twitter": "https://x.com/StanimiraVlaeva",
+    //     "linkedin": "https://www.linkedin.com/in/sis0k0/",
+    //     "github": "https://github.com/sis0k0",
+    //     "youtube": "",
+    //     "previousTalks": [
+    //         {
+    //             title: "Building a Chatbot with Angular and MongoDB Atlas",
+    //             event: "ng-India 2024",
+    //             link: "https://www.youtube.com/watch?v=KLH-iAPhwKU"
+    //         },
+    //         {
+    //             title: "Building a Real-Time Bidding App with Angular,MongoDB,and GraphQL",
+    //             event: "ng-India 2023",
+    //             link: "https://www.youtube.com/watch?v=Yaimk5Z22sA"
+    //         },
+    //         {
+    //             title: "GraphQL in Angular",
+    //             event: "ng-India 2022",
+    //             link: "https://www.youtube.com/watch?v=X9XFphBs7oM"
+    //         },
+    //         {
+    //             title: "Super Chargin your Angular Library with 'ng-add'",
+    //             event: "ng-India 2019",
+    //             link: "https://www.youtube.com/watch?v=9TSZ97-IH28"
+    //         }
+    //     ]
+    // },
     {
         "id": 5,
         "name": "Christopher Holder",
