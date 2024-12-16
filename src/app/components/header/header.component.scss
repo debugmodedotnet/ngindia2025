@@ -4,9 +4,17 @@
 //     min-height: 88px;
 // }
 
+
 .sticky-header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid $nmc-primary;
+    transition: all 0.3s ease-in-out;
+
+    &.is-sticky {
+        background-color: $nmc-primary;
+        color: $nmc-white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 }
 
 .logo {
@@ -98,9 +106,7 @@
     }
 }
 
-@media (max-width: 992px) {
-
-}
+@media (max-width: 992px) {}
 
 @media (max-width: 420px) {
     .container-boxed {

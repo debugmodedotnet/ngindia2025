@@ -1,17 +1,26 @@
-import { Component, inject } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { Component, inject, HostListener } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterModule],
+  imports: [RouterModule, NgClass],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
 
   mobileMenuOpen = false;
-  private router= inject(Router);
+  isSticky = false;
+  private router = inject(Router);
+
+  @HostListener('window:scroll', [])
+  onScroll() {
+    const heroSection = document.querySelector('.hero-section') as HTMLElement;
+    const heroEndPosition = heroSection.offsetTop + heroSection.offsetHeight;
+    this.isSticky = window.scrollY >= heroEndPosition;
+  }
 
   toggleMobileMenu() {
     this.mobileMenuOpen = !this.mobileMenuOpen;
