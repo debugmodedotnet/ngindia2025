@@ -1,10 +1,31 @@
-<header class="sticky-header nmc-bg-white fixed-top">
+<header
+  class="sticky-header nmc-bg-white fixed-top"
+  [ngClass]="{ 'is-sticky': isSticky }"
+>
   <!-- Mobile Navigation -->
   <ul
     class="mobile-menu flex-column align-items-center justify-content-center position-absolute text-center rounded-0"
   >
     <li class="w-100 py-3">
       <a class="font-18 font-family-poppins nmc-dark-grey" href="home">Home</a>
+    </li>
+
+    <li class="w-100 py-3">
+      <a class="font-18 font-family-poppins nmc-dark-grey" href="/speakers"
+        >Speakers</a
+      >
+    </li>
+
+    <li class="w-100 py-3">
+      <a class="font-18 font-family-poppins nmc-dark-grey" href="/agenda"
+        >Agenda</a
+      >
+    </li>
+
+    <li class="w-100 py-3">
+      <a class="font-18 font-family-poppins nmc-dark-grey" href="/venue"
+        >Venue</a
+      >
     </li>
 
     <li class="w-100 py-3">
@@ -81,6 +102,34 @@
           id="navbar"
         >
           <ul class="navbar-nav mb-lg-0 gap-2 gap-lg-3 align-items-center">
+            @if (isSticky) {
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="speakers"
+                >Speakers</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="agenda"
+                >Agenda</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="venue"
+                >Venue</a
+              >
+            </li>
+            } @else {
             <li class="nav-item">
               <a
                 class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
@@ -110,6 +159,7 @@
                 >CoC</a
               >
             </li>
+            }
 
             <li class="nav-item d-none d-md-block">
               <button
