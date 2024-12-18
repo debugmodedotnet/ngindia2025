@@ -115,6 +115,10 @@
 }
 
 @media (max-width: 425px) {
+    .list-pricing p {
+        font-size: 16px !important;
+    }
+
     .speaker {
         .speaker-img {
             width: 280px;
@@ -123,6 +127,20 @@
 }
 
 @media (max-width: 375px) {
+    .workshops-listing .wrapper {
+
+        h3 {
+            font-size: 22px !important;
+        }
+
+        .list-pricing {
+            gap: .8rem !important;
+
+            p {
+                font-size: 14px !important;
+            }
+        }
+    }
 
     .timing p,
     .timing i {
