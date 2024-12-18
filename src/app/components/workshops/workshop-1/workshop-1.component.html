@@ -1,17 +1,24 @@
 <section class="workshops-section py-5 nmc-bg-white min-vh-100">
   <div class="container-boxed">
-    <div class="text-center heading mb-5">
+    <!-- <div class="text-center heading mb-5">
       <h2 class="mb-4 text-bottom-line position-relative">Workshop-1</h2>
+    </div> -->
+
+    <div
+      class="text-start heading mb-5 d-flex align-items-center justify-content-between"
+    >
+      <h2 class="text-bottom-line position-relative">Workshop-1</h2>
+
+      <button
+        routerLink="/workshops"
+        class="nmc-btn-primary h-auto py-2 px-3 box-shadow-none border-0 nmc-bg-dark-grey fw-semibold font-20"
+        tabindex="0"
+      >
+        Back
+      </button>
     </div>
 
-    <div class="workshops-details mt-5">
-      <button
-        class="nmc-btn-primary h-auto py-2 px-3 box-shadow-none border-0 nmc-bg-dark-grey fw-semibold font-18 mb-3"
-        routerLink="/workshops"
-      >
-        Back to List
-      </button>
-
+    <div class="workshops-details">
       <div class="row g-5">
         <div class="col-12">
           <div
@@ -22,7 +29,7 @@
 
               <div class="d-flex justify-content-between align-items-center">
                 <h3
-                  class="font-family-poppins font-32 d-inline-block nmc-dark-grey"
+                  class="font-family-poppins font-30 d-inline-block nmc-dark-grey"
                 >
                   Angular Full Experience Workshop
                 </h3>
@@ -366,7 +373,7 @@
               </div>
 
               <!-- Trainer -->
-              <div class="border-bottom speakers-list mt-3">
+              <div class="speakers-list mt-3">
                 <h4 class="font-20 nmc-dark-grey font-family-poppins mb-3">
                   About the Trainer
                 </h4>
@@ -398,7 +405,9 @@
                         class="flag position-absolute object-fit-cover"
                       />
 
-                      <span class="nmc-medium-grey font-18"></span>
+                      <span class="nmc-medium-grey font-18"
+                        >Trainer and Consultant &#64;AngularArchitects.io
+                      </span>
                     </h3>
 
                     <p class="font-18 nmc-medium-grey">
