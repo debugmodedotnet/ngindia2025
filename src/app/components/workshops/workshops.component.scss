@@ -97,6 +97,10 @@
 }
 
 @media (max-width: 576px) {
+    .date-wrapper h3 {
+        font-size: 24px !important;
+    }
+
     .list-pricing {
         gap: 2rem !important;
 
@@ -107,6 +111,10 @@
 }
 
 @media (max-width: 425px) {
+    .date-wrapper h3 {
+        font-size: 20px !important;
+    }
+
     .list-pricing {
         gap: .8rem !important;
 
@@ -128,6 +136,10 @@
 }
 
 @media (max-width: 375px) {
+    .date-wrapper b {
+        display: block;
+    }
+
     .workshops-listing .wrapper {
         h3 {
             font-size: 22px !important;
@@ -135,8 +147,8 @@
     }
 
     .list-pricing {
-        flex-direction: column !important;
-        align-items: flex-end !important;
+        // flex-direction: column !important;
+        // align-items: flex-end !important;
         gap: 1rem !important;
     }
 
