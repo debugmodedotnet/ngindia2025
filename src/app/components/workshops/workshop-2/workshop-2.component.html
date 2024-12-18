@@ -1,133 +1,37 @@
 <section class="workshops-section py-5 nmc-bg-white min-vh-100">
   <div class="container-boxed">
     <div class="text-center heading mb-5">
-      <h2 class="mb-4 text-bottom-line position-relative">Workshops</h2>
+      <h2 class="mb-4 text-bottom-line position-relative">Workshop-2</h2>
     </div>
 
-    <div class="workshops-listing">
-      <div class="row gy-4">
-        <div class="col-12">
-          <div class="wrapper nmc-bg-white rounded-0 p-3">
-            <div class="row align-items-center justify-content-between g-1">
-              <div class="col-12 col-xl-7">
-                <h6 class="nmc-primary text-start fw-bold">Workshop-1</h6>
-
-                <h3
-                  class="font-family-poppins font-24 d-inline-block nmc-dark-grey text-wrap m-0"
-                >
-                  Angular Full Experience Workshop
-                </h3>
-              </div>
-
-              <div class="col-12 col-xl-5 mt-3 mt-xl-0">
-                <div
-                  class="d-flex align-items-sm-center align-items-start justify-content-between flex-sm-row flex-column"
-                >
-                  <div class="list-pricing d-flex align-items-center gap-5">
-                    <p class="nmc-medium-grey font-18 m-0 font-family-poppins">
-                      April 12th, 2025
-                    </p>
-
-                    <p class="nmc-medium-grey font-18 m-0 font-family-poppins">
-                      <i class="bi bi-currency-rupee nmc-dark-grey"></i> 10,000
-                    </p>
-
-                    <figure
-                      class="display-img m-0 overflow-hidden rounded-circle"
-                    >
-                      <img
-                        src="assets/images/speakers/rainer-hahnekamp.jpg"
-                        class="h-100 w-100 object-fit-cover"
-                        alt=""
-                      />
-                    </figure>
-                  </div>
-
-                  <button
-                    class="nmc-btn-primary h-auto py-2 px-3 box-shadow-none border-0 nmc-bg-dark-grey fw-normal font-20 mt-3 mt-sm-0"
-                    routerLink="/workshops/workshop1"
-                  >
-                    Details
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12">
-          <div class="wrapper nmc-bg-white rounded-0 p-3">
-            <div class="row align-items-center justify-content-between g-1">
-              <div class="col-12 col-xl-7">
-                <h6 class="nmc-primary text-start fw-bold">Workshop-2</h6>
-
-                <h3
-                  class="font-family-poppins font-24 d-inline-block nmc-dark-grey text-wrap m-0"
-                >
-                  Architecting Angular Apps for High Performance
-                </h3>
-              </div>
-
-              <div class="col-12 col-xl-5 mt-3 mt-xl-0">
-                <div
-                  class="d-flex align-items-sm-center align-items-start justify-content-between flex-sm-row flex-column"
-                >
-                  <div class="list-pricing d-flex align-items-center gap-5">
-                    <p class="nmc-medium-grey font-18 m-0 font-family-poppins">
-                      April 12th, 2025
-                    </p>
-
-                    <p class="nmc-medium-grey font-18 m-0 font-family-poppins">
-                      <i class="bi bi-currency-rupee nmc-dark-grey"></i> 10,000
-                    </p>
-
-                    <figure
-                      class="display-img m-0 overflow-hidden rounded-circle"
-                    >
-                      <img
-                        src="assets/images/speakers/rainer-hahnekamp.jpg"
-                        class="h-100 w-100 object-fit-cover"
-                        alt=""
-                      />
-                    </figure>
-                  </div>
-
-                  <button
-                    class="nmc-btn-primary h-auto py-2 px-3 box-shadow-none border-0 nmc-bg-dark-grey fw-normal font-20 mt-3 mt-sm-0"
-                    routerLink="/workshops/workshop2"
-                  >
-                    Details
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="workshops-details mt-5">
+    <div class="workshops-details mt-5">
       <button
-        class="nmc-btn-primary h-auto py-2 px-3 box-shadow-none border-0 nmc-bg-dark-grey fw-semibold font-18"
-        (click)="goBack()"
+        class="nmc-btn-primary h-auto py-2 px-3 box-shadow-none border-0 nmc-bg-dark-grey fw-semibold font-18 mb-3"
+        routerLink="/workshops"
       >
         Back to List
       </button>
 
       <div class="row g-5">
-        @if(selectedWorkshop === 'Workshop-1'){
         <div class="col-12">
           <div
             class="nmc-bg-white overflow-hidden position-relative h-100 m-auto"
           >
             <div class="workshop-heading">
-              <h5 class="nmc-primary text-start fw-bold">Workshop-1</h5>
+              <!-- <h5 class="nmc-primary text-center fw-bold">Workshop-1</h5> -->
 
-              <h3
-                class="font-family-poppins font-32 d-inline-block nmc-dark-grey"
-              >
-                Angular Full Experience Workshop
-              </h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <h3
+                  class="font-family-poppins font-32 d-inline-block nmc-dark-grey"
+                >
+                  Angular Full Experience Workshop
+                </h3>
+
+                <h4 class="nmc-dark-grey m-0 font-family-poppins font-24 mt-3">
+                  <i class="bi bi-people-fill nmc-primary me-2"></i> Seats : 20
+                  - 25
+                </h4>
+              </div>
 
               <div
                 class="timing d-flex align-items-start align-items-xl-center flex-column flex-xl-row justify-content-between my-3 pb-3 border-bottom"
@@ -200,6 +104,7 @@
                 </p>
               </div>
 
+              <!-- Agenda -->
               <div class="border-bottom mt-3">
                 <h4 class="font-20 nmc-dark-grey font-family-poppins mb-3">
                   Agenda
@@ -407,6 +312,7 @@
                 </div>
               </div>
 
+              <!-- What You Will Learn -->
               <div class="border-bottom mt-3">
                 <h4 class="font-20 nmc-dark-grey font-family-poppins mb-3">
                   What You Will Learn
@@ -459,6 +365,7 @@
                 </ul>
               </div>
 
+              <!-- Trainer -->
               <div class="border-bottom speakers-list mt-3">
                 <h4 class="font-20 nmc-dark-grey font-family-poppins mb-3">
                   About the Trainer
@@ -500,7 +407,7 @@
                       and a prominent figure in the Angular community. He is:
                     </p>
 
-                    <ul class="mb-3 ms-3">
+                    <ul class="mb-3 ms-3 text-start">
                       <li
                         class="font-16 nmc-medium-grey mt-3 d-flex align-items-center"
                       >
@@ -569,85 +476,52 @@
                 </div>
               </div>
 
-              <div class="border-bottom my-3">
-                <h4 class="font-18 nmc-dark-grey font-family-poppins">
-                  Takeaway
-                </h4>
+              <!-- Takeaway -->
+              <div class="pricing-table p-4 mt-3 border">
+                <div class="row align-items-center justify-content-between">
+                  <div class="col-6 border-end">
+                    <h2
+                      class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-primary text-center"
+                    >
+                      Takeaway
+                    </h2>
 
-                <ul class="mb-3 ms-3">
-                  <li class="font-16 nmc-medium-grey mt-3 fw-normal">
-                    ✔️ Certificate
-                  </li>
+                    <ul class="pricing-text mb-5 text-center">
+                      <li class="mb-4">Certificate</li>
+                      <li class="mb-4">One to one with speakers</li>
+                      <li class="mb-4">Entry to full conference next day</li>
+                      <li class="mb-4">Lunch / Tea / Coffee</li>
+                    </ul>
+                  </div>
 
-                  <li class="font-16 nmc-medium-grey mt-3 fw-normal">
-                    ✔️ One to one with speakers
-                  </li>
+                  <div class="col-6">
+                    <div
+                      class="d-flex align-items-center justify-content-center flex-column"
+                    >
+                      <h2
+                        class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-primary text-start"
+                      >
+                        Pricing
+                      </h2>
 
-                  <li class="font-16 nmc-medium-grey mt-3 fw-normal">
-                    ✔️ Entry to full conference next day
-                  </li>
+                      <span class="price d-block mb-4">
+                        <sup>₹</sup> <span class="number">10,000</span
+                        ><sub>+ GST</sub>
+                      </span>
 
-                  <li class="font-16 nmc-medium-grey mt-3 fw-normal">
-                    ✔️ Lunch / Tea / Coffee
-                  </li>
-                </ul>
-              </div>
-
-              <div class="pricing my-3">
-                <h4 class="nmc-dark-grey m-0 font-family-poppins font-24">
-                  <i class="bi bi-cash nmc-primary me-2"></i> Price :
-                  <i class="bi bi-currency-rupee nmc-dark-grey"></i>15,000 + GST
-                </h4>
-
-                <h4 class="nmc-dark-grey m-0 font-family-poppins font-24 mt-3">
-                  <i class="bi bi-people-fill nmc-primary me-2"></i> Seats : 20
-                  - 25
-                </h4>
-              </div>
-
-              <button
-                class="nmc-btn-primary px-4 h-auto py-2 font-14 text-uppercase mt-4"
-              >
-                Buy Tickets
-              </button>
-            </div>
-          </div>
-        </div>
-        } @if(selectedWorkshop === 'Workshop-2'){
-        <div class="col-12">
-          <div
-            class="nmc-bg-white overflow-hidden position-relative h-100 m-auto"
-          >
-            <div class="workshop-heading">
-              <h5 class="nmc-primary text-start fw-bold">Workshop-2</h5>
-
-              <h3
-                class="font-family-poppins font-32 d-inline-block nmc-dark-grey"
-              >
-                Angular Full Experience Workshop
-              </h3>
-
-              <div
-                class="timing d-flex align-items-start align-items-xl-center flex-column flex-xl-row justify-content-between my-3 pb-3 border-bottom"
-              >
-                <p class="nmc-medium-grey m-0">
-                  <i
-                    class="bi bi-calendar-event-fill me-2 font-20 nmc-primary"
-                  ></i
-                  ><span class="nmc-dark-grey">Date</span> : April 12th, 2025
-                </p>
-
-                <p class="nmc-medium-grey m-0">
-                  <i class="bi bi-clock-fill me-2 font-20 nmc-primary"></i
-                  ><span class="nmc-dark-grey">Starts</span> : 10:00 AM |
-                  <span class="nmc-dark-grey">Ends</span> : 5:00 PM
-                </p>
+                      <button
+                        class="nmc-btn-primary px-4 h-auto py-3 font-16 text-uppercase"
+                      >
+                        Buy Tickets
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        }
       </div>
-    </div> -->
+    </div>
   </div>
 </section>
