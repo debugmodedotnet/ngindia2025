@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class WorkshopsComponent {
 
+  selectedWorkshop: string | null = null;
+
+  showDetails(workshop: string): void {
+    this.selectedWorkshop = this.selectedWorkshop === workshop ? null : workshop;
+  }
+
 }
