@@ -20,6 +20,12 @@
             background-color: $nmc-primary !important;
             transition: all ease 0.3s;
         }
+
+        .display-img {
+            height: 45px;
+            width: 45px;
+            border: 2px solid $nmc-primary;
+        }
     }
 
     .workshops-details {
@@ -56,30 +62,6 @@
             border: 1px solid $nmc-dark-grey;
         }
     }
-
-    // .speaker {
-    //     .speaker-img figure {
-    //         height: 150px;
-    //         box-shadow: 0 1px 10px rgba(0, 0, 0, .1);
-    //         border: 1px solid $nmc-primary;
-
-    //         img {
-    //             object-position: top;
-    //         }
-    //     }
-
-    //     .speaker-info span {
-    //         display: block;
-    //         margin-top: 10px;
-    //     }
-
-    //     .flag {
-    //         width: 40px;
-    //         height: 25px;
-    //         box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
-    //         border: 1px solid $nmc-dark-grey;
-    //     }
-    // }
 }
 
 @media (max-width: 991px) {
