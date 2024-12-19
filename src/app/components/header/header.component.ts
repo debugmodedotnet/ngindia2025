@@ -15,12 +15,12 @@ export class HeaderComponent {
   isSticky = false;
   private router = inject(Router);
 
-  @HostListener('window:scroll', [])
-  onScroll() {
-    const heroSection = document.querySelector('.hero-section') as HTMLElement;
-    const heroEndPosition = heroSection.offsetTop + heroSection.offsetHeight;
-    this.isSticky = window.scrollY >= heroEndPosition;
-  }
+  // @HostListener('window:scroll', [])
+  // onScroll() {
+  //   const heroSection = document.querySelector('.hero-section') as HTMLElement;
+  //   const heroEndPosition = heroSection.offsetTop + heroSection.offsetHeight;
+  //   this.isSticky = window.scrollY >= heroEndPosition;
+  // }
 
   toggleMobileMenu() {
     this.mobileMenuOpen = !this.mobileMenuOpen;
