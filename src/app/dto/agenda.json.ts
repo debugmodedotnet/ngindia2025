@@ -121,13 +121,15 @@ export const agenda: IAgenda[] = [
     description: '',
   },
   {
-    title: 'TBD',
+    title:
+      'Long term success of your Angular projects with automated architecture validation',
     speakerName: 'Tomas Trajan',
-    speakerPosition: 'GDE | Founder of angularexperts.io',
+    speakerPosition: 'Frontend Architect | Trainer @angularexperts.io',
     speakerImage: 'assets/images/speakers/tomas-trajan.jpeg',
     startTime: '3:30 PM',
     endTime: '4:00 PM',
-    description: '',
+    description:
+      'Learn how to <b>architect</b> a brand new or improve an existing enterprise grade Angular application with a bulletproof <b>ESLINT</b> based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!',
   },
   {
     title: 'Tea Break',

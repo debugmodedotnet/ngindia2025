@@ -213,8 +213,8 @@ export const speakers: ISpeakers[] = [
   {
     id: 8,
     name: 'Tomas Trajan',
-    position: 'GDE | Founder of angularexperts.io',
-    bio: 'Tomas is a Google Developer Expert for Angular & Web Technologies working as a consultant (Angular Experts) and Angular trainer currently empowering developer teams in Swiss enterprise organizations implementing core functionality and architecture, introducing best practices, sharing know-how, optimizing workflows and focusing on getting things done!',
+    position: 'Frontend Architect | Trainer @angularexperts.io',
+    bio: 'Tomas help developer teams deliver successful Angular applications through training and consulting. He is a Google Developer Expert for Angular & Web Technologies. Empowering teams in enterprise organizations worldwide by implementing core functionality and architecture, introducing best practices, sharing know-how and optimizing workflows. Tomas strives continually to provide maximum value for customers and the wider developer community alike. His work is underlined by a vast track record of publishing popular industry articles, leading talks at international conferences and meetups, and contributing to open-source projects',
     image: 'assets/images/speakers/tomas-trajan.jpeg',
     flag: 'assets/images/speakers/flags/switzerland.png',
     twitter: 'https://x.com/tomastrajan',
