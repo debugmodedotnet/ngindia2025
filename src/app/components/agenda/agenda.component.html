@@ -35,9 +35,10 @@
           >
           <h2 class="my-3">{{ agenda.title }}</h2>
 
-          <p [innerHTML]="agenda.description" class="nmc-medium-grey font-family-inter">
-            
-          </p>
+          <p
+            [innerHTML]="agenda.description"
+            class="nmc-medium-grey font-family-inter"
+          ></p>
 
           <h3 class="speaker-name font-24 m-0 nmc-primary font-family-poppins">
             @if(agenda.speakerName){—
