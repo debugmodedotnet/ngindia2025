@@ -17,17 +17,22 @@
         transition: ease all .3s;
         position: relative;
 
+        .pricing-text li{
+            font-weight: 600;
+            color: $nmc-medium-grey;
+        }
+
         .price {
             sup {
                 font-size: 24px;
                 top: -1em;
-                color: $nmc-primary;
+                color: $nmc-dark-grey;
             }
 
             .number {
                 font-size: 60px;
                 font-weight: 600;
-                color: $nmc-primary;
+                color: $nmc-dark-grey;
             }
         }
 
