@@ -9,11 +9,12 @@ import { ViewportScroller } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { StatsComponent } from '../stats/stats.component';
 import { GoodiesComponent } from "../goodies/goodies.component";
+import { SponsorsComponent } from "../sponsors/sponsors.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeroComponent, SpeakersComponent, StatsComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent],
+  imports: [HeroComponent, SpeakersComponent, StatsComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent, SponsorsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

@@ -1,6 +1,6 @@
 <section class="hero-section overflow-hidden position-relative pt-4">
   <div class="container-boxed">
-    <div
+    <!-- <div
       class="d-flex justify-content-center align-items-center position-relative z-2"
     >
       <div class="hero-text text-center">
@@ -54,12 +54,83 @@
           Buy Tickets
         </button>
       </div>
+    </div> -->
+
+    <div
+      class="row justify-content-center align-items-center position-relative z-2"
+    >
+      <div class="col-6">
+        <div class="hero-text">
+          <h1 class="fw-bolder nmc-dark-grey mb-4">
+            ng-India
+            <sup
+              class="font-18 nmc-bg-primary py-1 px-2 nmc-white position-relative"
+            >
+              7th Edition
+            </sup>
+          </h1>
+
+          <div
+            class="edition font-18 nmc-bg-primary py-1 px-2 nmc-white position-relative d-none fw-bold mb-3"
+          >
+            7th Edition
+          </div>
+
+          <h2
+            class="fw-bolder nmc-dark-grey font-38 font-family-poppins mb-4 mb-sm-5"
+          >
+            India's Largest
+            <span class="nmc-primary text-bottom-line position-relative"
+              >Angular</span
+            >
+            Conference!
+          </h2>
+
+          <div
+            class="d-flex align-items-center justify-content-start flex-column flex-sm-row gap-4 mb-4"
+          >
+            <h6 class="font-26 nmc-dark-grey m-0">
+              <i class="bi bi-calendar-event me-2 font-20 nmc-primary"></i>April
+              12th, 2025
+            </h6>
+
+            <h6 class="font-26 nmc-dark-grey m-0">
+              <i class="bi bi-geo-alt-fill me-2 font-20 nmc-primary"></i
+              >Gurgaon, India
+            </h6>
+          </div>
+
+          <button
+            class="nmc-btn-primary px-5 h-auto py-3 font-20 nmc-bg-dark-grey"
+            type="button"
+            [routerLink]="['/home']"
+            fragment="pricing"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            Buy Tickets
+          </button>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <iframe
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/uDMODUdI1jU?si=LjPA_4-1iBZCVV48&amp;controls=0&amp;start=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </div>
 
-  <img
+  <!-- <img
     src="assets/images/hero/hero-bg.png"
     alt="Indian Monuments"
     class="hero-image object-fit-contain position-relative mt-3 mx-auto"
-  />
+  /> -->
 </section>
