@@ -7,13 +7,9 @@
     <div class="row g-0 clients-wrap">
       @for(sponsor of sponsors; track sponsor;){
       <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden"
+        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden position-relative"
       >
-        <a
-          [href]="sponsor.sponsorLink"
-          target="_blank"
-          class="position-relative"
-        >
+        <a [href]="sponsor.sponsorLink" target="_blank">
           <figure class="overflow-hidden p-5 m-0">
             <img
               [src]="sponsor.sponsorImage"
@@ -21,13 +17,13 @@
               alt=""
             />
           </figure>
-
-          <img
-            [src]="sponsor.sponsorType"
-            class="sponsor-type object-fit-contain position-absolute"
-            alt=""
-          />
         </a>
+
+        <img
+          [src]="sponsor.sponsorType"
+          class="sponsor-type object-fit-contain position-absolute"
+          alt=""
+        />
       </div>
       }
     </div>
