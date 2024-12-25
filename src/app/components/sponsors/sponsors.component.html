@@ -1,4 +1,4 @@
-<section class="sponsors-section py-5 nmc-bg-light">
+<section class="sponsors-section py-5 nmc-bg-white">
   <div class="container-boxed">
     <div class="text-center heading mb-5">
       <h2 class="mb-4 text-bottom-line position-relative">Sponsors</h2>
@@ -19,11 +19,11 @@
           </figure>
         </a>
 
-        <img
-          [src]="sponsor.sponsorType"
-          class="sponsor-type object-fit-contain position-absolute"
-          alt=""
-        />
+        <p
+          class="sponsor-type nmc-medium-grey font-13 font-family-poppins position-absolute m-0"
+        >
+          {{ sponsor.sponsorType }}
+        </p>
       </div>
       }
     </div>

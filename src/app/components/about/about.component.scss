@@ -1,5 +1,9 @@
 @use "../../styles/variables" as *;
 
+.hero-video iframe {
+    border: 2px solid $nmc-primary;
+}
+
 @media (max-width: 575px) {
     .about-section {
         h3 {
