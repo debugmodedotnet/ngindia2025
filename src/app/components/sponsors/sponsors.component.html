@@ -4,26 +4,33 @@
       <h2 class="mb-4 text-bottom-line position-relative">Sponsors</h2>
     </div>
 
-    <div class="row g-0 clients-wrap">
+    <div class="row g-3 clients-wrap justify-content-center">
       @for(sponsor of sponsors; track sponsor;){
-      <div
-        class="col-xl-3 col-md-4 col-sm-6 client-logo d-flex align-items-center justify-content-center overflow-hidden position-relative"
-      >
-        <a [href]="sponsor.sponsorLink" target="_blank">
-          <figure class="overflow-hidden p-5 m-0">
-            <img
-              [src]="sponsor.sponsorImage"
-              class="w-100 h-100 object-fit-contain"
-              alt=""
-            />
-          </figure>
-        </a>
-
-        <p
-          class="sponsor-type nmc-medium-grey font-13 font-family-poppins position-absolute m-0"
+      <div class="col-xl-3 col-md-4 col-sm-6">
+        <div
+          class="client-logo d-flex align-items-center justify-content-center overflow-hidden position-relative"
         >
-          {{ sponsor.sponsorType }}
-        </p>
+          <a [href]="sponsor.sponsorLink" target="_blank">
+            <figure class="overflow-hidden p-5 m-0">
+              <img
+                [src]="sponsor.sponsorImage"
+                class="w-100 h-100 object-fit-contain"
+                alt=""
+              />
+            </figure>
+          </a>
+
+          <p
+            class="sponsor-type font-13 font-family-poppins position-absolute m-0"
+            [ngClass]="{
+              'bronze-text': sponsor.sponsorType === 'Bronze',
+              'silver-text': sponsor.sponsorType === 'Silver',
+              'gold-text': sponsor.sponsorType === 'Gold'
+            }"
+          >
+            {{ sponsor.sponsorType }}
+          </p>
+        </div>
       </div>
       }
     </div>
