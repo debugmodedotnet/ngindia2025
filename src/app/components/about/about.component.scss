@@ -1,5 +1,12 @@
 @use "../../styles/variables" as *;
 
+.heading {
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
 .hero-video iframe {
     border: 2px solid $nmc-primary;
 }
