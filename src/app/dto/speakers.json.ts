@@ -276,7 +276,7 @@ export const speakers: ISpeakers[] = [
     name: 'Dhananjay Kumar',
     position: 'Founder NomadCoder | ng-India ',
     bio: 'Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.',
-    image: 'assets/images/speakers/dhananjay-kumar.jpeg',
+    image: 'assets/images/speakers/dj.jpeg',
     flag: 'assets/images/speakers/flags/india.png',
     twitter: 'https://x.com/debug_mode',
     linkedin: 'https://www.linkedin.com/in/dhananjaykumar07/',

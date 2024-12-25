@@ -60,7 +60,7 @@ export const agenda: IAgenda[] = [
     title: 'Getting Started With Signals',
     speakerName: 'Dhananjay Kumar',
     speakerPosition: 'Founder @NomadCoder| ng-India',
-    speakerImage: 'assets/images/speakers/dhananjay-kumar.jpeg',
+    speakerImage: 'assets/images/speakers/dj.jpeg',
     startTime: '11:30 PM',
     endTime: '12:00 PM',
     description: '',
