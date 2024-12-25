@@ -1,6 +1,6 @@
-<section class="hero-section overflow-hidden position-relative pt-4">
+<section class="hero-section overflow-hidden position-relative py-5">
   <div class="container-boxed">
-    <div
+    <!-- <div
       class="d-flex justify-content-center align-items-center position-relative z-2"
     >
       <div class="hero-text text-center">
@@ -54,13 +54,11 @@
           Buy Tickets
         </button>
       </div>
-    </div>
+    </div> -->
 
-    <!-- <div
-      class="row justify-content-center align-items-center position-relative z-2"
-    >
-      <div class="col-6">
-        <div class="hero-text">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-xl-6">
+        <div class="hero-text text-center text-xl-start">
           <h1 class="fw-bolder nmc-dark-grey mb-4">
             ng-India
             <sup
@@ -76,9 +74,7 @@
             7th Edition
           </div>
 
-          <h2
-            class="fw-bolder nmc-dark-grey font-38 font-family-poppins mb-4 mb-sm-5"
-          >
+          <h2 class="fw-bolder nmc-dark-grey font-38 font-family-poppins mb-4">
             India's Largest
             <span class="nmc-primary text-bottom-line position-relative"
               >Angular</span
@@ -87,7 +83,7 @@
           </h2>
 
           <div
-            class="d-flex align-items-center justify-content-start flex-column flex-sm-row gap-4 mb-4"
+            class="d-flex align-items-center justify-content-center justify-content-xl-start flex-column flex-sm-row gap-4 mb-4"
           >
             <h6 class="font-26 nmc-dark-grey m-0">
               <i class="bi bi-calendar-event me-2 font-20 nmc-primary"></i>April
@@ -101,7 +97,7 @@
           </div>
 
           <button
-            class="nmc-btn-primary px-5 h-auto py-3 font-20 nmc-bg-dark-grey"
+            class="nmc-btn-primary px-5 h-auto py-3 font-20 nmc-bg-dark-grey mx-auto mx-xl-0"
             type="button"
             [routerLink]="['/home']"
             fragment="pricing"
@@ -113,21 +109,144 @@
         </div>
       </div>
 
-      <div class="col-6">
-        <div class="hero-video overflow-hidden">
-          <iframe
-            width="100%"
-            height="400"
-            src="https://www.youtube.com/embed/uDMODUdI1jU?si=LjPA_4-1iBZCVV48&amp;controls=0&amp;start=1"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+      <div class="col-xl-6 mt-4 mt-xl-0">
+        <!-- <div class="event-stats row align-items-stretch justify-content-center g-4">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="event-card d-flex flex-column h-100 hexagon">
+              <h3 class="nmc-dark-grey font-24 text-center m-0 p-4">
+                <span class="font-48 d-block font-family-poppins mt-2 fun-number">
+                  1
+                </span>
+                Day
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="event-card d-flex flex-column h-100 hexagon">
+              <h3 class="nmc-dark-grey font-24 text-center m-0 p-4">
+                <span class="font-48 d-block font-family-poppins mt-2 fun-number">
+                  15
+                </span>
+                Talks
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="event-card d-flex flex-column h-100 hexagon">
+              <h3 class="nmc-dark-grey font-24 text-center m-0 p-4">
+                <span class="font-48 d-block font-family-poppins mt-2 fun-number">
+                  2
+                </span>
+                Workshops
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="event-card d-flex flex-column h-100 hexagon">
+              <h3 class="nmc-dark-grey font-24 text-center m-0 p-4">
+                <span class="font-48 d-block font-family-poppins mt-2 fun-number">
+                  15
+                </span>
+                Speakers
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="event-card d-flex flex-column h-100 hexagon">
+              <h3 class="nmc-dark-grey font-24 text-center m-0 p-4">
+                <span class="font-48 d-block font-family-poppins mt-2 fun-number">
+                  2
+                </span>
+                Sponsors
+              </h3>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="event-card d-flex flex-column h-100 hexagon">
+              <h3 class="nmc-dark-grey font-24 text-center m-0 p-4">
+                <span class="font-48 d-block font-family-poppins mt-2 fun-number">
+                  500+
+                </span>
+                Delegates
+              </h3>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="users-color-container">
+          <span class="item" style="--i: 1"></span>
+
+          <div class="item d-flex" style="--i: 2">
+            <h3 class="nmc-dark-grey font-20 text-center m-auto">
+              <span class="font-38 d-block font-family-poppins mt-2 fun-number">
+                1
+              </span>
+              Day
+            </h3>
+          </div>
+
+          <span class="item" style="--i: 3"></span>
+
+          <div class="item d-flex" style="--i: 4">
+            <h3 class="nmc-dark-grey font-20 text-center m-auto">
+              <span class="font-38 d-block font-family-poppins mt-2 fun-number">
+                15
+              </span>
+              Talks
+            </h3>
+          </div>
+
+          <div class="item d-flex" style="--i: 10">
+            <h3 class="nmc-dark-grey font-20 text-center m-auto">
+              <span class="font-38 d-block font-family-poppins mt-2 fun-number">
+                15
+              </span>
+              Speakers
+            </h3>
+          </div>
+
+          <span class="item" style="--i: 11"></span>
+
+          <div class="item d-flex" style="--i: 12">
+            <h3 class="nmc-dark-grey font-20 text-center m-auto">
+              <span class="font-38 d-block font-family-poppins mt-2 fun-number">
+                500+
+              </span>
+              Delegates
+            </h3>
+          </div>
+
+          <span class="item" style="--i: 5"></span>
+
+          <span class="item" style="--i: 9"></span>
+
+          <div class="item d-flex" style="--i: 8">
+            <h3 class="nmc-dark-grey font-20 text-center m-auto">
+              <span class="font-38 d-block font-family-poppins mt-2 fun-number">
+                2
+              </span>
+              Workshops
+            </h3>
+          </div>
+
+          <span class="item" style="--i: 7"></span>
+
+          <div class="item d-flex" style="--i: 6">
+            <h3 class="nmc-dark-grey font-20 text-center m-auto">
+              <span class="font-38 d-block font-family-poppins mt-2 fun-number">
+                2
+              </span>
+              Sponsors
+            </h3>
+          </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 
   <!-- <img
