@@ -7,14 +7,14 @@ import { PricingComponent } from "../pricing/pricing.component";
 import { AboutComponent } from "../about/about.component";
 import { ViewportScroller } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-import { StatsComponent } from '../stats/stats.component';
 import { GoodiesComponent } from "../goodies/goodies.component";
 import { SponsorsComponent } from "../sponsors/sponsors.component";
+import { AlbumsComponent } from "../albums/albums.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeroComponent, SpeakersComponent, StatsComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent, SponsorsComponent],
+  imports: [HeroComponent, SpeakersComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent, SponsorsComponent, AlbumsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

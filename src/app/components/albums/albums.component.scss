@@ -1,0 +1,16 @@
+@use "../../styles/variables" as *;
+
+.heading {
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.albums-section {
+
+    figure {
+        height: 350px;
+    }
+
+}
