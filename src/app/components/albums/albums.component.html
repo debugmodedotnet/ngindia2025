@@ -1,0 +1,27 @@
+<section class="albums-section pb-5 pt-4 pt-xl-5 nmc-bg-white">
+  <div class="container-boxed">
+    <div class="text-center heading mb-5">
+      <h2 class="mb-4 text-bottom-line position-relative">Albums</h2>
+    </div>
+
+    <div class="row align-items-center g-3">
+      @for(album of albums; track album;){
+      <div class="col-4">
+        <a [href]="album.link" target="_blank">
+          <figure class="m-0 overflow-hidden">
+            <img
+              [src]="album.image"
+              class="w-100 h-100 object-fit-cover"
+              [alt]="album.year"
+            />
+          </figure>
+
+          <p class="text-center nmc-medium-grey font-18 mt-1 fw-semibold">
+            {{ album.title }}
+          </p>
+        </a>
+      </div>
+      }
+    </div>
+  </div>
+</section>
