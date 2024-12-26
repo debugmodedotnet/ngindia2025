@@ -6,7 +6,10 @@
 
     <div class="agendas">
       @for(agenda of agendas; track agenda;){
-      <div class="agenda d-flex align-items-center flex-column flex-sm-row">
+      <div
+        class="agenda d-flex align-items-center flex-column flex-sm-row"
+        [ngClass]="agenda.bgColor"
+      >
         @if(agenda.speakerImage && agenda.speakerName){
         <figure class="speaker-img m-0 rounded-circle overflow-hidden">
           <img

@@ -5,5 +5,6 @@ export interface IAgenda {
     speakerImage: string;
     startTime: string;
     endTime: string;
-    description: string;    
+    bgColor: string;
+    description: string;
 }
