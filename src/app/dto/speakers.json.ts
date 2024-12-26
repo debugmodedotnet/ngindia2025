@@ -38,7 +38,7 @@ export const speakers: ISpeakers[] = [
   {
     id: 5,
     name: 'Christopher Holder',
-    position: 'Full Stack Engineer @ push-based.io',
+    position: 'Full Stack Engineer @push-based.io',
     bio: 'Christopher is a Full Stack Engineer at push-based.io. He does consulting and auditing on Angular applications to help companies optimize their application architecture and performance as an Open Source contributor he collaborates on projects that help make the web faster and speed regression by making testing performance easier and scalable.',
     image: 'assets/images/speakers/chris-holder.png',
     flag: 'assets/images/speakers/flags/austria.png',
@@ -51,8 +51,8 @@ export const speakers: ISpeakers[] = [
         title: 'Optimizing Network Request and LCP in Angular Applications',
         event: 'ng-India 2023',
         link: 'https://www.youtube.com/watch?v=l9LXZ6KqU34',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 7,
@@ -70,8 +70,8 @@ export const speakers: ISpeakers[] = [
         title: 'Incremental Static Regeneration for Angular',
         event: 'ng-India 2023',
         link: 'https://www.youtube.com/watch?v=gIqyTp36NJ0',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 12,
@@ -84,7 +84,7 @@ export const speakers: ISpeakers[] = [
     linkedin: 'https://www.linkedin.com/in/julian-jandl-43a2b9125/',
     github: 'https://github.com/hoebbelsB',
     youtube: '',
-    previousTalks: [],
+    previousTalks: []
   },
   {
     id: 10,
@@ -97,12 +97,12 @@ export const speakers: ISpeakers[] = [
     linkedin: 'https://www.linkedin.com/in/markostanimirovic/',
     github: 'https://github.com/markostanimirovic/',
     youtube: '',
-    previousTalks: [],
+    previousTalks: []
   },
   {
     id: 9,
     name: 'Markus Ingvarsson',
-    position: 'Software Engineer @ Podme',
+    position: 'Software Engineer @Podme',
     bio: "Markus is a full-stack developer, holding an Msc in Computer Science from Chalmers University of Technology. From leveling up in World of Warcraft to navigating the world of sales, he's always been up for a challenge. Now, software development is his main quest. Outside of coding, Markus also contributes to the tech scene as a co-organizer of the Angular Community Meetup.",
     image: 'assets/images/speakers/markus-ingvarsson.jpeg',
     flag: 'assets/images/speakers/flags/sweden.png',
@@ -115,8 +115,8 @@ export const speakers: ISpeakers[] = [
         title: 'Client-Side Machine Learning - Angular Is All You Need',
         event: 'ng-India 2024',
         link: 'https://www.youtube.com/watch?v=dJ2fwiWJ-4Q',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 2,
@@ -149,8 +149,8 @@ export const speakers: ISpeakers[] = [
         title: 'The Ease Of Using Higher Order Operators ',
         event: 'ng-India 2019',
         link: 'https://www.youtube.com/watch?v=My6fBeYRKyA',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 1,
@@ -188,8 +188,8 @@ export const speakers: ISpeakers[] = [
         title: 'Demystifying Change Detection in Angular',
         event: 'ng-India 2019',
         link: 'https://www.youtube.com/watch?v=XTNL4WJRCrM',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 6,
@@ -207,8 +207,8 @@ export const speakers: ISpeakers[] = [
         title: 'Match Made in Heaven: NgRx SignalStore',
         event: 'ng-India 2024',
         link: 'https://www.youtube.com/watch?v=sZKBMyGhU2Q',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 8,
@@ -226,8 +226,8 @@ export const speakers: ISpeakers[] = [
         title: 'Angular Template Context Mental Model',
         event: 'ng-India 2023',
         link: 'https://www.youtube.com/watch?v=o9yabFUkS1Y',
-      },
-    ],
+      }
+    ]
   },
   {
     id: 11,
@@ -240,12 +240,12 @@ export const speakers: ISpeakers[] = [
     linkedin: 'https://www.linkedin.com/in/tomasz-ducin-82234a4b/',
     github: '',
     youtube: '',
-    previousTalks: [],
+    previousTalks: []
   },
   {
     id: 4,
     name: 'Vojtech Mašek',
-    position: 'CTO @ flowup',
+    position: 'CTO @flowup',
     bio: 'He is a software engineer with expertise in Angular and TypeScript. He has co-founded FlowUp, a software development agency. He has built a team of great developers along with his fantastic colleagues. His job is to ensure that projects are delivered with cutting-edge tech and ready to go live and large.',
     image: 'assets/images/speakers/vojtech-masek.png',
     flag: 'assets/images/speakers/flags/prague.png',
@@ -268,11 +268,24 @@ export const speakers: ISpeakers[] = [
         title: 'Optimising Angular app size for production',
         event: 'ng-India 2022',
         link: 'https://www.youtube.com/watch?v=_Fw4B6zCHtE',
-      },
-    ],
+      }
+    ]
   },
   {
-    id: 13,
+    id: 0,
+    name: 'Shweta Mulik',
+    position: 'SDE-2 @AGCO',
+    bio: 'She is a Frontend Engineer from Bangalore with 4.5 years of experience specializing in Angular. Currently serving as an SDE-2 @AGCO Corp, she is dedicated to enhancing the performance and user experience of Angular applications. Passionate about Angular, she actively shares her expertise on advanced techniques, performance optimization, and best practices with fellow developers.Recently, she has developed a keen interest in AI and is exploring its integration into frontend development to build smarter and more efficient applications.',
+    image: 'assets/images/speakers/shweta-mulik.jpeg',
+    flag: 'assets/images/speakers/flags/india.png',
+    twitter: 'https://x.com/shwetamulik7',
+    linkedin: 'https://www.linkedin.com/in/shwetamulik/',
+    github: '',
+    youtube: '',
+    previousTalks: []
+  },
+  {
+    id: 14,
     name: 'Dhananjay Kumar',
     position: 'Founder NomadCoder | ng-India ',
     bio: 'Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.',

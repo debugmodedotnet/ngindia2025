@@ -1,6 +1,25 @@
 import { ISponsors } from "../models/sponsors";
 
 export const sponsors: ISponsors[] = [
+    {
+        "sponsorLink": "https://matchbookai.com/",
+        "sponsorImage": "assets/images/sponsors/matchbook-ai.jpeg",
+        "sponsorType": "Bronze"
+    },
+    {
+        "sponsorLink": "https://rezoomex.com/",
+        "sponsorImage": "assets/images/sponsors/rezoomex.png",
+        "sponsorType": "Bronze"
+    },
+    {
+        "sponsorLink": "https://a4technology.com/",
+        "sponsorImage": "assets/images/sponsors/a4tech.jpeg",
+        "sponsorType": "Bronze"
+    }
+    // {
+    //     "sponsorLink": "https://www.questpond.com/",
+    //     "sponsorImage": "assets/images/sponsors/questpond.png"
+    // },
     // {
     //     "sponsorLink": "https://www.7n.com/",
     //     "sponsorImage": "assets/images/sponsors/7n.png"
@@ -12,24 +31,6 @@ export const sponsors: ISponsors[] = [
     // {
     //     "sponsorLink": "https://ivy.global/",
     //     "sponsorImage": "assets/images/sponsors/ivy.png"
-    // },
-    {
-        "sponsorLink": "https://matchbookai.com/",
-        "sponsorImage": "assets/images/sponsors/matchbook-ai.jpeg",
-        "sponsorType":"Bronze"
-    },
-    // {
-    //     "sponsorLink": "https://www.questpond.com/",
-    //     "sponsorImage": "assets/images/sponsors/questpond.png"
-    // },
-    {
-        "sponsorLink": "https://rezoomex.com/",
-        "sponsorImage": "assets/images/sponsors/rezoomex.png",
-        "sponsorType":"Bronze"
-    },
-    // {
-    //     "sponsorLink": "https://www.sgmcoe.in/",
-    //     "sponsorImage": "assets/images/sponsors/sgm.jpg"
     // },
     // {
     //     "sponsorLink": "https://www.syncfusion.com/",
