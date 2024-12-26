@@ -8,6 +8,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/registration.png',
     startTime: '8:00 AM',
     endTime: '9:00 AM',
+    bgColor:'light-green',
     description: '',
   },
   {
@@ -17,6 +18,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/default.jpg',
     startTime: '9:00 AM',
     endTime: '9:30 AM',
+    bgColor:'light-blue',
     description: '',
   },
   {
@@ -26,6 +28,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/default.jpg',
     startTime: '9:30 AM',
     endTime: '10:00 AM',
+    bgColor:'light-pink',
     description: '',
   },
   {
@@ -35,6 +38,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/award.png',
     startTime: '10:00 AM',
     endTime: '10:30 AM',
+    bgColor:'light-green',
     description: '',
   },
   {
@@ -44,6 +48,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/michael-hladky.jpeg',
     startTime: '10:30 AM',
     endTime: '11:00 AM',
+    bgColor:'light-red',
     description: '',
   },
   {
@@ -53,6 +58,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/rainer-hahnekamp.jpg',
     startTime: '11:00 AM',
     endTime: '11:30 PM',
+    bgColor:'light-purple',
     description:
       '<b>Micro Frontends</b> are a hot topic, promising an architecture where multiple teams can work independently on a single application, making their own technical choices while remaining isolated from each other. Sounds ideal, right? <br/> <br/> But it’s worth considering the trade-offs. While Micro Frontends offer unique benefits, they also introduce overhead and can come with unexpected challenges. <br/> <br/> In this talk, I’ll provide an <b>honest overview of the technical possibilities </b>, along with the pros and cons of each approach. You’ll learn about iFrame integration, Web Components, Native & Module Federation, and see these techniques in action. <br/> <br/> For some, Micro Frontends are a <b>no-go</b>; for others, they’re an option or <b>even an absolute necessity</b>. By the end of my talk, you should know which group you belong to.',
   },
@@ -63,6 +69,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/dj.jpeg',
     startTime: '11:30 PM',
     endTime: '12:00 PM',
+    bgColor:'light-blue',
     description: '',
   },
   {
@@ -72,6 +79,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/enea-jahollari.webp',
     startTime: '12:00 AM',
     endTime: '12:30 PM',
+    bgColor:'light-pink',
     description:
       'Angular <b> Signals </b> are a game-changer. But we can go even further.<br/><br/>This talk unveils how to build powerful utility functions, leveraging <b>inject </b> and <b>DestroyRef</b> to supercharge your Signals. Learn how to create reusable reactive patterns, simplify your code, and embrace a new <b> "synchronization" </b> mindset that optimizes performance. <br/><br/>Prepare to level up your Angular development with the building blocks of the future!',
   },
@@ -82,6 +90,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/marko-stanimirovic.jpg',
     startTime: '12:30 PM',
     endTime: '1:00 PM',
+    bgColor:'light-red',
     description:
       '<b>Event-driven architecture </b> adds a layer of indirection that enhances decoupling, improves data flow predictability, and supports the scaling of complex systems. <br/><br/> While SignalStore does not natively support an event-based model, its flexible and highly extensible design opens the door to integrating various functionalities and applying diverse state management patterns. <br/><br/> In this talk, we will explore how event-driven principles can be used with SignalStore to enhance and scale the <b>state management layer </b> in complex Angular applications.',
   },
@@ -92,6 +101,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/lunch-break.png',
     startTime: '1:00 PM',
     endTime: '2:00 PM',
+    bgColor:'light-yellow',
     description: '',
   },
   {
@@ -102,6 +112,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/tomas-trajan.jpeg',
     startTime: '2:00 PM',
     endTime: '2:30 PM',
+    bgColor:'light-purple',
     description:
       'Learn how to <b>architect</b> a brand new or improve an existing enterprise grade Angular application with a bulletproof <b>ESLINT</b> based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!',
   },
@@ -112,6 +123,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/vojtech-masek.png',
     startTime: '2:30 PM',
     endTime: '3:00 PM',
+    bgColor:'light-blue',
     description: '',
   },
   {
@@ -121,6 +133,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/julian-jandl.webp',
     startTime: '3:00 PM',
     endTime: '3:30 PM',
+    bgColor:'light-pink',
     description: '',
   },
   {
@@ -130,6 +143,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/chris-holder.png',
     startTime: '3:30 PM',
     endTime: '4:00 PM',
+    bgColor:'light-red',
     description: '',
   },
   {
@@ -139,6 +153,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/tea-cup.png',
     startTime: '4:00 PM',
     endTime: '4:30 PM',
+    bgColor:'light-yellow',
     description: '',
   },
   {
@@ -148,6 +163,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/tomasz-ducin.webp',
     startTime: '4:30 PM',
     endTime: '5:00 PM',
+    bgColor:'light-purple',
     description: '',
   },
   {
@@ -157,6 +173,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/markus-ingvarsson.jpeg',
     startTime: '5:00 PM',
     endTime: '5:30 PM',
+    bgColor:'light-blue',
     description: '',
   },
   {
@@ -166,6 +183,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/pankaj-parkar.jpeg',
     startTime: '5:30 PM',
     endTime: '6:00 PM',
+    bgColor:'light-pink',
     description: '',
   },
 ];

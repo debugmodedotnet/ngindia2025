@@ -27,15 +27,18 @@
         padding: 1em;
         border: solid 5px $nmc-dark-grey;
 
-        &.red-hover {         
+        &.red-hover {
             border-width: 2px 2px 4px 4px;
             border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
             transform: rotate(-2deg);
         }
 
+        &:hover {
+            border-color: $nmc-primary;
+        }
+
         &.red-hover:hover {
             background-color: $nmc-primary;
-            border-color: $nmc-primary;
             transform: scale(1.03);
 
             h3 {
