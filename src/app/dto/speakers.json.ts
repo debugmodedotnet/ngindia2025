@@ -272,7 +272,7 @@ export const speakers: ISpeakers[] = [
     ]
   },
   {
-    id: 13,
+    id: 0,
     name: 'Shweta Mulik',
     position: 'SDE-2 @AGCO',
     bio: 'She is a Frontend Engineer from Bangalore with 4.5 years of experience specializing in Angular. Currently serving as an SDE-2 @AGCO Corp, she is dedicated to enhancing the performance and user experience of Angular applications. Passionate about Angular, she actively shares her expertise on advanced techniques, performance optimization, and best practices with fellow developers.Recently, she has developed a keen interest in AI and is exploring its integration into frontend development to build smarter and more efficient applications.',
