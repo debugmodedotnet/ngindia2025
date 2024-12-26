@@ -6,10 +6,7 @@
 
     <div class="agendas">
       @for(agenda of agendas; track agenda;){
-      <div
-        class="agenda d-flex align-items-center flex-column flex-sm-row"
-        [ngClass]="agenda.bgColor"
-      >
+      <div class="agenda d-flex align-items-center flex-column flex-sm-row">
         @if(agenda.speakerImage && agenda.speakerName){
         <figure class="speaker-img m-0 rounded-circle overflow-hidden">
           <img
@@ -36,7 +33,7 @@
           <span class="time fw-semibold"
             >{{ agenda.startTime }} - {{ agenda.endTime }}</span
           >
-          <h2 class="my-3">{{ agenda.title }}</h2>
+          <h2 class="my-3 nmc-primary">{{ agenda.title }}</h2>
 
           <p
             [innerHTML]="agenda.description"
