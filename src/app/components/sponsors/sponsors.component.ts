@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-sponsors',
   standalone: true,
-  imports: [NgClass, RouterLink],
+  imports: [RouterLink],
   templateUrl: './sponsors.component.html',
   styleUrl: './sponsors.component.scss'
 })
