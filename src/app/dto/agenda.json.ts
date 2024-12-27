@@ -140,7 +140,7 @@ export const agenda: IAgenda[] = [
     startTime: '3:00 PM',
     endTime: '3:30 PM',
     description:
-      'Users spend 90% of their time interacting with applications after they load, but most developers just focus on speeding up the initial load. <br/> <br/> In this talk we will go beyond initial loading strategies, and make future navigation feel instant by predicting what users might click on next and loading those parts ahead of time. <br/><br/> We will use real applications to see how to implement speculative loading techniques and how you can measure the improvement with soft navigation  largest contentful paint (LCP). <br/><br/> Finally we will demonstrate how you can convert a 2 second navigation into less than 100 milliseconds using the Intersection Observer API, the Angular router and HTML link tags.',
+      'Users spend 90% of their time interacting with applications after they load, but most developers just focus on speeding up the initial load. <br/> <br/> In this talk we will go beyond initial loading strategies, and make future navigation feel instant by predicting what users might click on next and loading those parts ahead of time. <br/><br/> We will use real applications to see how to implement speculative loading techniques and how you can measure the improvement with soft navigation  largest contentful paint (LCP). <br/><br/> Finally we will demonstrate how you can convert a 2 second navigation into less than 100 milliseconds using the Intersection Observer API, the Angular router and HTML link tags. <br/><br/> <b><u>Takeaways</u></b><br/><br/>Attendees will learn about the soft navigations and how that is about to change the way we measure performance on SPAs. Then they will learn an optimization framework to optimize their own applications using techniques inspired by the Speculative Rules API. They will see through an example that this can improve user experience and future navigations making them feel instant.',
   },
   {
     title: 'Sponsor Talk',
@@ -170,13 +170,14 @@ export const agenda: IAgenda[] = [
     description: '',
   },
   {
-    title: 'TBD',
+    title: 'Virtual Views- Rendering What Matters, When It Matters',
     speakerName: 'Julian Jandl',
     speakerPosition: 'Lead Performance Engineer',
     speakerImage: 'assets/images/speakers/julian-jandl.webp',
     startTime: '5:00 PM',
     endTime: '5:30 PM',
-    description: '',
+    description:
+      'A large number of DOM elements can significantly impact performance, leading to slow performing applications.Mobile users especially operate on limited hardware with smaller viewports. Most of the app contents are hidden below the fold. So why render them at all?<br/><br/> Virtual scrolling has long been a cornerstone of optimizing large lists and data-heavy applications, but it is not without its limitations. <br/></br/> This talk will introduce you to a more versatile solution for rendering only what matters, when it matters - RxAngulars Virtual View Directive. <br/><br/> <u><b>Takeaways</b></u> <br/><br/> <ul><li> *How and why large amounts of DOM negatively impact INP<li> <li>*The main principles of virtual scrolling</li><li>*The key differences between virtual scrolling and virtual views, and why this new approach is better suited for certain scenarios </li><li>*Practical tips for integrating virtual views into your projects, with real-world examples that demonstrate its versatility and performance benefits</li></ul>',
   },
   {
     title: 'Local and Zoneless Change Detection ',
