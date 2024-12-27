@@ -274,7 +274,7 @@ export const speakers: ISpeakers[] = [
   {
     id: 13,
     name: 'Kasia Biernat-Kluba',
-    position: 'Principal Software Engineer (Angular)',
+    position: 'Principal Software Engineer',
     bio: 'Kaisa  is a seasoned developer with over a decade of experience in IT, currently serving as a Principal Frontend Developer at Hyland. Although Angular has been her primary focus in recent years, she enjoys the challenge of exploring backend development when needed. She is passionate about clean and efficient code, adhering to best practices, and delivering modern solutions.',
     image: 'assets/images/speakers/kasia.jpeg',
     flag: 'assets/images/speakers/flags/poland.png',
