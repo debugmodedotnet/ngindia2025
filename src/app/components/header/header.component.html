@@ -102,34 +102,6 @@
           id="navbar"
         >
           <ul class="navbar-nav mb-lg-0 gap-2 gap-lg-3 align-items-center">
-            @if (isSticky) {
-            <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="speakers"
-                >Speakers</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="agenda"
-                >Agenda</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="venue"
-                >Venue</a
-              >
-            </li>
-            } @else {
             <li class="nav-item">
               <a
                 class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
@@ -137,6 +109,24 @@
                 routerLinkActive="active"
                 [routerLinkActiveOptions]="{ exact: true }"
                 >Workshops</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                href="https://www.nomadcoder.ai/ng-india"
+                target="_blank"
+                >History</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="albums"
+                >Photos</a
               >
             </li>
 
@@ -159,7 +149,6 @@
                 >CoC</a
               >
             </li>
-            }
 
             <li class="nav-item d-none d-md-block">
               <button
@@ -180,7 +169,7 @@
   </div>
 </header>
 
-@if (isSticky) {
+<!-- @if (isSticky) {
 <div class="position-sticky">
   <ul class="d-flex align-items-center justify-content-center gap-2 py-3">
     <li class="nav-item">
@@ -211,4 +200,4 @@
     </li>
   </ul>
 </div>
-}
+} -->
