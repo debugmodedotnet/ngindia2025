@@ -273,6 +273,19 @@ export const speakers: ISpeakers[] = [
   },
   {
     id: 13,
+    name: 'Kasia Biernat-Kluba',
+    position: 'Principal Software Engineer (Angular)',
+    bio: 'Kaisa  is a seasoned developer with over a decade of experience in IT, currently serving as a Principal Frontend Developer at Hyland. Although Angular has been her primary focus in recent years, she enjoys the challenge of exploring backend development when needed. She is passionate about clean and efficient code, adhering to best practices, and delivering modern solutions.',
+    image: 'assets/images/speakers/kasia.jpeg',
+    flag: 'assets/images/speakers/flags/poland.png',
+    twitter: 'https://x.com/kathrine000',
+    linkedin: 'https://www.linkedin.com/in/kbiernat',
+    github: 'https://github.com/kathrine0',
+    youtube: '',
+    previousTalks: []
+  },
+  {
+    id: 14,
     name: 'Shweta Mulik',
     position: 'SDE-2 @AGCO',
     bio: 'She is a Frontend Engineer from Bangalore with 4.5 years of experience specializing in Angular. Currently serving as an SDE-2 @AGCO Corp, she is dedicated to enhancing the performance and user experience of Angular applications. Passionate about Angular, she actively shares her expertise on advanced techniques, performance optimization, and best practices with fellow developers.Recently, she has developed a keen interest in AI and is exploring its integration into frontend development to build smarter and more efficient applications.',
@@ -285,7 +298,7 @@ export const speakers: ISpeakers[] = [
     previousTalks: []
   },
   {
-    id: 14,
+    id: 15,
     name: 'Dhananjay Kumar',
     position: 'Founder NomadCoder | ng-India ',
     bio: 'Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.',
