@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
+    //padding: 0;
 }
 
 .heading {
@@ -42,4 +42,13 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+@media (max-width: 575px) {
+    .all-years {
+        li a {
+            font-size: 16px !important;
+        }
+    }
 }
