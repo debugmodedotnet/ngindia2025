@@ -55,8 +55,17 @@ export const agenda: IAgenda[] = [
     speakerPosition: '',
     speakerImage: 'assets/images/agenda/award.png',
     startTime: '10:00 AM',
-    endTime: '10:30 AM',
+    endTime: '10:20 AM',
     description: '',
+  },
+  {
+    title: 'Break',
+    speakerName: '',
+    speakerPosition: '',
+    speakerImage: 'assets/images/agenda/tea-cup.png',
+    startTime: '10:20 AM',
+    endTime: '10:30 AM',
+    description :''
   },
   {
     title: 'Keynote',
@@ -79,13 +88,14 @@ export const agenda: IAgenda[] = [
       '<b>Micro Frontends</b> are a hot topic, promising an architecture where multiple teams can work independently on a single application, making their own technical choices while remaining isolated from each other. Sounds ideal, right? <br/> <br/> But it’s worth considering the trade-offs. While Micro Frontends offer unique benefits, they also introduce overhead and can come with unexpected challenges. <br/> <br/> In this talk, I’ll provide an <b>honest overview of the technical possibilities </b>, along with the pros and cons of each approach. You’ll learn about iFrame integration, Web Components, Native & Module Federation, and see these techniques in action. <br/> <br/> For some, Micro Frontends are a <b>no-go</b>; for others, they’re an option or <b>even an absolute necessity</b>. By the end of my talk, you should know which group you belong to.',
   },
   {
-    title: 'Getting Started With Signals',
+    title: 'Angular Signals - Zero to One',
     speakerName: 'Dhananjay Kumar',
     speakerPosition: 'Founder @NomadCoder| ng-India',
     speakerImage: 'assets/images/speakers/dj.jpeg',
     startTime: '11:30 PM',
     endTime: '12:00 PM',
-    description: '',
+    description:
+      'Signals have become the buzzword among Angular developers, redefining how <b>reactivity</b> is managed in modern applications. At its core, an Angular Signal is a wrapper around a value that notifies its consumers whenever the value changes. It introduces a new, intuitive way to propagate changes through templates and the component tree, providing a way for <b>Local Change Detection </b> or <b>Synchronisation </b>. <br/> <br/> This talk offers a concise introduction to Angular Signals and the core functions that power them: <br/><br/> <ul><li><b>signal()</b></li><li><b>computed()</b></li><li><b>effect()</b></li></ul> <br/><br/> We’ll explore how these functions form the foundation of modern Angular applications and demonstrate their use in real-world scenarios, such as: <br/><br/> <ul><li>* Passing data between parent and child components.</li><li>* Sharing data between unrelated components</li><li>* Integrating Signals with APIs for seamless data handling.</li> <li>* Leveraging newer functions  like resource and rxResource for enhanced reactivity.</li></ul> <br/><br/> Whether you are new to Signals or looking to deepen your understanding, this foundational session will prepare you for further deep-dive sessions on the signals. ',
   },
   {
     title: 'Build on top of Signals',
@@ -117,13 +127,31 @@ export const agenda: IAgenda[] = [
     description: '',
   },
   {
+    title: 'Sponsor 1  Talk',
+    speakerName: 'Sponsors',
+    speakerPosition: 'Sponsors',
+    speakerImage: 'assets/images/agenda/default.jpg',
+    startTime: '2:00 PM',
+    endTime: '2.15 PM',
+    description: '',
+  },
+  {
+    title: 'Sponsor 2  Talk',
+    speakerName: 'Sponsors',
+    speakerPosition: 'Sponsors',
+    speakerImage: 'assets/images/agenda/default.jpg',
+    startTime: '2:15 PM',
+    endTime: '2.30 PM',
+    description: '',
+  },
+  {
     title:
       'Long term success of your Angular projects with automated architecture validation',
     speakerName: 'Tomas Trajan',
     speakerPosition: 'Frontend Architect | Trainer @angularexperts.io',
     speakerImage: 'assets/images/speakers/tomas-trajan.jpeg',
-    startTime: '2:00 PM',
-    endTime: '2:30 PM',
+    startTime: '2:30 PM',
+    endTime: '3:30 PM',
     description:
       'Learn how to <b>architect</b> a brand new or improve an existing enterprise grade Angular application with a bulletproof <b>ESLINT</b> based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!',
   },
@@ -132,8 +160,8 @@ export const agenda: IAgenda[] = [
     speakerName: 'Vojtech Mašek',
     speakerPosition: 'Head of Engineering @ flowup',
     speakerImage: 'assets/images/speakers/vojtech-masek.png',
-    startTime: '2:30 PM',
-    endTime: '3:00 PM',
+    startTime: '3:00 PM',
+    endTime: '3:30 PM',
     description: '',
   },
   {
@@ -141,19 +169,10 @@ export const agenda: IAgenda[] = [
     speakerName: 'Christopher Holder',
     speakerPosition: 'Full Stack Engineer @ push-based.io',
     speakerImage: 'assets/images/speakers/chris-holder.png',
-    startTime: '3:00 PM',
-    endTime: '3:30 PM',
+    startTime: '3:30 PM',
+    endTime: '4:00 PM',
     description:
       'Users spend 90% of their time interacting with applications after they load, but most developers just focus on speeding up the initial load. <br/> <br/> In this talk we will go beyond initial loading strategies, and make future navigation feel instant by predicting what users might click on next and loading those parts ahead of time. <br/><br/> We will use real applications to see how to implement speculative loading techniques and how you can measure the improvement with soft navigation  largest contentful paint (LCP). <br/><br/> Finally we will demonstrate how you can convert a 2 second navigation into less than 100 milliseconds using the Intersection Observer API, the Angular router and HTML link tags. <br/><br/> <b><u>Takeaways</u></b><br/><br/>Attendees will learn about the soft navigations and how that is about to change the way we measure performance on SPAs. Then they will learn an optimization framework to optimize their own applications using techniques inspired by the Speculative Rules API. They will see through an example that this can improve user experience and future navigations making them feel instant.',
-  },
-  {
-    title: 'Sponsor Talk',
-    speakerName: 'Sponsors',
-    speakerPosition: 'Sponsors',
-    speakerImage: 'assets/images/agenda/default.jpg',
-    startTime: '3:30 PM',
-    endTime: '4.00 PM',
-    description: '',
   },
   {
     title: 'Tea Break',
