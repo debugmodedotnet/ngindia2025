@@ -11,13 +11,14 @@ export const agenda: IAgenda[] = [
     description: '',
   },
   {
-    title: 'TBD',
+    title: 'Intelligent Frontends: Angular and Transformers.js',
     speakerName: 'Markus Ingvarsson',
     speakerPosition: 'Full-stack Developer @Consat Telematics',
     speakerImage: 'assets/images/speakers/markus-ingvarsson.jpeg',
     startTime: '9.00 AM',
     endTime: '9:30 AM',
-    description: '',
+    description:
+      'Discover how <b>Transformers.js</b> enables Angular applications to deliver advanced AI capabilities directly in the browser, enhancing user experiences with powerful features. <br/><br/>Learn how to implement AI without relying on servers, ensuring privacy, speed, and scalability. <br/><br/> Through practical examples, we’ll explore how to seamlessly integrate these capabilities into your Angular apps. Achieve more with AI-powered features that take your projects to the next level.',
   },
   // {
   //   title: 'TBD',
@@ -29,24 +30,24 @@ export const agenda: IAgenda[] = [
   //   description: '',
   // },
   {
-    title: 'From SSR to Client-Side: The Power of Incremental Hydration',
-    speakerName: 'Kasia Biernat-Kluba',
-    speakerPosition: 'Principal Software Engineer',
-    speakerImage: 'assets/images/speakers/kasia.jpeg',
-    startTime: '9:30 AM',
-    endTime: '9:45 AM',
-    description:
-      'Angular <b>Server-Side Rendering (SSR) </b> significantly improves load times and SEO, but the transition to client-side rendering can still be slow. <br/><br/><b>Incremental Hydration </b> is a powerful technique that speeds up this process by hydrating only the necessary parts of the app as the user interacts with it, rather than all at once. In this lightning talk we’ll explore how incremental hydration impacts application performance and how you can leverage the latest features to your advantage.',
-  },
-  {
     title: 'Optimizing App Performance with @defer',
     speakerName: 'Shweta Mulik',
     speakerPosition: 'SDE-2 @AGCO',
     speakerImage: 'assets/images/speakers/shweta-mulik.jpeg',
+    startTime: '9:30 AM',
+    endTime: '9:45 AM',
+    description:
+      'In app development, you often have components that are not immediately needed—like content below the visible screen or complex features that users interact with later. Instead of loading everything at once, you can delay loading these parts using deferrable views, also known as @defer blocks. <br/><br/> This approach makes your app load faster by reducing the size of the initial bundle, improving performance metrics like Largest Contentful Paint (LCP) and Time to First Byte (TTFB). <br/><br/> Join this talk to explore Angular new <b>@defer</b> feature and learn how it can enhance your app’s speed and user experience!',
+  },
+  {
+    title: 'From SSR to Client-Side: The Power of Incremental Hydration',
+    speakerName: 'Kasia Biernat-Kluba',
+    speakerPosition: 'Principal Software Engineer',
+    speakerImage: 'assets/images/speakers/kasia.jpeg',
     startTime: '9:45 AM',
     endTime: '10:00 AM',
     description:
-      'In app development, you often have components that are not immediately needed—like content below the visible screen or complex features that users interact with later. Instead of loading everything at once, you can delay loading these parts using deferrable views, also known as @defer blocks. <br/><br/> This approach makes your app load faster by reducing the size of the initial bundle, improving performance metrics like Largest Contentful Paint (LCP) and Time to First Byte (TTFB). <br/><br/> Join this talk to explore Angular new <b>@defer</b> feature and learn how it can enhance your app’s speed and user experience!',
+      'Angular <b>Server-Side Rendering (SSR) </b> significantly improves load times and SEO, but the transition to client-side rendering can still be slow. <br/><br/><b>Incremental Hydration </b> is a powerful technique that speeds up this process by hydrating only the necessary parts of the app as the user interacts with it, rather than all at once. In this lightning talk we’ll explore how incremental hydration impacts application performance and how you can leverage the latest features to your advantage.',
   },
   {
     title: 'Speaker Felicitation',
@@ -64,7 +65,8 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/speakers/michael-hladky.jpeg',
     startTime: '10:30 AM',
     endTime: '11:00 AM',
-    description: 'Learn about all key features of Angular 20 and futute of modern Angular development',
+    description:
+      'Learn about all key features of Angular 20 and futute of modern Angular development',
   },
   {
     title: 'Micro Frontends: Necessity, Implementation, and Challenges',
