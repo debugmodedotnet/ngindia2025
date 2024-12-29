@@ -65,7 +65,7 @@ export const agenda: IAgenda[] = [
     speakerImage: 'assets/images/agenda/tea-cup.png',
     startTime: '10:20 AM',
     endTime: '10:30 AM',
-    description :''
+    description: '',
   },
   {
     title: 'Keynote',
@@ -156,13 +156,14 @@ export const agenda: IAgenda[] = [
       'Learn how to <b>architect</b> a brand new or improve an existing enterprise grade Angular application with a bulletproof <b>ESLINT</b> based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!',
   },
   {
-    title: 'TBD',
+    title:'Hidden gems in Angular: hybrid rendering, new routing features, and beyond',
     speakerName: 'Vojtech Mašek',
-    speakerPosition: 'Head of Engineering @ flowup',
+    speakerPosition: 'CTO @flowup',
     speakerImage: 'assets/images/speakers/vojtech-masek.png',
     startTime: '3:00 PM',
     endTime: '3:30 PM',
-    description: '',
+    description:
+      'Explore the lesser-known but highly impactful features of Angular, including <b>hybrid rendering</b>, powerful approach that combines <b>prerendering</b> and <b>server-side rendering</b> for optimal performance and SEO. <br/><br/> Dive into modern routing improvements like default-exported components and route-specific providers that simplify development while enhancing modularity. This talk will equip you with actionable insights and practical examples to take your Angular applications to the next level, whether you are re building static sites, dynamic dashboards, or complex enterprise solutions.',
   },
   {
     title: 'Instant Navigation in Angular Applications',
