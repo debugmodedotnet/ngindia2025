@@ -17,7 +17,7 @@
         transition: ease all .3s;
         position: relative;
 
-        .pricing-text li{
+        .pricing-text li {
             font-weight: 600;
             color: $nmc-medium-grey;
         }
@@ -59,7 +59,6 @@ a.disabled {
         font-size: 50px;
     }
 }
-
 
 @media (max-width: 375px) {
     .note h3 {
