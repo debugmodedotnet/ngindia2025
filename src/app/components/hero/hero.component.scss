@@ -125,6 +125,10 @@
                 display: inline-block !important;
 
             }
+
+            .date h6 {
+                font-size: 22px !important;
+            }
         }
 
         .event-card {
@@ -141,6 +145,13 @@
 
 @media (max-width: 375px) {
     .hero-section {
+
+        .hero-text {
+            .date h6 {
+                font-size: 18px !important;
+            }
+        }
+
         .event-card {
             h3 {
                 font-size: 16px !important;
