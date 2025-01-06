@@ -156,7 +156,8 @@ export const agenda: IAgenda[] = [
       'Learn how to <b>architect</b> a brand new or improve an existing enterprise grade Angular application with a bulletproof <b>ESLINT</b> based automated architecture validation to guarantee that Your project stays maintainable, extendable and therefore allows you and your team to deliver consistently and with high velocity over the entire project lifetime!',
   },
   {
-    title:'Hidden gems in Angular: hybrid rendering, new routing features, and beyond',
+    title:
+      'Hidden gems in Angular: hybrid rendering, new routing features, and beyond',
     speakerName: 'Vojtech Mašek',
     speakerPosition: 'CTO @flowup',
     speakerImage: 'assets/images/speakers/vojtech-masek.png',
@@ -185,13 +186,13 @@ export const agenda: IAgenda[] = [
     description: '',
   },
   {
-    title: 'TBD',
+    title: 'Ultimate Server-Client State Synchronization with Angular Query',
     speakerName: 'Tomasz Ducin',
     speakerPosition: 'Consultant, Architect, Developer & Trainer',
     speakerImage: 'assets/images/speakers/tomasz-ducin.webp',
     startTime: '4:30 PM',
     endTime: '5:00 PM',
-    description: '',
+    description: 'Fetching data from the server and managing it locally is one of the most overcomplicated and over-engineered aspects found in Angular applications. You probably don not need many of those (unnecessary) abstractions. <br/> <br/> Let us replace them all with ONE abstraction - the only one you will ever need - <b>the QUERY </b>. Let us dive really deep into the state management model behind Angular Query. Although the library is fairly new, it is a port of React Query, which is one of the most widely acclaimed solutions, if not dominant, for storing server data on the react client apps. Its patterns are already influencing angular, resource API included! <br/><br/> In this talk we will get familiar with the mechanics of queries. We will see it is integration with Angular DI, components, signals and services. We will also see the awesome Query Devtools in action!',
   },
   {
     title: 'Virtual Views- Rendering What Matters, When It Matters',
