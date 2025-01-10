@@ -2,13 +2,13 @@ import { ISponsors } from "../models/sponsors";
 
 export const sponsors: ISponsors[] = [
   {
-    sponsorLink: 'https://code-pushup.dev/',
-    sponsorImage: 'assets/images/sponsors/code-pushup.jpeg',
+    sponsorLink: 'https://a4technology.com/',
+    sponsorImage: 'assets/images/sponsors/a4tech.jpeg',
     sponsorType: 'Bronze',
   },
   {
-    sponsorLink: 'https://a4technology.com/',
-    sponsorImage: 'assets/images/sponsors/a4tech.jpeg',
+    sponsorLink: 'https://www.telerik.com/kendo-angular-ui',
+    sponsorImage: 'assets/images/sponsors/kendo.png',
     sponsorType: 'Bronze',
   },
   {
@@ -19,6 +19,11 @@ export const sponsors: ISponsors[] = [
   {
     sponsorLink: 'https://rezoomex.com/',
     sponsorImage: 'assets/images/sponsors/rezoomex.png',
+    sponsorType: 'Bronze',
+  },
+  {
+    sponsorLink: 'https://code-pushup.dev/',
+    sponsorImage: 'assets/images/sponsors/code-pushup.jpeg',
     sponsorType: 'Bronze',
   },
   {
