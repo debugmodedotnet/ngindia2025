@@ -2,6 +2,16 @@ import { ISponsors } from "../models/sponsors";
 
 export const sponsors: ISponsors[] = [
   {
+    sponsorLink: 'https://www.scholarhat.com/',
+    sponsorImage: 'assets/images/sponsors/scholarhat.png',
+    sponsorType: 'Silver',
+  },
+  {
+    sponsorLink: 'https://rezoomex.com/',
+    sponsorImage: 'assets/images/sponsors/rezoomex.png',
+    sponsorType: 'Silver',
+  },
+  {
     sponsorLink: 'https://a4technology.com/',
     sponsorImage: 'assets/images/sponsors/a4tech.jpeg',
     sponsorType: 'Bronze',
@@ -14,11 +24,6 @@ export const sponsors: ISponsors[] = [
   {
     sponsorLink: 'https://squareboat.com/',
     sponsorImage: 'assets/images/sponsors/squareboat.png',
-    sponsorType: 'Bronze',
-  },
-  {
-    sponsorLink: 'https://rezoomex.com/',
-    sponsorImage: 'assets/images/sponsors/rezoomex.png',
     sponsorType: 'Bronze',
   },
   {
