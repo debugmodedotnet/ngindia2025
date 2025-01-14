@@ -2,7 +2,7 @@ import { ISponsors } from "../models/sponsors";
 
 export const sponsors: ISponsors[] = [
   {
-    sponsorLink: 'https://www.scholarhat.com/',
+    sponsorLink: 'https://search.app/DQ9sioxPDQbpPeVd7',
     sponsorImage: 'assets/images/sponsors/scholarhat.png',
     sponsorType: 'Silver',
   },
