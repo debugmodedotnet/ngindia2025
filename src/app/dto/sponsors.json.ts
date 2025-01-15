@@ -2,6 +2,11 @@ import { ISponsors } from "../models/sponsors";
 
 export const sponsors: ISponsors[] = [
   {
+    sponsorLink: 'https://ivy.global/',
+    sponsorImage: 'assets/images/sponsors/ivy.png',
+    sponsorType: 'Silver',
+  },
+  {
     sponsorLink: 'https://search.app/DQ9sioxPDQbpPeVd7',
     sponsorImage: 'assets/images/sponsors/scholarhat.png',
     sponsorType: 'Silver',
@@ -10,6 +15,11 @@ export const sponsors: ISponsors[] = [
     sponsorLink: 'https://rezoomex.com/',
     sponsorImage: 'assets/images/sponsors/rezoomex.png',
     sponsorType: 'Silver',
+  },
+  {
+    sponsorLink: 'https://nx.dev/',
+    sponsorImage: 'assets/images/sponsors/nx.svg',
+    sponsorType: 'Bronze',
   },
   {
     sponsorLink: 'https://a4technology.com/',
@@ -35,5 +45,5 @@ export const sponsors: ISponsors[] = [
     sponsorLink: 'https://matchbookai.com/',
     sponsorImage: 'assets/images/sponsors/matchbook-ai.jpeg',
     sponsorType: 'Bronze',
-  },
+  }
 ];
