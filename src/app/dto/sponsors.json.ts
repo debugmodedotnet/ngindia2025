@@ -18,7 +18,7 @@ export const sponsors: ISponsors[] = [
   },
   {
     sponsorLink: 'https://nx.dev/',
-    sponsorImage: 'assets/images/sponsors/nx.svg',
+    sponsorImage: 'assets/images/sponsors/nx.png',
     sponsorType: 'Bronze',
   },
   {
