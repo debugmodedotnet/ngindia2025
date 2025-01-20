@@ -45,5 +45,10 @@ export const sponsors: ISponsors[] = [
     sponsorLink: 'https://matchbookai.com/',
     sponsorImage: 'assets/images/sponsors/matchbook-ai.jpeg',
     sponsorType: 'Bronze',
+  },
+  {
+    sponsorLink: 'https://hrone.cloud/',
+    sponsorImage: 'assets/images/sponsors/hrone.png',
+    sponsorType: 'Bronze',
   }
 ];
