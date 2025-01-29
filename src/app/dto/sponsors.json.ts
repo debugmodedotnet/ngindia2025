@@ -12,6 +12,11 @@ export const sponsors: ISponsors[] = [
     sponsorType: 'Silver',
   },
   {
+    sponsorLink: 'https://www.7n.com/',
+    sponsorImage: 'assets/images/sponsors/7n.png',
+    sponsorType: 'Silver',
+  },
+  {
     sponsorLink: 'https://rezoomex.com/',
     sponsorImage: 'assets/images/sponsors/rezoomex.png',
     sponsorType: 'Silver',
