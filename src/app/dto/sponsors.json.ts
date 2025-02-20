@@ -3,7 +3,7 @@ import { ISponsors } from "../models/sponsors";
 export const sponsors: ISponsors[] = [
   {
     sponsorLink: 'https://ivy.global/',
-    sponsorImage: 'assets/images/sponsors/ivy.jpeg',
+    sponsorImage: 'assets/images/sponsors/ivy.png',
     sponsorType: 'Silver',
   },
   {
