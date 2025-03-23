@@ -185,23 +185,23 @@ export const agenda: IAgenda[] = [
     endTime: '4:30 PM',
     description: '',
   },
-  {
-    title: 'Ultimate Server-Client State Synchronization with Angular Query',
-    speakerName: 'Tomasz Ducin',
-    speakerPosition: 'Consultant, Architect, Developer & Trainer',
-    speakerImage: 'assets/images/speakers/tomasz-ducin.webp',
-    startTime: '4:30 PM',
-    endTime: '5:00 PM',
-    description:
-      'Fetching data from the server and managing it locally is one of the most overcomplicated and over-engineered aspects found in Angular applications. You probably don not need many of those (unnecessary) abstractions. <br/> <br/> Let us replace them all with ONE abstraction - the only one you will ever need - <b>the QUERY </b>. Let us dive really deep into the state management model behind Angular Query. Although the library is fairly new, it is a port of React Query, which is one of the most widely acclaimed solutions, if not dominant, for storing server data on the react client apps. Its patterns are already influencing angular, resource API included! <br/><br/> In this talk we will get familiar with the mechanics of queries. We will see it is integration with Angular DI, components, signals and services. We will also see the awesome Query Devtools in action!',
-  },
+  // {
+  //   title: 'Ultimate Server-Client State Synchronization with Angular Query',
+  //   speakerName: 'Tomasz Ducin',
+  //   speakerPosition: 'Consultant, Architect, Developer & Trainer',
+  //   speakerImage: 'assets/images/speakers/tomasz-ducin.webp',
+  //   startTime: '4:30 PM',
+  //   endTime: '5:00 PM',
+  //   description:
+  //     'Fetching data from the server and managing it locally is one of the most overcomplicated and over-engineered aspects found in Angular applications. You probably don not need many of those (unnecessary) abstractions. <br/> <br/> Let us replace them all with ONE abstraction - the only one you will ever need - <b>the QUERY </b>. Let us dive really deep into the state management model behind Angular Query. Although the library is fairly new, it is a port of React Query, which is one of the most widely acclaimed solutions, if not dominant, for storing server data on the react client apps. Its patterns are already influencing angular, resource API included! <br/><br/> In this talk we will get familiar with the mechanics of queries. We will see it is integration with Angular DI, components, signals and services. We will also see the awesome Query Devtools in action!',
+  // },
   {
     title: 'Virtual Views- Rendering What Matters, When It Matters',
     speakerName: 'Julian Jandl',
     speakerPosition: 'Lead Performance Engineer',
     speakerImage: 'assets/images/speakers/julian-jandl.webp',
-    startTime: '5:00 PM',
-    endTime: '5:30 PM',
+    startTime: '4:30 PM',
+    endTime: '5:00 PM',
     description:
       'A large number of DOM elements can significantly impact performance, leading to slow performing applications.Mobile users especially operate on limited hardware with smaller viewports. Most of the app contents are hidden below the fold. So why render them at all?<br/><br/> Virtual scrolling has long been a cornerstone of optimizing large lists and data-heavy applications, but it is not without its limitations. <br/></br/> This talk will introduce you to a more versatile solution for rendering only what matters, when it matters - RxAngulars Virtual View Directive. <br/><br/> <u><b>Takeaways</b></u> <br/><br/> <ul><li> *How and why large amounts of DOM negatively impact INP<li> <li>*The main principles of virtual scrolling</li><li>*The key differences between virtual scrolling and virtual views, and why this new approach is better suited for certain scenarios </li><li>*Practical tips for integrating virtual views into your projects, with real-world examples that demonstrate its versatility and performance benefits</li></ul>',
   },
@@ -210,9 +210,19 @@ export const agenda: IAgenda[] = [
     speakerName: 'Pankaj Parkar',
     speakerPosition: 'Principal Application Developer @AON',
     speakerImage: 'assets/images/speakers/pankaj-parkar.jpeg',
+    startTime: '5:00 PM',
+    endTime: '5:30 PM',
+    description:
+      'In modern web development, achieving efficient, scalable, and reactive applications is paramount. Traditional <b>change detection</b> strategies often rely on Angular <b>Zone.js </b>, while powerful, can introduce performance bottlenecks and complexity in large-scale applications. <br/><br/>This talk dives into the evolution of change detection, exploring how local and zoneless change detection strategies are transforming the way we synchronize state and update views.<br/> <br/> We will unravel the mechanics behind these approaches, demonstrate their impact on performance optimization, and showcase practical use cases.<br/><br/> Join us to discover the concept of synchronization and how you can architect applications to thrive in the new angular era',
+  },
+  {
+    title: 'Talk to Panel',
+    speakerName: '',
+    speakerPosition: '',
+    speakerImage: 'assets/images/agenda/award.png',
     startTime: '5:30 PM',
     endTime: '6:00 PM',
     description:
-      'In modern web development, achieving efficient, scalable, and reactive applications is paramount. Traditional <b>change detection</b> strategies often rely on Angular <b>Zone.js </b>, while powerful, can introduce performance bottlenecks and complexity in large-scale applications. <br/><br/>This talk dives into the evolution of change detection, exploring how local and zoneless change detection strategies are transforming the way we synchronize state and update views.<br/> <br/> We will unravel the mechanics behind these approaches, demonstrate their impact on performance optimization, and showcase practical use cases.<br/><br/> Join us to discover the concept of synchronization and how you can architect applications to thrive in the new angular era',
+      'Bring your questions',
   },
 ];
