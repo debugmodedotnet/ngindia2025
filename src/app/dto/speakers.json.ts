@@ -262,7 +262,7 @@ export const speakers: ISpeakers[] = [
     id: 12,
     name: 'Anusha Nara',
     position: 'Customer Success @MatchbookAI',
-    bio: 'With over 8 years of experience in Client Success Management, Business Analysis, Product Management, and Tableau Development, <b>Anusha Nara </b> specializes in aligning project goals with stakeholder needs through strategic communication and meticulous requirements management. <br/>She develops and executes comprehensive test plans and leads high-performance teams to ensure software quality and reliability under pressure. Proficient in creating advanced Tableau visualizations, Anusha translates complex data into actionable insights, driving informed decision-making and optimizing business performance. Her expertise in documentation and cross-functional collaboration supports the seamless execution of high-impact projects.',
+    bio: 'With over 8 years of experience in Client Success Management, Business Analysis, Product Management, and Tableau Development, Anusha Nara specializes in aligning project goals with stakeholder needs through strategic communication and meticulous requirements management. She develops and executes comprehensive test plans and leads high-performance teams to ensure software quality and reliability under pressure. Proficient in creating advanced Tableau visualizations, Anusha translates complex data into actionable insights, driving informed decision-making and optimizing business performance. Her expertise in documentation and cross-functional collaboration supports the seamless execution of high-impact projects.',
     image: 'assets/images/speakers/ausha.jpeg',
     flag: 'assets/images/speakers/flags/india.png',
     twitter: '',
