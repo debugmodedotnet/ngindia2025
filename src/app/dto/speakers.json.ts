@@ -201,7 +201,7 @@ export const speakers: ISpeakers[] = [
   //   previousTalks: [],
   // },
   {
-    id: 9,
+    id: 8,
     name: 'Julian Jandl',
     position: 'Lead Performance Engineer',
     bio: 'Julian is Lead Performance Engineer, Trainer & Consultant at Push-Based.io. As a webperf enthusiast, he loves experimenting with cutting edge technologies to improve the speed of the web at scale. Julian is conducting performance audits for existing applications, fixing performance bottlenecks and teaching about webperf & angular in workshops.',
@@ -214,7 +214,7 @@ export const speakers: ISpeakers[] = [
     previousTalks: [],
   },
   {
-    id: 10,
+    id: 9,
     name: 'Markus Ingvarsson',
     position: 'Software Engineer @Podme',
     bio: "Markus is a full-stack developer, holding an Msc in Computer Science from Chalmers University of Technology. From leveling up in World of Warcraft to navigating the world of sales, he's always been up for a challenge. Now, software development is his main quest. Outside of coding, Markus also contributes to the tech scene as a co-organizer of the Angular Community Meetup.",
@@ -233,7 +233,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     name: 'Kasia Biernat-Kluba',
     position: 'Principal Software Engineer',
     bio: 'Kasia  is a seasoned developer with over a decade of experience in IT, currently serving as a Principal Frontend Developer at Hyland. Although Angular has been her primary focus in recent years, she enjoys the challenge of exploring backend development when needed. She is passionate about clean and efficient code, adhering to best practices, and delivering modern solutions.',
@@ -246,7 +246,7 @@ export const speakers: ISpeakers[] = [
     previousTalks: [],
   },
   {
-    id: 12,
+    id: 11,
     name: 'Shweta Mulik',
     position: 'SDE-2 @AGCO',
     bio: 'Shweta is a Frontend Engineer from Bangalore with 4.5 years of experience specializing in Angular. Currently serving as an SDE-2 @AGCO Corp, she is dedicated to enhancing the performance and user experience of Angular applications. Passionate about Angular, she actively shares her expertise on advanced techniques, performance optimization, and best practices with fellow developers.Recently, she has developed a keen interest in AI and is exploring its integration into frontend development to build smarter and more efficient applications.',
@@ -259,7 +259,39 @@ export const speakers: ISpeakers[] = [
     previousTalks: [],
   },
   {
+    id: 12,
+    name: 'Anusha Nara',
+    position: 'Customer Success @MatchbookAI',
+    bio: 'With over 8 years of experience in Client Success Management, Business Analysis, Product Management, and Tableau Development, <b>Anusha Nara </b> specializes in aligning project goals with stakeholder needs through strategic communication and meticulous requirements management. <br/>She develops and executes comprehensive test plans and leads high-performance teams to ensure software quality and reliability under pressure. Proficient in creating advanced Tableau visualizations, Anusha translates complex data into actionable insights, driving informed decision-making and optimizing business performance. Her expertise in documentation and cross-functional collaboration supports the seamless execution of high-impact projects.',
+    image: 'assets/images/speakers/ausha.jpeg',
+    flag: 'assets/images/speakers/flags/india.png',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/venkata-anusha-nara-78915720a/',
+    github: '',
+    youtube: '',
+    previousTalks: [],
+  },
+  {
     id: 13,
+    name: 'Shubhangi Shukla',
+    position: 'Software Engineer @EY',
+    bio: 'Shubhangi is a passionate web developer from India with 3.5 years of experience, specializing in Angular. She enjoys exploring different frameworks and technologies to sharpen her skills. She also helps developers prepare for job interviews with mock sessions. Have a frontend or JavaScript question? Need a mock interview? Her DMs are always open on LinkedIn and Twitter!',
+    image: 'assets/images/speakers/shubhangi.jpeg',
+    flag: 'assets/images/speakers/flags/india.png',
+    twitter: 'https://x.com/shubhangi719',
+    linkedin: 'https://www.linkedin.com/in/shubhangi-shukla-086753181/',
+    github: '',
+    youtube: '',
+    previousTalks: [
+      {
+        title: 'Hydration in Angular ',
+        event: 'ng-India 2024',
+        link: 'https://www.youtube.com/watch?v=WynVr9OyKJ4&t=26s',
+      },
+    ],
+  },
+  {
+    id: 14,
     name: 'Pankaj Parkar',
     position: 'Principal Application Developer @AON',
     bio: 'Pankaj Parkar is currently working as Principal Application Developer at Aon Centre for Innovation and Analytics (ACIA). He has total 10 years of experience in web development. He had worked on multiple JS frameworks like Angular, React, Ionic, VueJS, EmberJS, etc.',
@@ -298,7 +330,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     name: 'Himanshu Saraswat',
     position: 'SDE III @Ivy',
     bio: 'Himanshu Saraswat is a seasoned developer with over a decade of industry experience, specializing in Angular. A passionate advocate for Google Cloud and Firebase, he combines technical expertise with a love for sharing knowledge evident in his articles over medium. He aims to inspire and empower developers to build scalable and innovative applications.',
@@ -317,7 +349,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     name: 'Shailendra Chauhan',
     position: 'Founder and CEO @ScholarHat',
     bio: 'Shailendra Chauhan is the Founder and CEO at ScholarHat by DotNetTricks, which empowers professionals to learn and master in-demand job skills. With over 15 years of development experience in Microsoft Azure, DevOps, Microservices, .NET, ASP.NET Core, Angular, React, and Node.js, He is passionate about sharing his knowledge and expertise with the community.',
@@ -330,7 +362,7 @@ export const speakers: ISpeakers[] = [
     previousTalks: [],
   },
   {
-    id: 16,
+    id: 17,
     name: 'Dhananjay Kumar',
     position: 'Founder NomadCoder | ng-India',
     bio: 'Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.',
