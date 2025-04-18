@@ -47,4 +47,9 @@ export class HeaderComponent {
     this.router.navigate(['/home'], { fragment });
   }
 
+  openPhotoalbum(){
+    const url = 'https://photos.app.goo.gl/WfWXVR2P9CxK4LW16'; // Replace with your desired URL
+    window.open(url, '_blank');
+  }
+
 }

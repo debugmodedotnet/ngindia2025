@@ -44,7 +44,7 @@
       <a class="font-18 font-family-poppins nmc-dark-grey" href="/coc">CoC</a>
     </li>
 
-    <li class="w-100 py-3 d-block d-sm-none">
+    <!-- <li class="w-100 py-3 d-block d-sm-none">
       <button
         class="nmc-btn-primary m-auto"
         type="button"
@@ -52,7 +52,17 @@
       >
         Buy Tickets
       </button>
-    </li>
+    </li> -->
+
+     <li class="w-100 py-3 d-block d-sm-none">
+      <button
+        class="nmc-btn-primary m-auto"
+        type="button"
+        (click)="openPhotoalbum()"
+      >
+        2025 PHOTOS
+      </button>
+    </li> 
   </ul>
 
   <div
@@ -83,7 +93,7 @@
     </a>
 
     <div class="d-flex align-items-center justify-content-end">
-      <button
+      <!-- <button
         class="nmc-btn-primary px-3 h-auto py-2 mx-auto me-3 font-18 d-none d-sm-block d-xl-none"
         type="button"
         [routerLink]="['/home']"
@@ -92,7 +102,14 @@
         [routerLinkActiveOptions]="{ exact: true }"
       >
         Buy Tickets
-      </button>
+      </button> -->
+      <button
+      class="nmc-btn-primary px-3 h-auto py-2 mx-auto me-3 font-18 d-none d-sm-block d-xl-none"
+      type="button"
+      (click)="openPhotoalbum()"
+    >
+      2025 PHOTOS
+    </button>
 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-xl">
@@ -177,7 +194,7 @@
               >
             </li>
 
-            <li class="nav-item d-none d-md-block">
+            <!-- <li class="nav-item d-none d-md-block">
               <button
                 class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 mx-auto ms-0 ms-lg-3 font-20"
                 type="button"
@@ -187,6 +204,15 @@
                 [routerLinkActiveOptions]="{ exact: true }"
               >
                 Buy Tickets
+              </button>
+            </li> -->
+            <li class="nav-item d-none d-md-block">
+              <button
+                class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 mx-auto ms-0 ms-lg-3 font-20"
+                type="button"
+                (click)="openPhotoalbum()"
+              >
+                2025 PHOTOS
               </button>
             </li>
           </ul>
