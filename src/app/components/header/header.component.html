@@ -35,7 +35,7 @@
     </li> -->
 
     <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/sponsorship"
+      <a class="font-18 font-family-poppins nmc-white" href="/home#sponsors"
         >Sponsors</a
       >
     </li>
@@ -135,6 +135,7 @@
                 class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
                 [routerLink]="['/home']"
                 fragment="speakers"
+                routerLinkActive="active"
                 >Speakers</a
               >
             </li>
@@ -143,6 +144,7 @@
                 class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
                 [routerLink]="['/home']"
                 fragment="agenda"
+                routerLinkActive="active"
                 >Agenda</a
               >
             </li>
@@ -177,9 +179,9 @@
             <li class="nav-item">
               <a
                 class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                routerLink="/sponsorship"
+                [routerLink]="['/home']"
+                fragment="sponsors"
                 routerLinkActive="active"
-                [routerLinkActiveOptions]="{ exact: true }"
                 >Sponsors</a
               >
             </li>

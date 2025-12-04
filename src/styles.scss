@@ -733,6 +733,15 @@ inset-0 {
     box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0px 0px 0px 3px rgba(220, 0, 0, .1);
 }
 
+// Override for header with red background
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link.show {
+    color: $nmc-white !important;
+    border-color: transparent !important;
+    background-color: transparent;
+    box-shadow: none;
+}
+
 .dropdown-toggle::after {
     display: none !important;
 }
