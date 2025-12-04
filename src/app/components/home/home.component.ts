@@ -10,11 +10,13 @@ import { ActivatedRoute } from '@angular/router';
 import { GoodiesComponent } from "../goodies/goodies.component";
 import { SponsorsComponent } from "../sponsors/sponsors.component";
 import { AlbumsComponent } from "../albums/albums.component";
+import { HeroAltComponent } from '../hero-alt/hero-alt.component';
+import { StatsStickyComponent } from '../stats-sticky/stats-sticky.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeroComponent, SpeakersComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent, SponsorsComponent, AlbumsComponent],
+  imports: [HeroComponent, SpeakersComponent, AgendaComponent, VenueComponent, PricingComponent, AboutComponent, GoodiesComponent, SponsorsComponent, AlbumsComponent, HeroAltComponent, StatsStickyComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
