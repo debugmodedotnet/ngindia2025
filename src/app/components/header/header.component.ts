@@ -52,4 +52,8 @@ export class HeaderComponent {
     window.open(url, '_blank');
   }
 
+  buyTickets(){
+    this.router.navigate(['/home'], { fragment: 'pricing' });
+  }
+
 }

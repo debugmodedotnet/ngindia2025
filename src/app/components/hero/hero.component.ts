@@ -26,4 +26,9 @@ export class HeroComponent {
     window.open(url, '_blank');
   }
 
+  navigateToAIIndia(){
+    // TODO: Implement AI-India navigation logic
+    console.log('AI-India button clicked');
+  }
+
 }

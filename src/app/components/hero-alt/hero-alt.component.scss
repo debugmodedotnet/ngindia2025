@@ -2,48 +2,21 @@
 
 .hero-section {
     .text-bottom-line::after {
-        inset: 60px 0 0 -20px;
+        inset: 110px 0 0 0px;
     }
 
     .hero-text {
         h1 {
-            font-size: 90px;
+            font-size: 175px;
         }
 
         sup {
-            top: -50px;
-            right: 10px;
-        }
-    }
-
-    .event-stats .row+.row {
-        margin-top: -45px;
-    }
-
-    .event-card {
-        transition: ease 0.5s all;
-        position: relative;
-        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-        padding: 1em;
-        border: solid 5px $nmc-dark-grey;
-
-        &.red-hover {
-            border-width: 2px 2px 4px 4px;
-            border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-            transform: rotate(-2deg);
+            top: -105px;
+            right: 25px;
         }
 
-        &:hover {
-            border-color: $nmc-primary;
-        }
-
-        &.red-hover:hover {
-            background-color: $nmc-primary;
-            transform: scale(1.03);
-
-            h3 {
-                color: $nmc-white !important;
-            }
+        .tagline {
+            font-size: 75px !important;
         }
     }
 
@@ -51,7 +24,7 @@
         background-color: $nmc-primary !important;
     }
 
-    .nmc-btn-primary:first-child {
+    .nmc-btn-primary {
         background-color: $nmc-dark-grey !important;
         color: $nmc-white !important;
         border: 2px solid $nmc-dark-grey !important;
@@ -66,16 +39,9 @@
     }
 
     .nmc-btn-primary:nth-child(2) {
-        background-color: #00ff9d !important;
-        color: #003d2e !important;
-        border: 2px solid #00ff9d !important;
-        font-weight: 600;
-        transition: all 0.3s ease;
-        box-shadow: 0 0 20px rgba(0, 255, 157, 0.3);
-
         &:hover {
-            background-color: #00e68a !important;
-            border-color: #00e68a !important;
+            background-color: #7ADAA5 !important;
+            border-color: #7ADAA5 !important;
             transform: translateY(-2px);
             box-shadow: 0 0 30px rgba(0, 255, 157, 0.5), 0 4px 8px rgba(0, 230, 138, 0.3);
             color: #002a20 !important;
@@ -322,23 +288,6 @@
     }
 }
 
-@media (max-width: 1099px) {
-    // .hero-section {
-    //     padding-bottom: 20px;
-
-    //     .hero-image {
-    //         bottom: -20px;
-    //     }
-    // }
-}
-
-@media (max-width: 991px) {
-    .event-stats {
-        max-width: 650px;
-        margin: auto;
-    }
-}
-
 @media (max-width: 767px) {
     .hero-section {
         .text-bottom-line::after {
@@ -361,7 +310,7 @@
 
         .hero-text {
             h1 {
-                font-size: 63px;
+                font-size: 80px;
             }
 
             sup {
@@ -383,7 +332,7 @@
 
         .hero-text {
             h1 {
-                font-size: 54px;
+                font-size: 64px;
                 margin-bottom: 1rem !important;
             }
 
@@ -400,16 +349,6 @@
                 font-size: 22px !important;
             }
         }
-
-        .event-card {
-            h3 {
-                font-size: 20px !important;
-
-                span {
-                    font-size: 34px !important;
-                }
-            }
-        }
     }
 }
 
@@ -419,16 +358,6 @@
         .hero-text {
             .date h6 {
                 font-size: 18px !important;
-            }
-        }
-
-        .event-card {
-            h3 {
-                font-size: 16px !important;
-
-                span {
-                    font-size: 26px !important;
-                }
             }
         }
     }
