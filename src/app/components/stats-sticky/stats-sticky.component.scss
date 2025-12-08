@@ -6,6 +6,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   height: 200px;
   text-align: center;
+  background-color: #FDACAC;
 
   &::before {
     content: "";
@@ -20,7 +21,7 @@
   }
 
   &:hover {
-    transform: translateY(-5px) rotate(1deg);
+    transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
@@ -37,30 +38,30 @@
   }
 }
 
-.sticky-yellow {
-  background: #fff16a;
-  &:hover {
-    transform: translateY(-5px);
-  }
-}
+// .sticky-yellow {
+//   background: #ff9393;
+//   &:hover {
+//     transform: translateY(-5px);
+//   }
+// }
 
-.sticky-pink {
-  background: #f8bbd9;
-  &:hover {
-    transform: translateY(-5px);
-  }
-}
+// .sticky-pink {
+//   background: #f8bbd9;
+//   &:hover {
+//     transform: translateY(-5px);
+//   }
+// }
 
-.sticky-blue {
-  background: #bbdefb;
-  &:hover {
-    transform: translateY(-5px);
-  }
-}
+// .sticky-blue {
+//   background: #bbdefb;
+//   &:hover {
+//     transform: translateY(-5px);
+//   }
+// }
 
-.sticky-green {
-  background: #bbfbc6;
-  &:hover {
-    transform: translateY(-5px);
-  }
-}
+// .sticky-green {
+//   background: #bbfbc6;
+//   &:hover {
+//     transform: translateY(-5px);
+//   }
+// }
