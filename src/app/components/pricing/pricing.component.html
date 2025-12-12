@@ -4,365 +4,54 @@
       <h2 class="mb-4 text-bottom-line position-relative">Tickets</h2>
     </div>
 
-    <!-- <h3
-      class="nmc-dark-grey lh-base font-family-poppins border-bottom font-32 mt-2 pb-2"
-    >
-      Conference Tickets
-    </h3> -->
-
     <div class="row g-4 align-items-stretch justify-content-center mt-3">
+
+      @for(ticket of tickets;track ticket.id){
       <div class="col-md-4 d-grid align-items-stretch">
         <div class="pricing-table">
           <div class="text-center">
             <h2
-              class="nmc-primary font-32 text-uppercase fw-bold border-bottom pb-3"
+              class="font-32 nmc-dark-grey fw-bold border-bottom pb-3"
             >
-              Conference Ticket
+              {{ ticket.title }}
             </h2>
 
             <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
+              class="font-18 fw-semibold my-4 font-family-poppins nmc-medium-grey"
             >
-              400 Tickets
+              {{ticket.totalTickets}} Tickets
             </h2>
 
             <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">3500</span><sub>+18% GST</sub>
+              <sup>₹</sup> <span class="number">{{ticket.price}}</span><sub> +18% GST + Platform fee</sub>
             </span>
 
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">Access to 1 day conference on April 12</li>
-              <li class="mb-4">Certificate</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
+            <ul class="pricing-text mb-5 ps-3">
+              @for(feature of ticket.features;track feature){
+              <li class="mb-4">{{feature}}</li>
+              }
             </ul>
 
-            <!-- <a href="#" class="nmc-btn-primary h-auto px-2 py-3">Buy Ticket</a> -->
             <a
-              href="https://www.townscript.com/v2/e/ngindia-2025-031141/booking/tickets"
+              [href]="ticket.buyLink"
               target="_blank"
               class="nmc-btn-primary h-auto px-2 py-3"
-              >Buy</a
+              >{{ticket.buttonText}}</a
             >
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-28 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Rainer Hahnekamp's <br />
-              Workshop + Conference
-            </h2>
-
-            <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              20 Tickets
-            </h2>
-
-            <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">15000</span><sub>+18% GST</sub>
-            </span>
-
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">
-                Access to 2 days conference and Workshop on April 11-12
-              </li>
-              <li class="mb-4">Certificate for both Conference and Workshop</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
-            </ul>
-
-            <div class="d-flex align-items-center justify-content-center gap-3">
-              <a
-                href="https://www.townscript.com/v2/e/ngindia-2025-031141/booking/tickets"
-                target="_blank"
-                class="nmc-btn-primary h-auto w-100 py-3"
-                >Buy</a
-              >
-
-              <a
-                class="nmc-btn-primary nmc-bg-dark-grey h-auto w-100 py-3"
-                routerLink="/workshops/workshop1"
-                >Details
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-28 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Michael Hladky's <br />
-              Workshop + Conference
-            </h2>
-
-            <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              20 Tickets
-            </h2>
-
-            <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">15000</span><sub>+18% GST</sub>
-            </span>
-
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">
-                Access to 2 days conference and Workshop on April 11-12
-              </li>
-              <li class="mb-4">Certificate for both Conference and Workshop</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
-            </ul>
-
-            <div class="d-flex align-items-center justify-content-center gap-3">
-              <a 
-                href="https://www.townscript.com/v2/e/ngindia-2025-031141/booking/tickets"
-                target="_blank"
-                class="nmc-btn-primary h-auto w-100 py-3"
-                >Buy</a
-              >
-
-              <a
-                class="nmc-btn-primary nmc-bg-dark-grey h-auto w-100 py-3"
-                routerLink="/workshops/workshop2"
-                >Details
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- <div class="col-md-4 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-32 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Regular
-            </h2>
-
-            <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              200 Tickets
-            </h2>
-
-            <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">4000</span><sub>+18% GST</sub>
-            </span>
-
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">Access to 1 day conference on April 12</li>
-              <li class="mb-4">Certificate</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
-            </ul>
-
-            <a class="nmc-btn-primary h-auto px-2 py-3 disabled" target="_blank"
-              >Coming Soon</a
-            >
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="col-md-4 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-32 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Late
-            </h2>
-
-            <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              50 Tickets
-            </h2>
-
-            <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">6000</span><sub>+18% GST</sub>
-            </span>
-
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">Access to 1 day conference on April 12</li>
-              <li class="mb-4">Certificate</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
-            </ul>
-
-            <a class="nmc-btn-primary h-auto px-2 py-3 disabled" target="_blank"
-              >Coming Soon</a
-            >
-          </div>
-        </div>
-      </div> -->
-    </div>
-
-    <!-- <h3
-      class="nmc-dark-grey lh-base font-family-poppins border-bottom font-32 mt-5 pb-2"
-    >
-      Conference + Workshop Tickets
-    </h3> -->
-
-    <div class="row g-4 align-items-stretch justify-content-center mt-3">
-      <!-- <div class="col-lg-4 col-md-6 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-28 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Rainer Hahnekamp's <br />
-              Workshop + Conference
-            </h2>
-
-            <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              20 Tickets
-            </h2>
-
-            <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">15000</span><sub>+18% GST</sub>
-            </span>
-
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">
-                Access to 2 days conference and Workshop on April 11-12
-              </li>
-              <li class="mb-4">Certificate for both Conference and Workshop</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
-            </ul>
-
-            <div class="d-flex align-items-center justify-content-center gap-3">
-              <a
-                href="https://www.townscript.com/v2/e/ngindia-2025-031141/booking/tickets"
-                target="_blank"
-                class="nmc-btn-primary h-auto w-100 py-3"
-                >Buy</a
-              >
-
-              <a
-                class="nmc-btn-primary nmc-bg-dark-grey h-auto w-100 py-3"
-                routerLink="/workshops/workshop2"
-                >Details
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="col-lg-4 col-md-6 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-28 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Michael Hladky's <br />
-              Workshop + Conference
-            </h2>
-
-            <h2
-              class="font-18 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              20 Tickets
-            </h2>
-
-            <span class="price d-block mb-3">
-              <sup>₹</sup> <span class="number">15000</span><sub>+18% GST</sub>
-            </span>
-
-            <ul class="pricing-text mb-5">
-              <li class="mb-4">
-                Access to 2 days conference and Workshop on April 11-12
-              </li>
-              <li class="mb-4">Certificate for both Conference and Workshop</li>
-              <li class="mb-4">Tea | Coffee | Lunch</li>
-              <li class="mb-4">Goodies</li>
-            </ul>
-
-            <div class="d-flex align-items-center justify-content-center gap-3">
-              <a
-                href="https://www.townscript.com/v2/e/ngindia-2025-031141/booking/tickets"
-                target="_blank"
-                class="nmc-btn-primary h-auto w-100 py-3"
-                >Buy</a
-              >
-
-              <a
-                class="nmc-btn-primary nmc-bg-dark-grey h-auto w-100 py-3"
-                routerLink="/workshops/workshop2"
-                >Details
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
-      <div class="col-lg-4 d-grid align-items-stretch">
-        <div class="pricing-table">
-          <div class="text-center">
-            <h2
-              class="nmc-primary font-25 text-uppercase fw-bold border-bottom pb-3"
-            >
-              Goodies
-            </h2>
-
-            <h2
-              class="font-16 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              Every participant will receive an exclusive ng-India hoodie along
-              with other goodies.
-            </h2>
-
-            <figure class="my-0 mx-auto overflow-hidden">
-              <img
-                src="assets/images/goodies/hoodie1.png"
-                alt="Hoodie"
-                class="h-100 w-100 object-fit-contain"
-              />
-            </figure>
-
-            <p
-              class="font-16 mb-0 text-uppercase fw-semibold my-4 font-family-poppins nmc-medium-grey"
-            >
-              You will receive:
-            </p>
-
-            <ul class="pricing-text m-0">
-              <li class="mb-2">↪ Hoodie</li>
-              <li class="mb-2">↪ Diary</li>
-              <li class="mb-2">↪ Pen</li>
-              <li class="mb-2">↪ Tote Bag</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    }
+    
     </div>
 
     <div
-      class="error-label text-danger font-18 d-flex align-items-center justify-content-center mt-5 mb-0"
-    >
+      class="error-label text-danger font-18 d-flex align-items-center justify-content-center mt-5 mb-0">
       <i class="bi bi-exclamation-triangle-fill me-2"></i>
       <p class="nmc-medium-grey font-family-inter m-0">
         Tickets once sold can’t be cancelled, transferred, or exchanged.
       </p>
     </div>
-
-    <!-- <h3
-      class="mb-0 nmc-primary lh-base font-family-poppins mt-5 text-center font-32"
-    >
-      To buy more than 25 Tickets and special offer contact 9717098666
-    </h3> -->
   </div>
+
 </section>
