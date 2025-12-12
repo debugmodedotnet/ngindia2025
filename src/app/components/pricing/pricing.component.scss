@@ -20,6 +20,8 @@
         .pricing-text li {
             font-weight: 600;
             color: $nmc-medium-grey;
+            list-style-type: disc;
+            text-align: left;
         }
 
         .price {
