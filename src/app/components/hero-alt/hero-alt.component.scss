@@ -1,5 +1,3 @@
-@use "../../styles/variables" as *;
-
 .hero-section {
     padding: 3rem 1rem;
 
@@ -10,7 +8,6 @@
     .hero-text {
         h1 {
             font-size: 175px;
-            line-height: 1.1;
         }
 
         .edition-badge {
@@ -30,60 +27,19 @@
         }
     }
 
-    .button-container {
-        button {
-            min-width: 140px;
-            white-space: nowrap;
-        }
-    }
-
-    .nmc-btn-primary:hover {
-        background-color: $nmc-primary !important;
-    }
-
-    .nmc-btn-primary {
-        background-color: $nmc-dark-grey !important;
-        color: $nmc-white !important;
-        border: 2px solid $nmc-dark-grey !important;
+    .nmc-btn-ai {
+        background-color: #373A40 !important;
+        color: #FFFFFF !important;
+        border: 2px solid #373A40 !important;
         transition: all 0.3s ease;
-
-        &:hover {
-            background-color: $nmc-primary !important;
-            border-color: $nmc-primary !important;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(220, 0, 0, 0.3);
-        }
-    }
-
-    .nmc-btn-primary:nth-child(2) {
         &:hover {
             background-color: #7ADAA5 !important;
             border-color: #7ADAA5 !important;
-            transform: translateY(-2px);
-            box-shadow: 0 0 30px rgba(0, 255, 157, 0.5), 0 4px 8px rgba(0, 230, 138, 0.3);
             color: #002a20 !important;
-        }
-
-        i {
-            filter: drop-shadow(0 0 2px rgba(0, 61, 46, 0.5));
+            font-weight: bold;
         }
     }
 }
-
-
-
-
-
-
-
-// Professional Animations
-
-
-
-
-
-
-
 
 @media (max-width: 767px) {
     .hero-section {
@@ -119,30 +75,6 @@
             .tagline {
                 font-size: 32px !important;
                 line-height: 1.3;
-            }
-        }
-
-        .date-location h6 {
-            font-size: 16px !important;
-
-            i {
-                font-size: 14px !important;
-            }
-        }
-
-        .button-container {
-            width: 100%;
-            padding: 0 1rem;
-
-            button {
-                width: 100%;
-                max-width: 280px;
-                font-size: 16px !important;
-                padding: 0.75rem 1.5rem !important;
-
-                i {
-                    font-size: 16px !important;
-                }
             }
         }
     }
@@ -184,36 +116,12 @@
                 line-height: 1.3;
             }
         }
-
-        .date-location h6 {
-            font-size: 15px !important;
-
-            i {
-                font-size: 13px !important;
-            }
-        }
-
-        .button-container {
-            button {
-                font-size: 15px !important;
-                padding: 0.7rem 1.25rem !important;
-
-                i {
-                    font-size: 15px !important;
-                }
-            }
-        }
     }
 }
 
 @media (max-width: 425px) {
     .hero-section {
         padding: 1rem 0.5rem;
-
-        .nmc-btn-primary {
-            font-size: 14px !important;
-        }
-
         .hero-text {
             h1 {
                 font-size: 48px;
@@ -241,27 +149,6 @@
                 margin-bottom: 1rem !important;
             }
         }
-
-        .date-location h6 {
-            font-size: 14px !important;
-
-            i {
-                font-size: 12px !important;
-                margin-right: 0.25rem !important;
-            }
-        }
-
-        .button-container {
-            button {
-                font-size: 14px !important;
-                padding: 0.6rem 1rem !important;
-                min-width: 120px;
-
-                i {
-                    font-size: 14px !important;
-                }
-            }
-        }
     }
 }
 
@@ -287,25 +174,6 @@
 
             .tagline {
                 font-size: 22px !important;
-            }
-        }
-
-        .date-location h6 {
-            font-size: 13px !important;
-
-            i {
-                font-size: 11px !important;
-            }
-        }
-
-        .button-container {
-            button {
-                font-size: 13px !important;
-                padding: 0.5rem 0.75rem !important;
-
-                i {
-                    font-size: 13px !important;
-                }
             }
         }
     }
