@@ -1,123 +1,46 @@
-<header
-  class="sticky-header nmc-bg-red fixed-top"
-  [ngClass]="{ 'is-sticky': isSticky }"
->
+<header class="sticky-header nmc-bg-red fixed-top" [ngClass]="{ 'is-sticky': isSticky }">
   <!-- Mobile Navigation -->
-  <ul
-    class="mobile-menu flex-column align-items-center justify-content-center position-absolute text-center rounded-0"
-  >
+  <ul class="mobile-menu flex-column align-items-center justify-content-center position-absolute text-center rounded-0">
     <li class="w-100 py-3">
       <a class="font-18 font-family-poppins nmc-white" href="home">Home</a>
     </li>
 
     <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/speakers"
-        >Speakers</a
-      >
+      <a class="font-18 font-family-poppins nmc-white" href="/speakers">Speakers</a>
     </li>
 
     <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/agenda"
-        >Agenda</a
-      >
+      <a class="font-18 font-family-poppins nmc-white" href="/agenda">Agenda</a>
     </li>
-
-    <!-- <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/venue"
-        >Venue</a
-      >
-    </li> -->
-
-    <!-- <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/workshops"
-        >Workshops</a
-      >
-    </li> -->
 
     <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/home#sponsors"
-        >Sponsors</a
-      >
+      <a class="font-18 font-family-poppins nmc-white" href="/home#sponsors">Sponsors</a>
     </li>
 
-    <!-- <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/coc">CoC</a>
-    </li> -->
-
-    <!-- <li class="w-100 py-3 d-block d-sm-none">
-      <button
-        class="nmc-btn-primary m-auto"
-        type="button"
-        (click)="navigateAndCloseMenu('pricing')"
-      >
-        Buy Tickets
-      </button>
-    </li> -->
-
-     <li class="w-100 py-3 d-block d-sm-none">
-      <button
-        class="nmc-btn-primary m-auto"
-        type="button"
-        (click)="buyTickets()"
-      >
+    <li class="w-100 py-3 d-block d-sm-none">
+      <button class="nmc-btn-primary m-auto" type="button" (click)="buyTickets()">
         <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
       </button>
-    </li> 
+    </li>
   </ul>
 
-  <div
-    class="d-flex align-items-center justify-content-between container-boxed py-2"
-  >
+  <div class="d-flex align-items-center justify-content-between container-boxed py-2">
     <!-- Logo -->
     <a href="/home" class="d-flex align-items-center">
-      <!-- <figure class="logo m-0 overflow-hidden me-2">
-        <img
-          src="assets/images/logo/logo-min.png"
-          loading="lazy"
-          alt="ng-India Logo"
-          class="w-100 h-100 object-fit-contain"
-        />
-      </figure> -->
-
       <div>
         <h1 class="font-family-poppins m-0 nmc-white">ng-India</h1>
-        <!-- <div class="d-flex gap-1">
-          <p class="nmc-white font-12 m-0">powered by</p>
-          <img
-            class="nomad-logo object-fit-contain"
-            src="assets/images/logo/nomadcoder-logo.png"
-            alt=""
-          />
-        </div> -->
       </div>
     </a>
 
     <div class="d-flex align-items-center justify-content-end">
-      <!-- <button
-        class="nmc-btn-primary px-3 h-auto py-2 mx-auto me-3 font-18 d-none d-sm-block d-xl-none"
-        type="button"
-        [routerLink]="['/home']"
-        fragment="pricing"
-        routerLinkActive="active"
-        [routerLinkActiveOptions]="{ exact: true }"
-      >
-        Buy Tickets
-      </button> -->
-      <button
-      class="nmc-btn-primary px-3 h-auto py-2 mx-auto me-3 font-18 d-none d-sm-block d-xl-none"
-      type="button"
-      (click)="buyTickets()"
-    >
-      <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
-    </button>
+      <button class="nmc-btn-primary px-3 h-auto py-2 mx-auto me-3 font-18 d-none d-sm-block d-xl-none" type="button"
+        (click)="buyTickets()">
+        <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
+      </button>
 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-xl">
-        <button
-          class="navbar-toggler border-0 px-0"
-          type="button"
-          (click)="toggleMobileMenu()"
-        >
+        <button class="navbar-toggler border-0 px-0" type="button" (click)="toggleMobileMenu()">
           <div class="burger" id="burger">
             <span class="burger-line"></span>
             <span class="burger-line"></span>
@@ -125,95 +48,24 @@
           </div>
         </button>
 
-        <div
-          class="collapse navbar-collapse justify-content-end align-items-center"
-          id="navbar"
-        >
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbar">
           <ul class="navbar-nav mb-lg-0 gap-2 gap-lg-3 align-items-center">
             <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="speakers"
-                routerLinkActive="active"
-                >Speakers</a
-              >
+              <a class="nav-link font-16 nmc-white font-uppercase px-3 py-1" [routerLink]="['/home']"
+                fragment="speakers" routerLinkActive="active">Speakers</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="agenda"
-                routerLinkActive="active"
-                >Agenda</a
-              >
+              <a class="nav-link font-16 nmc-white font-uppercase px-3 py-1" [routerLink]="['/home']" fragment="agenda"
+                routerLinkActive="active">Agenda</a>
             </li>
-            <!-- <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                routerLink="/workshops"
-                routerLinkActive="active"
-                [routerLinkActiveOptions]="{ exact: true }"
-                >Workshops</a
-              >
-            </li> -->
-
-            <!-- <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                href="https://www.nomadcoder.ai/ng-india"
-                target="_blank"
-                >History</a
-              >
-            </li> -->
-
-            <!-- <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="albums"
-                >Photos</a
-              >
-            </li> -->
 
             <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                [routerLink]="['/home']"
-                fragment="sponsors"
-                routerLinkActive="active"
-                >Sponsors</a
-              >
+              <a class="nav-link font-16 nmc-white font-uppercase px-3 py-1" [routerLink]="['/home']"
+                fragment="sponsors" routerLinkActive="active">Sponsors</a>
             </li>
-
-            <!-- <li class="nav-item">
-              <a
-                class="nav-link font-16 nmc-white font-uppercase px-3 py-1"
-                routerLink="/coc"
-                routerLinkActive="active"
-                [routerLinkActiveOptions]="{ exact: true }"
-                >CoC</a
-              >
-            </li> -->
-
-            <!-- <li class="nav-item d-none d-md-block">
-              <button
-                class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 mx-auto ms-0 ms-lg-3 font-20"
-                type="button"
-                [routerLink]="['/home']"
-                fragment="pricing"
-                routerLinkActive="active"
-                [routerLinkActiveOptions]="{ exact: true }"
-              >
-                Buy Tickets
-              </button>
-            </li> -->
             <li class="nav-item d-none d-md-block">
-              <button
-                class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 mx-auto ms-0 ms-lg-3 font-20"
-                type="button"
-                (click)="buyTickets()"
-              >
+              <button class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 mx-auto ms-0 ms-lg-3 font-20" type="button"
+                (click)="buyTickets()">
                 <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
               </button>
             </li>
@@ -223,36 +75,3 @@
     </div>
   </div>
 </header>
-
-<!-- @if (isSticky) {
-<div class="position-sticky">
-  <ul class="d-flex align-items-center justify-content-center gap-2 py-3">
-    <li class="nav-item">
-      <a
-        class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
-        [routerLink]="['/home']"
-        fragment="speakers"
-        >Speakers</a
-      >
-    </li>
-
-    <li class="nav-item">
-      <a
-        class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
-        [routerLink]="['/home']"
-        fragment="agenda"
-        >Agenda</a
-      >
-    </li>
-
-    <li class="nav-item">
-      <a
-        class="nav-link font-16 nmc-dark-grey font-uppercase px-3 py-1"
-        [routerLink]="['/home']"
-        fragment="venue"
-        >Venue</a
-      >
-    </li>
-  </ul>
-</div>
-} -->

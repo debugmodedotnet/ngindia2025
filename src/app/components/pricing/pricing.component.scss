@@ -54,10 +54,8 @@
 }
 
 a.disabled {
-    /* Make the disabled links grayish*/
     color: white;
     background-color: grey;
-    /* And disable the pointer events */
     pointer-events: none;
 }
 
