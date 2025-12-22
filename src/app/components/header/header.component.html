@@ -1,46 +1,78 @@
-<header class="sticky-header nmc-bg-red fixed-top" [ngClass]="{ 'is-sticky': isSticky }">
+<header class="sticky-header nmc-bg-white fixed-top">
   <!-- Mobile Navigation -->
-  <ul class="mobile-menu flex-column align-items-center justify-content-center position-absolute text-center rounded-0">
-    <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="home">Home</a>
+  <ul
+    class="mobile-menu position-absolute text-center p-0 m-0 nmc-bg-white w-100"
+  >
+    <li
+      class="w-100 py-4"
+      (click)="closeMobileMenu()"
+      (keydown)="closeMobileMenu()"
+      tabindex="0"
+    >
+      <a class="font-18 poppins-bold nmc-black" href="home">Home</a>
     </li>
 
-    <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/speakers">Speakers</a>
+    <li
+      class="w-100 py-4"
+      (click)="closeMobileMenu()"
+      (keydown)="closeMobileMenu()"
+      tabindex="0"
+    >
+      <a class="font-18 poppins-bold nmc-black" href="/speakers">Speakers</a>
     </li>
 
-    <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/agenda">Agenda</a>
+    <li
+      class="w-100 py-4"
+      (click)="closeMobileMenu()"
+      (keydown)="closeMobileMenu()"
+      tabindex="0"
+    >
+      <a class="font-18 poppins-bold nmc-black" href="/agenda">Agenda</a>
     </li>
 
-    <li class="w-100 py-3">
-      <a class="font-18 font-family-poppins nmc-white" href="/home#sponsors">Sponsors</a>
+    <li
+      class="w-100 py-4"
+      (click)="closeMobileMenu()"
+      (keydown)="closeMobileMenu()"
+      tabindex="0"
+    >
+      <a class="font-18 poppins-bold nmc-black" href="/sponsors">Sponsors</a>
     </li>
 
-    <li class="w-100 py-3 d-block d-sm-none">
-      <button class="nmc-btn-primary m-auto" type="button" (click)="buyTickets()">
-        <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
+    <li class="w-100 py-4">
+      <button
+        class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 font-20"
+        type="button"
+        (click)="buyTickets()"
+      >
+        Buy Tickets
       </button>
     </li>
   </ul>
 
-  <div class="d-flex align-items-center justify-content-between container-boxed py-2">
-    <!-- Logo -->
-    <a href="/home" class="d-flex align-items-center">
-      <div>
-        <h1 class="font-family-poppins m-0 nmc-white">ng-India</h1>
-      </div>
-    </a>
-
-    <div class="d-flex align-items-center justify-content-end">
-      <button class="nmc-btn-primary px-3 h-auto py-2 mx-auto me-3 font-18 d-none d-sm-block d-xl-none" type="button"
-        (click)="buyTickets()">
-        <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
-      </button>
+  <div class="container-boxed">
+    <div class="inner d-flex align-items-center justify-content-between py-3">
+      <!-- Logo -->
+      <a href="/" class="d-flex align-items-center">
+        <div>
+          <h1 class="m-0 nmc-black fw-bold">ng-India</h1>
+          <div class="d-flex gap-1">
+            <p class="nmc-black font-14 m-0">powered by</p>
+            <p class="nomad-coder-text font-14 m-0">
+              <span class="nomad">nomad</span><span class="coder">coder</span>
+            </p>
+          </div>
+        </div>
+      </a>
 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-xl">
-        <button class="navbar-toggler border-0 px-0" type="button" (click)="toggleMobileMenu()">
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          (click)="toggleMobileMenu()"
+          aria-label="Toggle mobile menu"
+        >
           <div class="burger" id="burger">
             <span class="burger-line"></span>
             <span class="burger-line"></span>
@@ -48,25 +80,45 @@
           </div>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbar">
-          <ul class="navbar-nav mb-lg-0 gap-2 gap-lg-3 align-items-center">
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-center"
+          id="navbar"
+        >
+          <ul class="navbar-nav mb-lg-0 gap-3 align-items-center">
             <li class="nav-item">
-              <a class="nav-link font-16 nmc-white font-uppercase px-3 py-1" [routerLink]="['/home']"
-                fragment="speakers" routerLinkActive="active">Speakers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-16 nmc-white font-uppercase px-3 py-1" [routerLink]="['/home']" fragment="agenda"
-                routerLinkActive="active">Agenda</a>
+              <a
+                class="nav-link font-16 nmc-black font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="speakers"
+                >Speakers</a
+              >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link font-16 nmc-white font-uppercase px-3 py-1" [routerLink]="['/home']"
-                fragment="sponsors" routerLinkActive="active">Sponsors</a>
+              <a
+                class="nav-link font-16 nmc-black font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="agenda"
+                >Agenda</a
+              >
             </li>
-            <li class="nav-item d-none d-md-block">
-              <button class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 mx-auto ms-0 ms-lg-3 font-20" type="button"
-                (click)="buyTickets()">
-                <i class="bi bi-ticket-perforated me-2"></i>Buy Tickets
+
+            <li class="nav-item">
+              <a
+                class="nav-link font-16 nmc-black font-uppercase px-3 py-1"
+                [routerLink]="['/home']"
+                fragment="sponsors"
+                >Sponsors</a
+              >
+            </li>
+
+            <li>
+              <button
+                class="nmc-btn-primary px-3 px-lg-5 h-auto py-3 font-20"
+                type="button"
+                (click)="buyTickets()"
+              >
+                Buy Tickets
               </button>
             </li>
           </ul>

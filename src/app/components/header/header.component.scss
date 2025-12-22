@@ -1,13 +1,19 @@
 @use "../../styles/variables" as *;
+
 .sticky-header {
-    background-color: $nmc-primary;
-    color: $nmc-white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    &.is-sticky {
-        background-color: $nmc-primary;
-        color: $nmc-white;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid $nmc-primary;
+}
+
+.nomad-coder-text {
+    font-weight: 600;
+    
+    .nomad {
+        color: $nmc-primary;
+    }
+    
+    .coder {
+        color: $nmc-black;
     }
 }
 
@@ -15,27 +21,41 @@
     box-shadow: none !important;
 }
 
-.mobile-menu {
-    display: none;
-    width: 100%;
-    background: $nmc-primary;
+.navbar {
     z-index: 9999;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.3s ease, display 0.3s ease;
-    top: 69px;
+
+    .nav-link {
+        font-size: 18px !important;
+    }
+}
+
+.mobile-menu {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+    background: $nmc-white;
+    z-index: 9999;
+    transition: right 0.5s ease, opacity 0.8s ease;
     opacity: 0;
+    visibility: hidden;
 
     li {
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-
-        &:hover a {
-            color: $nmc-white !important;
-            transform: translateX(5px);
-            transition: transform 0.3s ease;
-        }
+        text-transform: uppercase;
+        letter-spacing: .1em;
 
         a {
-            transition: transform 0.3s ease;
+            text-decoration: none;
+            border-bottom: 3px groove $nmc-primary;
+        }
+
+        &:hover a {
+            color: $nmc-primary !important;
+        }
+
+        .nmc-btn-primary:hover {
+            background-color: $nmc-white !important;
+            color: $nmc-primary;
         }
     }
 }
@@ -63,7 +83,7 @@
         opacity: 1;
         rotate: 0deg;
         border-radius: 0.15rem;
-        background-color: $nmc-white;
+        background-color: $nmc-black;
         transition: all 0.3s ease;
 
         &:nth-child(1) {
@@ -92,59 +112,5 @@
     &.isOpened>.burger-line:nth-child(3) {
         top: 0.5rem;
         rotate: -135deg;
-    }
-}
-
-.nav-link {
-    transition: all 0.3s ease;
-    position: relative;
-
-    &:hover {
-        color: $nmc-white !important;
-        transform: translateY(-2px);
-    }
-
-    &::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 2px;
-        background-color: $nmc-white;
-        transition: width 0.3s ease;
-    }
-
-    &:hover::after,
-    &.active::after {
-        width: 70%;
-    }
-}
-
-.nmc-btn-primary {
-    background-color: $nmc-white !important;
-    color: $nmc-primary !important;
-    border: 2px solid $nmc-white !important;
-    transition: all 0.3s ease;
-    font-weight: 500;
-
-    &:hover {
-        background-color: transparent !important;
-        color: $nmc-white !important;
-        border: 2px solid $nmc-white !important;
-    }
-}
-
-@media (max-width: 420px) {
-    .container-boxed {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-    .mobile-menu {
-        top: 65px;
-    }
-    .mobile-menu .start {
-        display: block !important;
     }
 }
