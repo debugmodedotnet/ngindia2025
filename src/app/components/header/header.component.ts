@@ -31,14 +31,19 @@ export class HeaderComponent {
     if (this.mobileMenuOpen) {
       hamburger.className = "navbar-toggler border-0 opened"
       hamburgerIcon.className = "burger isOpened"
-      mobileMenu.style.display = 'flex';
       mobileMenu.style.opacity = '1';
-
+      mobileMenu.style.visibility = 'visible';
     } else {
       hamburger.className = "navbar-toggler border-0 closed"
       hamburgerIcon.className = "burger isClosed"
-      mobileMenu.style.display = 'none';
       mobileMenu.style.opacity = '0';
+      mobileMenu.style.visibility = 'hidden';
+    }
+  }
+
+  closeMobileMenu() {
+    if (this.mobileMenuOpen) {
+      this.toggleMobileMenu();
     }
   }
 
