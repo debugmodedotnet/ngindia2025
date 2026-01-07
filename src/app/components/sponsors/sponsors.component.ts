@@ -14,7 +14,7 @@ export class SponsorsComponent {
   sponsors: ISponsors[] = sponsors;
 
   openSponsorshipDoc(): void {
-    const pdfUrl = 'assets/sponsorship.pdf';
+    const pdfUrl = 'sponsorship.pdf';
     window.open(pdfUrl, '_blank');
   }
 }
