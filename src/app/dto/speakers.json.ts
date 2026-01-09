@@ -3,20 +3,6 @@ import { ISpeakers } from "../models/speakers";
 export const speakers: ISpeakers[] = [
   {
     id: 1,
-    name: 'Élise Patrikainen',
-    position: 'FrontEnd Architect',
-    bio: 'Elise is a freelance front-end architect and consultant, with a focus on Vue.js and Angular. She deeply cares about delivering real value to her clients by helping them structure their projects, build efficient codebases and improve team velocity. She is also a professional speaker, and she loves meeting the community at conferences.',
-    image: 'assets/images/speakers/elise.jpeg',
-    flag: 'assets/images/speakers/flags/france.png',
-    twitter: '⁠https://x.com/ElisePatrikain1',
-    linkedin: 'https://www.linkedin.com/in/elisepatrikainen/',
-    github: '⁠https://github.com/ElisePatrikainen',
-    youtube: '',
-    previousTalks: [
-    ],
-  },
-  {
-    id: 2,
     name: 'Michael Hladky',
     position: 'CEO @push-based.io',
     bio: 'Michael Hladky is a Google Developer Expert (GDE), Microsoft MVP, Nx champion, trainer, and consultant with a focus on Angular and RxJS. For years he has been helping companies and developers to set up scalable architectures and performant processes enabling teams to keep up with state-of-the-art development. A vibrant member of the tech community, he organizes multiple community events and workshops each year to give back',
@@ -55,7 +41,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     name: 'Rainer Hahnekamp',
     position: 'Trainer and Consultant @AngularArchitects.io',
     bio: 'Rainer Hahnekamp is a Google Developer Expert (GDE) and a core team member of NgRx. He is a trainer and consultant in the Angular Architects expert network and runs ng-news, a weekly Angular newsletter. Beyond NgRx, he is deeply involved in open source, working on projects like Testronaut and Sheriff.',
@@ -79,7 +65,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     name: 'Christopher Holder',
     position: 'Full Stack Engineer @push-based.io',
     bio: 'Christopher is a Full Stack Engineer at push-based.io. He does consulting and auditing on Angular applications to help companies optimize their application architecture and performance as an Open Source contributor he collaborates on projects that help make the web faster and speed regression by making testing performance easier and scalable.',
@@ -103,7 +89,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     name: 'Julian Jandl',
     position: 'Lead Performance Engineer',
     bio: 'Julian is Lead Performance Engineer, Trainer & Consultant at Push-Based.io. As a webperf enthusiast, he loves experimenting with cutting edge technologies to improve the speed of the web at scale. Julian is conducting performance audits for existing applications, fixing performance bottlenecks and teaching about webperf & angular in workshops.',
@@ -121,32 +107,8 @@ export const speakers: ISpeakers[] = [
       },
     ],
   },
-  {
-    id: 6,
-    name: 'Markus Ingvarsson',
-    position: 'Software Engineer @Podme',
-    bio: "Markus is a full-stack developer, holding an Msc in Computer Science from Chalmers University of Technology. From leveling up in World of Warcraft to navigating the world of sales, he's always been up for a challenge. Now, software development is his main quest. Outside of coding, Markus also contributes to the tech scene as a co-organizer of the Angular Community Meetup.",
-    image: 'assets/images/speakers/markus-ingvarsson.jpeg',
-    flag: 'assets/images/speakers/flags/sweden.png',
-    twitter: 'https://x.com/markusingvarssn',
-    linkedin: 'https://www.linkedin.com/in/markusingvarsson/',
-    github: 'https://github.com/markusingvarsson',
-    youtube: '',
-    previousTalks: [
-      {
-        title: 'Intelligent Frontends: Angular and Transformers.js',
-        event: 'ng-India 2025',
-        link: 'https://www.youtube.com/watch?v=2yFUItFc6kA',
-      },
-      {
-        title: 'Client-Side Machine Learning - Angular Is All You Need',
-        event: 'ng-India 2024',
-        link: 'https://www.youtube.com/watch?v=dJ2fwiWJ-4Q',
-      },
-    ],
-  },
    {
-    id: 7,
+    id: 5,
     name: 'Michael Egger-Zikes',
     position: 'Trainer and Consultant @AngularArchitects.io',
     bio: 'Michael Egger-Zikes is an experienced software architect, trainer, consultant, and international conference speaker specializing in Angular for business applications. As a member of the ANGULARarchitects expert network, he has led hundreds of workshops and implemented large-scale Angular projects for both public and private sector clients. As a former lecturer, he also taught this subject at a university of applied sciences in Graz, Austria. With a degree in business informatics, he brings extensive experience in software engineering and business process automation.',
@@ -160,7 +122,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 8,
+    id: 6,
     name: 'Adrian Romanski',
     position: 'Software Engineer',
     bio: 'Adrian is an Software Engineer specialising in AI-driven solutions and web accessibility. As a CPACC-certified professional, he brings validated expertise in accessibility principles and inclusive design. He speaks at meet.js in Poland and various Angular meetups, sharing practical insights on modern Angular development, accessibility patterns, and the role of AI in frontend workflows',
@@ -174,7 +136,7 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 9,
+    id: 7,
     name: 'Pankaj Parkar',
     position: 'Principal Application Developer @AON',
     bio: 'Pankaj Parkar is currently working as Principal Application Developer at Aon Centre for Innovation and Analytics (ACIA). He has total 10 years of experience in web development. He had worked on multiple JS frameworks like Angular, React, Ionic, VueJS, EmberJS, etc.',
@@ -212,8 +174,22 @@ export const speakers: ISpeakers[] = [
       },
     ],
   },
+    {
+    id: 8,
+    name: 'Élise Patrikainen',
+    position: 'FrontEnd Architect',
+    bio: 'Elise is a freelance front-end architect and consultant, with a focus on Vue.js and Angular. She deeply cares about delivering real value to her clients by helping them structure their projects, build efficient codebases and improve team velocity. She is also a professional speaker, and she loves meeting the community at conferences.',
+    image: 'assets/images/speakers/elise.jpeg',
+    flag: 'assets/images/speakers/flags/france.png',
+    twitter: '⁠https://x.com/ElisePatrikain1',
+    linkedin: 'https://www.linkedin.com/in/elisepatrikainen/',
+    github: '⁠https://github.com/ElisePatrikainen',
+    youtube: '',
+    previousTalks: [
+    ],
+  },
   {
-    id: 10,
+    id: 9,
     name: 'Dhananjay Kumar',
     position: 'Founder NomadCoder | ng-India',
     bio: 'Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.',
@@ -521,4 +497,29 @@ export const speakers: ISpeakers[] = [
   //   github: 'https://github.com/markostanimirovic/',
   //   youtube: '',
   //   previousTalks: [],
+  // },
+
+  //  {
+  //   id: 6,
+  //   name: 'Markus Ingvarsson',
+  //   position: 'Software Engineer @Podme',
+  //   bio: "Markus is a full-stack developer, holding an Msc in Computer Science from Chalmers University of Technology. From leveling up in World of Warcraft to navigating the world of sales, he's always been up for a challenge. Now, software development is his main quest. Outside of coding, Markus also contributes to the tech scene as a co-organizer of the Angular Community Meetup.",
+  //   image: 'assets/images/speakers/markus-ingvarsson.jpeg',
+  //   flag: 'assets/images/speakers/flags/sweden.png',
+  //   twitter: 'https://x.com/markusingvarssn',
+  //   linkedin: 'https://www.linkedin.com/in/markusingvarsson/',
+  //   github: 'https://github.com/markusingvarsson',
+  //   youtube: '',
+  //   previousTalks: [
+  //     {
+  //       title: 'Intelligent Frontends: Angular and Transformers.js',
+  //       event: 'ng-India 2025',
+  //       link: 'https://www.youtube.com/watch?v=2yFUItFc6kA',
+  //     },
+  //     {
+  //       title: 'Client-Side Machine Learning - Angular Is All You Need',
+  //       event: 'ng-India 2024',
+  //       link: 'https://www.youtube.com/watch?v=dJ2fwiWJ-4Q',
+  //     },
+  //   ],
   // },
