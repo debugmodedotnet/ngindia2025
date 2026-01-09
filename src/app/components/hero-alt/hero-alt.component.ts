@@ -9,4 +9,8 @@ import { RouterLink, RouterLinkActive, RouterModule } from '@angular/router';
   styleUrl: './hero-alt.component.scss'
 })
 export class HeroAltComponent {
+
+  navigateAi(){
+    window.open('https://www.ai-india.ai/home', '_blank');
+  }
 }
