@@ -93,7 +93,7 @@ export const speakers: ISpeakers[] = [
     name: 'Julian Jandl',
     position: 'Lead Performance Engineer',
     bio: 'Julian is Lead Performance Engineer, Trainer & Consultant at Push-Based.io. As a webperf enthusiast, he loves experimenting with cutting edge technologies to improve the speed of the web at scale. Julian is conducting performance audits for existing applications, fixing performance bottlenecks and teaching about webperf & angular in workshops.',
-    image: 'assets/images/speakers/julian-jandl.webp',
+    image: 'assets/images/speakers/julian.jpeg',
     flag: 'assets/images/speakers/flags/austria.png',
     twitter: 'https://twitter.com/hoebbelsB',
     linkedin: 'https://www.linkedin.com/in/julian-jandl-43a2b9125/',
@@ -174,8 +174,22 @@ export const speakers: ISpeakers[] = [
       },
     ],
   },
-    {
+  {
     id: 8,
+    name: 'Aprajita Verma',
+    position: 'Frontend Architect @Mycom',
+    bio: 'Aprajita Verma is a Frontend Architect with 17 years of experience building large-scale UI systems. She focuses on UX, accessibility, and designing frontend architectures for AI-driven and complex systems.',
+    image: 'assets/images/speakers/aprajita.png',
+    flag: 'assets/images/speakers/flags/india.png',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/aprajita-verma-19522814a',
+    github: '',
+    youtube: '',
+    previousTalks: [
+    ],
+  },
+    {
+    id: 9,
     name: 'Élise Patrikainen',
     position: 'FrontEnd Architect',
     bio: 'Elise is a freelance front-end architect and consultant, with a focus on Vue.js and Angular. She deeply cares about delivering real value to her clients by helping them structure their projects, build efficient codebases and improve team velocity. She is also a professional speaker, and she loves meeting the community at conferences.',
@@ -189,7 +203,22 @@ export const speakers: ISpeakers[] = [
     ],
   },
   {
-    id: 9,
+    id: 10,
+    name: 'Aditi Joshi',
+    position: 'Senior Software Developer @FranConnect',
+    bio: 'Aditi Joshi is a Software Engineer, Speaker, and Community Contributor, passionate about building high-quality, inclusive web applications. She enjoys working on scalable frontend architectures, improving user experience, and sharing practical knowledge with fellow developers. Aditi actively participates in Angular meetups, delivers technical talks, and collaborates closely with cross-functional teams to solve real-world problems. She is driven by continuous learning, thoughtful engineering, and contributing to a strong, supportive developer community.',
+    image: 'assets/images/speakers/aditi.jpg',
+    flag: 'assets/images/speakers/flags/india.png',
+    twitter: '',
+    linkedin: 'https://www.linkedin.com/in/aditi-joshi-dev/',
+    github: '',
+    youtube: '',
+    previousTalks: [
+    ],
+  },
+
+  {
+    id: 11,
     name: 'Dhananjay Kumar',
     position: 'Founder NomadCoder | ng-India',
     bio: 'Dhananjay Kumar founded NomadCoder, which trains people to become job-ready developers.  He also consults for big enterprise companies, has written a book about Angular, speaks at international developer conferences, and organizes ng-India, a major Angular conference. Dhananjay is writing his second Angular book and training for a 10K run. You can contact him for training and consulting on Angular, .NET, Azure, etc.',
