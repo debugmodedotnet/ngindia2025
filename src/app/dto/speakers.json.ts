@@ -149,45 +149,45 @@ export const speakers: ISpeakers[] = [
     previousTalks: [
     ],
   },
-  // {
-  //   id: 8,
-  //   name: 'Pankaj Parkar',
-  //   position: 'Principal Application Developer @AON',
-  //   bio: 'Pankaj Parkar is currently working as Principal Application Developer at Aon Centre for Innovation and Analytics (ACIA). He has total 10 years of experience in web development. He had worked on multiple JS frameworks like Angular, React, Ionic, VueJS, EmberJS, etc.',
-  //   image: 'assets/images/speakers/pankaj-parkar.jpeg',
-  //   flag: 'assets/images/speakers/flags/india.png',
-  //   twitter: 'https://x.com/pankajparkar',
-  //   linkedin: 'https://www.linkedin.com/in/pankajparkar',
-  //   github: 'https://github.com/pankajparkar',
-  //   youtube: '',
-  //   previousTalks: [
-  //     {
-  //       title: 'Mastering Angular Directives',
-  //       event: 'ng-India 2024',
-  //       link: 'https://www.youtube.com/watch?v=Vyv-EooCh-c',
-  //     },
-  //     {
-  //       title: 'Directive Composition API',
-  //       event: 'ng-India 2023',
-  //       link: 'https://www.youtube.com/watch?v=Figf9S81r0M',
-  //     },
-  //     {
-  //       title: 'Monorepo with Nx',
-  //       event: 'ng-India 2022',
-  //       link: 'https://www.youtube.com/watch?v=SPqbvsLR0t0',
-  //     },
-  //     {
-  //       title: 'Higher Order Components in Angular',
-  //       event: 'ng-India 2020',
-  //       link: 'https://www.youtube.com/watch?v=kFHV6Cr5cDY',
-  //     },
-  //     {
-  //       title: 'Demystifying Change Detection in Angular',
-  //       event: 'ng-India 2019',
-  //       link: 'https://www.youtube.com/watch?v=XTNL4WJRCrM',
-  //     },
-  //   ],
-  // },
+  {
+    id: 8,
+    name: 'Pankaj Parkar',
+    position: 'Senior Software Engineer',
+    bio: 'Pankaj Parkar is currently working as Senior Software Engineer. He has total 13 years of experience in web development. He had worked on multiple JS frameworks like Angular, React, Ionic, VueJS, EmberJS, etc.',
+    image: 'assets/images/speakers/pankaj-parkar.jpeg',
+    flag: 'assets/images/speakers/flags/india.png',
+    twitter: 'https://x.com/pankajparkar',
+    linkedin: 'https://www.linkedin.com/in/pankajparkar',
+    github: 'https://github.com/pankajparkar',
+    youtube: '',
+    previousTalks: [
+      {
+        title: 'Mastering Angular Directives',
+        event: 'ng-India 2024',
+        link: 'https://www.youtube.com/watch?v=Vyv-EooCh-c',
+      },
+      {
+        title: 'Directive Composition API',
+        event: 'ng-India 2023',
+        link: 'https://www.youtube.com/watch?v=Figf9S81r0M',
+      },
+      {
+        title: 'Monorepo with Nx',
+        event: 'ng-India 2022',
+        link: 'https://www.youtube.com/watch?v=SPqbvsLR0t0',
+      },
+      {
+        title: 'Higher Order Components in Angular',
+        event: 'ng-India 2020',
+        link: 'https://www.youtube.com/watch?v=kFHV6Cr5cDY',
+      },
+      {
+        title: 'Demystifying Change Detection in Angular',
+        event: 'ng-India 2019',
+        link: 'https://www.youtube.com/watch?v=XTNL4WJRCrM',
+      },
+    ],
+  },
   {
     id: 9,
     name: 'Aprajita Verma',
