@@ -71,7 +71,7 @@ export const agenda: IAgenda[] = [
     title: 'Analyze the JS Heap and detect Memory Leaks',
     speakerName: 'Julian Jandl',
     speakerPosition: 'Lead Performance Engineer',
-    speakerImage: 'assets/images/speakers/julian-jandl.webp',
+    speakerImage: 'assets/images/speakers/julian.jpeg',
     startTime: '12:30 PM',
     endTime: '1:00 PM',
     description:
