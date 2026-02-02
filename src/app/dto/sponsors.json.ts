@@ -26,11 +26,11 @@ export const sponsors: ISponsors[] = [
   //   sponsorImage: 'assets/images/sponsors/nx.png',
   //   sponsorType: 'Bronze',
   // },
-  // {
-  //   sponsorLink: 'https://a4technology.com/',
-  //   sponsorImage: 'assets/images/sponsors/a4tech.jpeg',
-  //   sponsorType: 'Bronze',
-  // },
+  {
+    sponsorLink: 'https://a4technology.com/',
+    sponsorImage: 'assets/images/sponsors/a4tech.jpeg',
+    sponsorType: '',
+  },
   // {
   //   sponsorLink: 'https://www.telerik.com/kendo-angular-ui',
   //   sponsorImage: 'assets/images/sponsors/kendo.png',

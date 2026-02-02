@@ -43,7 +43,7 @@ export const speakers: ISpeakers[] = [
   {
     id: 2,
     name: 'Rainer Hahnekamp',
-    position: 'Trainer and Consultant @AngularArchitects.io',
+    position: 'Trainer and Consultant @NgRx Core Team',
     bio: 'Rainer Hahnekamp is a Google Developer Expert (GDE) and a core team member of NgRx. He is a trainer and consultant in the Angular Architects expert network and runs ng-news, a weekly Angular newsletter. Beyond NgRx, he is deeply involved in open source, working on projects like Testronaut and Sheriff.',
     image: 'assets/images/speakers/rainer-hahnekamp.jpg',
     flag: 'assets/images/speakers/flags/austria.png',
