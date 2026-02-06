@@ -6,16 +6,16 @@ export const sponsors: ISponsors[] = [
   //   sponsorImage: 'assets/images/sponsors/ivy.png',
   //   sponsorType: 'Silver',
   // },
-  // {
-  //   sponsorLink: 'https://search.app/DQ9sioxPDQbpPeVd7',
-  //   sponsorImage: 'assets/images/sponsors/scholarhat.png',
-  //   sponsorType: 'Silver',
-  // },
-  // {
-  //   sponsorLink: 'https://www.7n.com/',
-  //   sponsorImage: 'assets/images/sponsors/7n.png',
-  //   sponsorType: 'Silver',
-  // },
+  {
+    sponsorLink: 'https://search.app/DQ9sioxPDQbpPeVd7',
+    sponsorImage: 'assets/images/sponsors/scholarhat.png',
+    sponsorType: '',
+  },
+  {
+    sponsorLink: 'https://www.7n.com/',
+    sponsorImage: 'assets/images/sponsors/7n.png',
+    sponsorType: '',
+  },
   // {
   //   sponsorLink: 'https://rezoomex.com/',
   //   sponsorImage: 'assets/images/sponsors/rezoomex.png',
