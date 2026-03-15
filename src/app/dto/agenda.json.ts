@@ -119,13 +119,18 @@ export const agenda: IAgenda[] = [
   },
   {
     title: 'Debugging Angular SSR: Tales of Pending Task, Hydration, Race Conditions',
-    speakerName: 'Christopher Holder',
-    speakerPosition: 'Full Stack Engineer @ push-based.io',
-    speakerImage: 'assets/images/speakers/chris-holder.png',
+    speakerName: 'Michael Hladky',
+    speakerPosition: 'CEO @push-based.io',
+    speakerImage: 'assets/images/speakers/michael-hladky.jpeg',
+    coSpeaker: {
+      name: 'Julian Jandl',
+      position: 'Lead Performance Engineer',
+      image: 'assets/images/speakers/julian.jpeg',
+    },
     startTime: '3:30 PM',
     endTime: '4:00 PM',
     description:
-      'Angular SSR promises to improve your application Core Web Vitals and SEO, but it also introduces a layer of complexity. This session gives attendees the key concepts and practical techniques needed to migrate an Angular app to server-side rendering with confidence. <br/><br/> We will explore how Angular SSR works under the hood, with a focused deep dive into execution context differences between server and browser, the realities of running in two runtimes, and what “stability” means during SSR. You’ll learn how pending tasks—timers, intervals, unresolved async work, and subscriptions—can silently keep renders open and how to diagnose and prevent that. We’ll also cover hydration debugging: spotting mismatches, avoiding duplicated side effects, and fixing issues like flicker or full client re-renders that undo SSR’s benefits.',
+      'Angular SSR promises to improve your application Core Web Vitals and SEO, but it also introduces a layer of complexity. This session gives attendees the key concepts and practical techniques needed to migrate an Angular app to server-side rendering with confidence. <br/><br/> We will explore how Angular SSR works under the hood, with a focused deep dive into execution context differences between server and browser, the realities of running in two runtimes, and what "stability" means during SSR. You\'ll learn how pending tasks—timers, intervals, unresolved async work, and subscriptions—can silently keep renders open and how to diagnose and prevent that. We\'ll also cover hydration debugging: spotting mismatches, avoiding duplicated side effects, and fixing issues like flicker or full client re-renders that undo SSR\'s benefits.',
   },
   {
     title: 'Tea Break',
