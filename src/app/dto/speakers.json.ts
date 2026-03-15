@@ -66,30 +66,6 @@ export const speakers: ISpeakers[] = [
   },
   {
     id: 3,
-    name: 'Christopher Holder',
-    position: 'Full Stack Engineer @push-based.io',
-    bio: 'Christopher is a Full Stack Engineer at push-based.io. He does consulting and auditing on Angular applications to help companies optimize their application architecture and performance as an Open Source contributor he collaborates on projects that help make the web faster and speed regression by making testing performance easier and scalable.',
-    image: 'assets/images/speakers/chris-holder.png',
-    flag: 'assets/images/speakers/flags/mexico.png',
-    twitter: 'https://twitter.com/chrispholder',
-    linkedin: '',
-    github: 'https://github.com/ChristopherPHolder',
-    youtube: '',
-    previousTalks: [
-       {
-        title: 'Instant Navigation in Angular Applications',
-        event: 'ng-India 2025',
-        link: 'https://www.youtube.com/watch?v=JVjc-Lr777w&t=2s',
-      },
-      {
-        title: 'Optimizing Network Request and LCP in Angular Applications',
-        event: 'ng-India 2023',
-        link: 'https://www.youtube.com/watch?v=l9LXZ6KqU34',
-      },
-    ],
-  },
-  {
-    id: 4,
     name: 'Julian Jandl',
     position: 'Lead Performance Engineer',
     bio: 'Julian is Lead Performance Engineer, Trainer & Consultant at Push-Based.io. As a webperf enthusiast, he loves experimenting with cutting edge technologies to improve the speed of the web at scale. Julian is conducting performance audits for existing applications, fixing performance bottlenecks and teaching about webperf & angular in workshops.',

@@ -14,13 +14,27 @@
       @for(agenda of agendas; track agenda;){
       <div class="agenda d-flex align-items-center align-items-sm-start flex-column flex-sm-row">
         @if(agenda.speakerImage && agenda.speakerName){
-        <figure class="speaker-img m-0 rounded-circle overflow-hidden">
-          <img
-            [src]="agenda.speakerImage"
-            class="w-100 h-100 object-fit-cover"
-            alt=""
-          />
-        </figure>
+        <div
+          class="d-flex flex-column align-items-center gap-3 flex-shrink-0"
+          [class.agenda-speaker-imgs]="agenda.coSpeaker"
+        >
+          <figure class="speaker-img m-0 rounded-circle overflow-hidden">
+            <img
+              [src]="agenda.speakerImage"
+              class="w-100 h-100 object-fit-cover"
+              [alt]="agenda.speakerName"
+            />
+          </figure>
+          @if (agenda.coSpeaker) {
+            <figure class="speaker-img m-0 rounded-circle overflow-hidden">
+              <img
+                [src]="agenda.coSpeaker.image"
+                class="w-100 h-100 object-fit-cover"
+                [alt]="agenda.coSpeaker.name"
+              />
+            </figure>
+          }
+        </div>
         }@else {
         <figure
           class="speaker-img icon m-0 rounded-circle overflow-hidden d-flex"
@@ -55,6 +69,16 @@
             }}</span
             >}
           </h3>
+          @if (agenda.coSpeaker) {
+            <h3
+              class="speaker-name font-24 mt-2 m-0 nmc-primary font-family-poppins"
+            >
+              — {{ agenda.coSpeaker.name }}
+              <span class="ms-2 position font-16">{{
+                agenda.coSpeaker.position
+              }}</span>
+            </h3>
+          }
         </div>
       </div>
       }

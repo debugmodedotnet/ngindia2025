@@ -17,6 +17,15 @@
         -moz-box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
         box-shadow: 0px 7px 15px -5px rgba(0, 0, 0, 0.07);
 
+        .agenda-speaker-imgs {
+            flex-direction: column;
+        }
+
+        .agenda-speaker-imgs .speaker-img {
+            width: 120px;
+            height: 120px;
+        }
+
         .speaker-img {
             width: 120px;
             height: 120px;

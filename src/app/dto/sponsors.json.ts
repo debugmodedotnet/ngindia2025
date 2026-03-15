@@ -7,7 +7,7 @@ export const sponsors: ISponsors[] = [
   //   sponsorType: 'Silver',
   // },
   {
-    sponsorLink: 'https://search.app/DQ9sioxPDQbpPeVd7',
+    sponsorLink: 'https://www.scholarhat.com/',
     sponsorImage: 'assets/images/sponsors/scholarhat.png',
     sponsorType: '',
   },
